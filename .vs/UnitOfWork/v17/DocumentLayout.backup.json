@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Coding\\Sherry\\code_craft_be\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{96681E14-1A1F-48FB-A44F-5A2748543B44}|UnitOfWork.WebAPI\\UnitOfWork.WebAPI.csproj|d:\\coding\\sherry\\code_craft_be\\unitofwork.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{96681E14-1A1F-48FB-A44F-5A2748543B44}|UnitOfWork.WebAPI\\UnitOfWork.WebAPI.csproj|solutionrelative:unitofwork.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96681E14-1A1F-48FB-A44F-5A2748543B44}|UnitOfWork.WebAPI\\UnitOfWork.WebAPI.csproj|d:\\coding\\sherry\\code_craft_be\\unitofwork.webapi\\controllers\\mastercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96681E14-1A1F-48FB-A44F-5A2748543B44}|UnitOfWork.WebAPI\\UnitOfWork.WebAPI.csproj|solutionrelative:unitofwork.webapi\\controllers\\mastercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6831216-2C2E-4E3B-A70E-31403E86B513}|UnitOfWork.Core\\UnitOfWork.Core.csproj|d:\\coding\\sherry\\code_craft_be\\unitofwork.core\\models\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6831216-2C2E-4E3B-A70E-31403E86B513}|UnitOfWork.Core\\UnitOfWork.Core.csproj|solutionrelative:unitofwork.core\\models\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Coding\\Sherry\\code_craft_be\\UnitOfWork.WebAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "UnitOfWork.WebAPI\\appsettings.json",
+              "ToolTip": "D:\\Coding\\Sherry\\code_craft_be\\UnitOfWork.WebAPI\\appsettings.json",
+              "RelativeToolTip": "UnitOfWork.WebAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-08T09:05:00.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Notification.cs",
+              "DocumentMoniker": "D:\\Coding\\Sherry\\code_craft_be\\UnitOfWork.Core\\Models\\Notification.cs",
+              "RelativeDocumentMoniker": "UnitOfWork.Core\\Models\\Notification.cs",
+              "ToolTip": "D:\\Coding\\Sherry\\code_craft_be\\UnitOfWork.Core\\Models\\Notification.cs",
+              "RelativeToolTip": "UnitOfWork.Core\\Models\\Notification.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T08:27:40.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MasterController.cs",
+              "DocumentMoniker": "D:\\Coding\\Sherry\\code_craft_be\\UnitOfWork.WebAPI\\Controllers\\MasterController.cs",
+              "RelativeDocumentMoniker": "UnitOfWork.WebAPI\\Controllers\\MasterController.cs",
+              "ToolTip": "D:\\Coding\\Sherry\\code_craft_be\\UnitOfWork.WebAPI\\Controllers\\MasterController.cs",
+              "RelativeToolTip": "UnitOfWork.WebAPI\\Controllers\\MasterController.cs",
+              "ViewState": "AgIAAGEBAAAAAAAAAAAwwH8BAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T05:46:46.307Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

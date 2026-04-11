@@ -1,0 +1,54 @@
+D:\CER_POR_LIVE_SYSTEM\CER_POR_7_Live\cer_por_be\UnitOfWork.Core\bin\Release\net7.0\UnitOfWork.Core.deps.json
+D:\CER_POR_LIVE_SYSTEM\CER_POR_7_Live\cer_por_be\UnitOfWork.Core\bin\Release\net7.0\UnitOfWork.Core.dll
+D:\CER_POR_LIVE_SYSTEM\CER_POR_7_Live\cer_por_be\UnitOfWork.Core\bin\Release\net7.0\UnitOfWork.Core.pdb
+D:\CER_POR_LIVE_SYSTEM\CER_POR_7_Live\cer_por_be\UnitOfWork.Core\obj\Release\net7.0\UnitOfWork.Core.csproj.AssemblyReference.cache
+D:\CER_POR_LIVE_SYSTEM\CER_POR_7_Live\cer_por_be\UnitOfWork.Core\obj\Release\net7.0\UnitOfWork.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\CER_POR_LIVE_SYSTEM\CER_POR_7_Live\cer_por_be\UnitOfWork.Core\obj\Release\net7.0\UnitOfWork.Core.AssemblyInfoInputs.cache
+D:\CER_POR_LIVE_SYSTEM\CER_POR_7_Live\cer_por_be\UnitOfWork.Core\obj\Release\net7.0\UnitOfWork.Core.AssemblyInfo.cs
+D:\CER_POR_LIVE_SYSTEM\CER_POR_7_Live\cer_por_be\UnitOfWork.Core\obj\Release\net7.0\UnitOfWork.Core.csproj.CoreCompileInputs.cache
+D:\CER_POR_LIVE_SYSTEM\CER_POR_7_Live\cer_por_be\UnitOfWork.Core\obj\Release\net7.0\UnitOfWork.Core.dll
+D:\CER_POR_LIVE_SYSTEM\CER_POR_7_Live\cer_por_be\UnitOfWork.Core\obj\Release\net7.0\refint\UnitOfWork.Core.dll
+D:\CER_POR_LIVE_SYSTEM\CER_POR_7_Live\cer_por_be\UnitOfWork.Core\obj\Release\net7.0\UnitOfWork.Core.pdb
+D:\CER_POR_LIVE_SYSTEM\CER_POR_7_Live\cer_por_be\UnitOfWork.Core\obj\Release\net7.0\ref\UnitOfWork.Core.dll
+E:\Backend\cer_por_be\UnitOfWork.Core\bin\Release\net7.0\UnitOfWork.Core.deps.json
+E:\Backend\cer_por_be\UnitOfWork.Core\bin\Release\net7.0\UnitOfWork.Core.runtimeconfig.json
+E:\Backend\cer_por_be\UnitOfWork.Core\bin\Release\net7.0\UnitOfWork.Core.dll
+E:\Backend\cer_por_be\UnitOfWork.Core\bin\Release\net7.0\UnitOfWork.Core.pdb
+E:\Backend\cer_por_be\UnitOfWork.Core\obj\Release\net7.0\UnitOfWork.Core.csproj.AssemblyReference.cache
+E:\Backend\cer_por_be\UnitOfWork.Core\obj\Release\net7.0\UnitOfWork.Core.GeneratedMSBuildEditorConfig.editorconfig
+E:\Backend\cer_por_be\UnitOfWork.Core\obj\Release\net7.0\UnitOfWork.Core.AssemblyInfoInputs.cache
+E:\Backend\cer_por_be\UnitOfWork.Core\obj\Release\net7.0\UnitOfWork.Core.AssemblyInfo.cs
+E:\Backend\cer_por_be\UnitOfWork.Core\obj\Release\net7.0\UnitOfWork.Core.csproj.CoreCompileInputs.cache
+E:\Backend\cer_por_be\UnitOfWork.Core\obj\Release\net7.0\UnitOfWork.Core.dll
+E:\Backend\cer_por_be\UnitOfWork.Core\obj\Release\net7.0\refint\UnitOfWork.Core.dll
+E:\Backend\cer_por_be\UnitOfWork.Core\obj\Release\net7.0\UnitOfWork.Core.pdb
+E:\Backend\cer_por_be\UnitOfWork.Core\obj\Release\net7.0\UnitOfWork.Core.genruntimeconfig.cache
+E:\Backend\cer_por_be\UnitOfWork.Core\obj\Release\net7.0\ref\UnitOfWork.Core.dll
+F:\paf_code_craft_be\UnitOfWork.Core\bin\Release\net7.0\UnitOfWork.Core.deps.json
+F:\paf_code_craft_be\UnitOfWork.Core\bin\Release\net7.0\UnitOfWork.Core.runtimeconfig.json
+F:\paf_code_craft_be\UnitOfWork.Core\bin\Release\net7.0\UnitOfWork.Core.dll
+F:\paf_code_craft_be\UnitOfWork.Core\bin\Release\net7.0\UnitOfWork.Core.pdb
+F:\paf_code_craft_be\UnitOfWork.Core\obj\Release\net7.0\UnitOfWork.Core.csproj.AssemblyReference.cache
+F:\paf_code_craft_be\UnitOfWork.Core\obj\Release\net7.0\UnitOfWork.Core.GeneratedMSBuildEditorConfig.editorconfig
+F:\paf_code_craft_be\UnitOfWork.Core\obj\Release\net7.0\UnitOfWork.Core.AssemblyInfoInputs.cache
+F:\paf_code_craft_be\UnitOfWork.Core\obj\Release\net7.0\UnitOfWork.Core.AssemblyInfo.cs
+F:\paf_code_craft_be\UnitOfWork.Core\obj\Release\net7.0\UnitOfWork.Core.csproj.CoreCompileInputs.cache
+F:\paf_code_craft_be\UnitOfWork.Core\obj\Release\net7.0\UnitOfWork.Core.dll
+F:\paf_code_craft_be\UnitOfWork.Core\obj\Release\net7.0\refint\UnitOfWork.Core.dll
+F:\paf_code_craft_be\UnitOfWork.Core\obj\Release\net7.0\UnitOfWork.Core.pdb
+F:\paf_code_craft_be\UnitOfWork.Core\obj\Release\net7.0\UnitOfWork.Core.genruntimeconfig.cache
+F:\paf_code_craft_be\UnitOfWork.Core\obj\Release\net7.0\ref\UnitOfWork.Core.dll
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.Core\bin\Release\net7.0\UnitOfWork.Core.deps.json
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.Core\bin\Release\net7.0\UnitOfWork.Core.runtimeconfig.json
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.Core\bin\Release\net7.0\UnitOfWork.Core.dll
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.Core\bin\Release\net7.0\UnitOfWork.Core.pdb
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.Core\obj\Release\net7.0\UnitOfWork.Core.csproj.AssemblyReference.cache
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.Core\obj\Release\net7.0\UnitOfWork.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.Core\obj\Release\net7.0\UnitOfWork.Core.AssemblyInfoInputs.cache
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.Core\obj\Release\net7.0\UnitOfWork.Core.AssemblyInfo.cs
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.Core\obj\Release\net7.0\UnitOfWork.Core.csproj.CoreCompileInputs.cache
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.Core\obj\Release\net7.0\UnitOfWork.Core.dll
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.Core\obj\Release\net7.0\refint\UnitOfWork.Core.dll
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.Core\obj\Release\net7.0\UnitOfWork.Core.pdb
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.Core\obj\Release\net7.0\UnitOfWork.Core.genruntimeconfig.cache
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.Core\obj\Release\net7.0\ref\UnitOfWork.Core.dll

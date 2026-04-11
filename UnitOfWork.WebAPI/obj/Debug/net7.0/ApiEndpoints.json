@@ -1,0 +1,751 @@
+[
+  {
+    "ContainingType": "UnitOfWork.WebAPI.Controllers.AccountController",
+    "Method": "AddUser",
+    "RelativePath": "api/Account/AddUser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "UnitOfWork.Core.Models.CreateUser",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UnitOfWork.WebAPI.Controllers.AccountController",
+    "Method": "AuthPPortalNEW",
+    "RelativePath": "api/Account/AuthPPortalLoginByPassCredt",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "UnitOfWork.Core.Models.User_DTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UnitOfWork.WebAPI.Controllers.AccountController",
+    "Method": "AuthPPortalOffAirCiv",
+    "RelativePath": "api/Account/AuthPPortalOffAirCiv",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "UnitOfWork.Core.Models.User_DTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UnitOfWork.WebAPI.Controllers.AccountController",
+    "Method": "CreateRole",
+    "RelativePath": "api/Account/CreateRole",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "UnitOfWork.WebAPI.Models.RoleViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UnitOfWork.WebAPI.Controllers.AccountController",
+    "Method": "DeterminePType",
+    "RelativePath": "api/Account/DeterminePType",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "pakno",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Int32",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "UnitOfWork.WebAPI.Controllers.AccountController",
+    "Method": "Userlogin",
+    "RelativePath": "api/Account/Userlogin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "UnitOfWork.Core.Models.CreateUser",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UnitOfWork.WebAPI.Controllers.MasterController",
+    "Method": "AddCPromptLog",
+    "RelativePath": "api/Master/AddCPromptLog",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "UnitOfWork.Core.Models.PromptLog",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UnitOfWork.WebAPI.Controllers.MasterController",
+    "Method": "AddcUser",
+    "RelativePath": "api/Master/AddcUser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "UnitOfWork.Core.Models.CreateUser",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UnitOfWork.WebAPI.Controllers.MasterController",
+    "Method": "ChangeCPassword",
+    "RelativePath": "api/Master/ChangeCPassword",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "UnitOfWork.Core.Models.CreateUser",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UnitOfWork.WebAPI.Controllers.MasterController",
+    "Method": "ChangePassword",
+    "RelativePath": "api/Master/ChangePassword",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "UnitOfWork.WebAPI.Models.ChangePasswordViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UnitOfWork.WebAPI.Controllers.MasterController",
+    "Method": "CreateNotification",
+    "RelativePath": "api/Master/CreateNotification/CRUD_tbl_NOTIFICATIONS",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "UnitOfWork.Core.Models.NotificationRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UnitOfWork.WebAPI.Controllers.MasterController",
+    "Method": "CRUD_tbl_MODELS_LIST",
+    "RelativePath": "api/Master/CRUD_tbl_MODELS_LIST",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "UnitOfWork.Core.Models.tbl_MODELS_DTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UnitOfWork.WebAPI.Controllers.MasterController",
+    "Method": "SubmitFeedback",
+    "RelativePath": "api/Master/CRUD_tbl_RESPONSE_FEEDBACK",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "UnitOfWork.Core.Models.FeedbackRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UnitOfWork.WebAPI.Controllers.MasterController",
+    "Method": "CRUD_tbl_USER_PROMPTS",
+    "RelativePath": "api/Master/CRUD_tbl_USER_PROMPTS",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "UnitOfWork.Core.Models.tbl_USER_PROMPTS_DTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UnitOfWork.WebAPI.Controllers.MasterController",
+    "Method": "CRUD_USER_BASED_REQUESTS",
+    "RelativePath": "api/Master/CRUD_USER_BASED_REQUESTS",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "UnitOfWork.Core.Models.UserBasedRequest_DTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UnitOfWork.WebAPI.Controllers.MasterController",
+    "Method": "DeleteCUser",
+    "RelativePath": "api/Master/DeleteCUser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "UnitOfWork.Core.Models.CreateUser",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UnitOfWork.WebAPI.Controllers.MasterController",
+    "Method": "DeleteNotification",
+    "RelativePath": "api/Master/DeleteNotification/CRUD_tbl_NOTIFICATIONS/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UnitOfWork.WebAPI.Controllers.MasterController",
+    "Method": "DeleteRole",
+    "RelativePath": "api/Master/DeleteRole/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UnitOfWork.WebAPI.Controllers.MasterController",
+    "Method": "DeleteUser",
+    "RelativePath": "api/Master/DeleteUser/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UnitOfWork.WebAPI.Controllers.MasterController",
+    "Method": "EnterPromptCount",
+    "RelativePath": "api/Master/EnterPromptCount",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "prompt",
+        "Type": "UnitOfWork.Core.Models.PromptHistory",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UnitOfWork.WebAPI.Controllers.MasterController",
+    "Method": "GET_tbl_MODELS_LIST",
+    "RelativePath": "api/Master/GET_tbl_MODELS_LIST/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UnitOfWork.WebAPI.Controllers.MasterController",
+    "Method": "GetFeedbackList",
+    "RelativePath": "api/Master/GET_tbl_RESPONSE_FEEDBACK_LIST",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ModelName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FeedbackType",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FromDate",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "ToDate",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UnitOfWork.WebAPI.Controllers.MasterController",
+    "Method": "GetFeedbackStats",
+    "RelativePath": "api/Master/GET_tbl_RESPONSE_FEEDBACK_STATS",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UnitOfWork.WebAPI.Controllers.MasterController",
+    "Method": "GET_tbl_USER_BASED_REQUESTS_LIST",
+    "RelativePath": "api/Master/GET_tbl_USER_BASED_REQUESTS_LIST",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UnitOfWork.WebAPI.Controllers.MasterController",
+    "Method": "GET_tbl_USER_PROMPTS_BY_USER",
+    "RelativePath": "api/Master/GET_tbl_USER_PROMPTS_BY_USER",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user_id",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "limit",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UnitOfWork.WebAPI.Controllers.MasterController",
+    "Method": "GET_tbl_USER_PROMPTS_TOP",
+    "RelativePath": "api/Master/GET_tbl_USER_PROMPTS_TOP",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "limit",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UnitOfWork.WebAPI.Controllers.MasterController",
+    "Method": "GetAllcUsers",
+    "RelativePath": "api/Master/GetAllcUsers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UnitOfWork.WebAPI.Controllers.MasterController",
+    "Method": "GetAllRole",
+    "RelativePath": "api/Master/GetAllRole",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UnitOfWork.WebAPI.Controllers.MasterController",
+    "Method": "GetAssignedUsersList",
+    "RelativePath": "api/Master/GetAssignedUsersList/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UnitOfWork.WebAPI.Controllers.MasterController",
+    "Method": "GetAssignedUsersListExclude",
+    "RelativePath": "api/Master/GetAssignedUsersListExclude",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "UnitOfWork.WebAPI.Models.SignUpModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UnitOfWork.WebAPI.Controllers.MasterController",
+    "Method": "GetUserById",
+    "RelativePath": "api/Master/GetCUser/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UnitOfWork.WebAPI.Controllers.MasterController",
+    "Method": "GetCUserPrompLog",
+    "RelativePath": "api/Master/GetCUserPrompLog/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UnitOfWork.WebAPI.Controllers.MasterController",
+    "Method": "GetCUsers",
+    "RelativePath": "api/Master/GetCUsers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UnitOfWork.WebAPI.Controllers.MasterController",
+    "Method": "GetModelList",
+    "RelativePath": "api/Master/GetModelList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UnitOfWork.WebAPI.Controllers.MasterController",
+    "Method": "GetNotifications",
+    "RelativePath": "api/Master/GetNotifications/GET_tbl_NOTIFICATIONS/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UnitOfWork.WebAPI.Controllers.MasterController",
+    "Method": "GetPhoto",
+    "RelativePath": "api/Master/GetPhoto/{ptype}/{pakno}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ptype",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "pakno",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UnitOfWork.WebAPI.Controllers.MasterController",
+    "Method": "GetPromptList",
+    "RelativePath": "api/Master/GetPromptList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UnitOfWork.WebAPI.Controllers.MasterController",
+    "Method": "GetRoleById",
+    "RelativePath": "api/Master/GetRoleById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UnitOfWork.WebAPI.Controllers.MasterController",
+    "Method": "GetTokenList",
+    "RelativePath": "api/Master/GetTokenList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UnitOfWork.WebAPI.Controllers.MasterController",
+    "Method": "GetUserById",
+    "RelativePath": "api/Master/GetUserById/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UnitOfWork.WebAPI.Controllers.MasterController",
+    "Method": "GetUserByName",
+    "RelativePath": "api/Master/GetUserByName/{name}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UnitOfWork.WebAPI.Controllers.MasterController",
+    "Method": "GetUserCountData",
+    "RelativePath": "api/Master/GetUserCountData",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "prompt",
+        "Type": "UnitOfWork.Core.Models.PromptHistory",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UnitOfWork.WebAPI.Controllers.MasterController",
+    "Method": "GetUserProfileList",
+    "RelativePath": "api/Master/GetUserProfileList",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UnitOfWork.WebAPI.Controllers.MasterController",
+    "Method": "MarkAsRead",
+    "RelativePath": "api/Master/MarkAsRead/CRUD_tbl_NOTIFICATIONS/{id}/read",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UnitOfWork.WebAPI.Controllers.MasterController",
+    "Method": "UpdateCUser",
+    "RelativePath": "api/Master/UpdateCUser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "UnitOfWork.Core.Models.CreateUser",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UnitOfWork.WebAPI.Controllers.MasterController",
+    "Method": "UpdateRole",
+    "RelativePath": "api/Master/UpdateRole",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "UnitOfWork.WebAPI.Models.RoleViewModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UnitOfWork.WebAPI.Controllers.MasterController",
+    "Method": "UpdateUser",
+    "RelativePath": "api/Master/UpdateUser",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "UnitOfWork.WebAPI.Models.SignUpModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UnitOfWork.WebAPI.Controllers.MasterController",
+    "Method": "Userclogin",
+    "RelativePath": "api/Master/Userclogin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "UnitOfWork.Core.Models.CreateUser",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

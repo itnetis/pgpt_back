@@ -1,0 +1,153 @@
+D:\CER_POR_LIVE_SYSTEM\CER_POR_7_Live\cer_por_be\UnitOfWork.Infrastructure\bin\Debug\net7.0\UnitOfWork.Infrastructure.deps.json
+D:\CER_POR_LIVE_SYSTEM\CER_POR_7_Live\cer_por_be\UnitOfWork.Infrastructure\bin\Debug\net7.0\UnitOfWork.Infrastructure.runtimeconfig.json
+D:\CER_POR_LIVE_SYSTEM\CER_POR_7_Live\cer_por_be\UnitOfWork.Infrastructure\bin\Debug\net7.0\UnitOfWork.Infrastructure.dll
+D:\CER_POR_LIVE_SYSTEM\CER_POR_7_Live\cer_por_be\UnitOfWork.Infrastructure\bin\Debug\net7.0\UnitOfWork.Infrastructure.pdb
+D:\CER_POR_LIVE_SYSTEM\CER_POR_7_Live\cer_por_be\UnitOfWork.Infrastructure\bin\Debug\net7.0\UnitOfWork.Core.dll
+D:\CER_POR_LIVE_SYSTEM\CER_POR_7_Live\cer_por_be\UnitOfWork.Infrastructure\bin\Debug\net7.0\UnitOfWork.Core.pdb
+D:\CER_POR_LIVE_SYSTEM\CER_POR_7_Live\cer_por_be\UnitOfWork.Infrastructure\obj\Debug\net7.0\UnitOfWork.Infrastructure.csproj.AssemblyReference.cache
+D:\CER_POR_LIVE_SYSTEM\CER_POR_7_Live\cer_por_be\UnitOfWork.Infrastructure\obj\Debug\net7.0\UnitOfWork.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\CER_POR_LIVE_SYSTEM\CER_POR_7_Live\cer_por_be\UnitOfWork.Infrastructure\obj\Debug\net7.0\UnitOfWork.Infrastructure.AssemblyInfoInputs.cache
+D:\CER_POR_LIVE_SYSTEM\CER_POR_7_Live\cer_por_be\UnitOfWork.Infrastructure\obj\Debug\net7.0\UnitOfWork.Infrastructure.AssemblyInfo.cs
+D:\CER_POR_LIVE_SYSTEM\CER_POR_7_Live\cer_por_be\UnitOfWork.Infrastructure\obj\Debug\net7.0\UnitOfWork.Infrastructure.csproj.CoreCompileInputs.cache
+D:\CER_POR_LIVE_SYSTEM\CER_POR_7_Live\cer_por_be\UnitOfWork.Infrastructure\obj\Debug\net7.0\UnitOfWork.Infrastructure.csproj.CopyComplete
+D:\CER_POR_LIVE_SYSTEM\CER_POR_7_Live\cer_por_be\UnitOfWork.Infrastructure\obj\Debug\net7.0\UnitOfWork.Infrastructure.dll
+D:\CER_POR_LIVE_SYSTEM\CER_POR_7_Live\cer_por_be\UnitOfWork.Infrastructure\obj\Debug\net7.0\refint\UnitOfWork.Infrastructure.dll
+D:\CER_POR_LIVE_SYSTEM\CER_POR_7_Live\cer_por_be\UnitOfWork.Infrastructure\obj\Debug\net7.0\UnitOfWork.Infrastructure.pdb
+D:\CER_POR_LIVE_SYSTEM\CER_POR_7_Live\cer_por_be\UnitOfWork.Infrastructure\obj\Debug\net7.0\UnitOfWork.Infrastructure.genruntimeconfig.cache
+D:\CER_POR_LIVE_SYSTEM\CER_POR_7_Live\cer_por_be\UnitOfWork.Infrastructure\obj\Debug\net7.0\ref\UnitOfWork.Infrastructure.dll
+E:\Backend\cer_por_be\UnitOfWork.Infrastructure\bin\Debug\net7.0\UnitOfWork.Infrastructure.deps.json
+E:\Backend\cer_por_be\UnitOfWork.Infrastructure\bin\Debug\net7.0\UnitOfWork.Infrastructure.runtimeconfig.json
+E:\Backend\cer_por_be\UnitOfWork.Infrastructure\bin\Debug\net7.0\UnitOfWork.Infrastructure.dll
+E:\Backend\cer_por_be\UnitOfWork.Infrastructure\bin\Debug\net7.0\UnitOfWork.Infrastructure.pdb
+E:\Backend\cer_por_be\UnitOfWork.Infrastructure\bin\Debug\net7.0\UnitOfWork.Core.dll
+E:\Backend\cer_por_be\UnitOfWork.Infrastructure\bin\Debug\net7.0\UnitOfWork.Core.pdb
+E:\Backend\cer_por_be\UnitOfWork.Infrastructure\obj\Debug\net7.0\UnitOfWork.Infrastructure.csproj.AssemblyReference.cache
+E:\Backend\cer_por_be\UnitOfWork.Infrastructure\obj\Debug\net7.0\UnitOfWork.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+E:\Backend\cer_por_be\UnitOfWork.Infrastructure\obj\Debug\net7.0\UnitOfWork.Infrastructure.AssemblyInfoInputs.cache
+E:\Backend\cer_por_be\UnitOfWork.Infrastructure\obj\Debug\net7.0\UnitOfWork.Infrastructure.AssemblyInfo.cs
+E:\Backend\cer_por_be\UnitOfWork.Infrastructure\obj\Debug\net7.0\UnitOfWork.Infrastructure.csproj.CoreCompileInputs.cache
+E:\Backend\cer_por_be\UnitOfWork.Infrastructure\obj\Debug\net7.0\UnitOfWork.Infrastructure.csproj.CopyComplete
+E:\Backend\cer_por_be\UnitOfWork.Infrastructure\obj\Debug\net7.0\UnitOfWork.Infrastructure.dll
+E:\Backend\cer_por_be\UnitOfWork.Infrastructure\obj\Debug\net7.0\refint\UnitOfWork.Infrastructure.dll
+E:\Backend\cer_por_be\UnitOfWork.Infrastructure\obj\Debug\net7.0\UnitOfWork.Infrastructure.pdb
+E:\Backend\cer_por_be\UnitOfWork.Infrastructure\obj\Debug\net7.0\UnitOfWork.Infrastructure.genruntimeconfig.cache
+E:\Backend\cer_por_be\UnitOfWork.Infrastructure\obj\Debug\net7.0\ref\UnitOfWork.Infrastructure.dll
+F:\paf_code_craft_be\UnitOfWork.Infrastructure\bin\Debug\net7.0\UnitOfWork.Infrastructure.deps.json
+F:\paf_code_craft_be\UnitOfWork.Infrastructure\bin\Debug\net7.0\UnitOfWork.Infrastructure.runtimeconfig.json
+F:\paf_code_craft_be\UnitOfWork.Infrastructure\bin\Debug\net7.0\UnitOfWork.Infrastructure.dll
+F:\paf_code_craft_be\UnitOfWork.Infrastructure\bin\Debug\net7.0\UnitOfWork.Infrastructure.pdb
+F:\paf_code_craft_be\UnitOfWork.Infrastructure\bin\Debug\net7.0\UnitOfWork.Core.dll
+F:\paf_code_craft_be\UnitOfWork.Infrastructure\bin\Debug\net7.0\UnitOfWork.Core.pdb
+F:\paf_code_craft_be\UnitOfWork.Infrastructure\obj\Debug\net7.0\UnitOfWork.Infrastructure.csproj.AssemblyReference.cache
+F:\paf_code_craft_be\UnitOfWork.Infrastructure\obj\Debug\net7.0\UnitOfWork.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+F:\paf_code_craft_be\UnitOfWork.Infrastructure\obj\Debug\net7.0\UnitOfWork.Infrastructure.AssemblyInfoInputs.cache
+F:\paf_code_craft_be\UnitOfWork.Infrastructure\obj\Debug\net7.0\UnitOfWork.Infrastructure.AssemblyInfo.cs
+F:\paf_code_craft_be\UnitOfWork.Infrastructure\obj\Debug\net7.0\UnitOfWork.Infrastructure.csproj.CoreCompileInputs.cache
+F:\paf_code_craft_be\UnitOfWork.Infrastructure\obj\Debug\net7.0\UnitOfWork.Infrastructure.csproj.CopyComplete
+F:\paf_code_craft_be\UnitOfWork.Infrastructure\obj\Debug\net7.0\UnitOfWork.Infrastructure.dll
+F:\paf_code_craft_be\UnitOfWork.Infrastructure\obj\Debug\net7.0\refint\UnitOfWork.Infrastructure.dll
+F:\paf_code_craft_be\UnitOfWork.Infrastructure\obj\Debug\net7.0\UnitOfWork.Infrastructure.pdb
+F:\paf_code_craft_be\UnitOfWork.Infrastructure\obj\Debug\net7.0\UnitOfWork.Infrastructure.genruntimeconfig.cache
+F:\paf_code_craft_be\UnitOfWork.Infrastructure\obj\Debug\net7.0\ref\UnitOfWork.Infrastructure.dll
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.Infrastructure\bin\Debug\net7.0\UnitOfWork.Infrastructure.deps.json
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.Infrastructure\bin\Debug\net7.0\UnitOfWork.Infrastructure.runtimeconfig.json
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.Infrastructure\bin\Debug\net7.0\UnitOfWork.Infrastructure.dll
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.Infrastructure\bin\Debug\net7.0\UnitOfWork.Infrastructure.pdb
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.Infrastructure\bin\Debug\net7.0\UnitOfWork.Core.dll
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.Infrastructure\bin\Debug\net7.0\UnitOfWork.Core.pdb
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.Infrastructure\obj\Debug\net7.0\UnitOfWork.Infrastructure.csproj.AssemblyReference.cache
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.Infrastructure\obj\Debug\net7.0\UnitOfWork.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.Infrastructure\obj\Debug\net7.0\UnitOfWork.Infrastructure.AssemblyInfoInputs.cache
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.Infrastructure\obj\Debug\net7.0\UnitOfWork.Infrastructure.AssemblyInfo.cs
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.Infrastructure\obj\Debug\net7.0\UnitOfWork.Infrastructure.csproj.CoreCompileInputs.cache
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.Infrastructure\obj\Debug\net7.0\UnitOfWork.Infrastructure.csproj.CopyComplete
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.Infrastructure\obj\Debug\net7.0\UnitOfWork.Infrastructure.dll
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.Infrastructure\obj\Debug\net7.0\refint\UnitOfWork.Infrastructure.dll
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.Infrastructure\obj\Debug\net7.0\UnitOfWork.Infrastructure.pdb
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.Infrastructure\obj\Debug\net7.0\UnitOfWork.Infrastructure.genruntimeconfig.cache
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.Infrastructure\obj\Debug\net7.0\ref\UnitOfWork.Infrastructure.dll
+D:\coding\Sherry\CodeCraft Codes\code_craft_be\UnitOfWork.Infrastructure\bin\Debug\net7.0\UnitOfWork.Infrastructure.deps.json
+D:\coding\Sherry\CodeCraft Codes\code_craft_be\UnitOfWork.Infrastructure\bin\Debug\net7.0\UnitOfWork.Infrastructure.runtimeconfig.json
+D:\coding\Sherry\CodeCraft Codes\code_craft_be\UnitOfWork.Infrastructure\bin\Debug\net7.0\UnitOfWork.Infrastructure.dll
+D:\coding\Sherry\CodeCraft Codes\code_craft_be\UnitOfWork.Infrastructure\bin\Debug\net7.0\UnitOfWork.Infrastructure.pdb
+D:\coding\Sherry\CodeCraft Codes\code_craft_be\UnitOfWork.Infrastructure\bin\Debug\net7.0\UnitOfWork.Core.dll
+D:\coding\Sherry\CodeCraft Codes\code_craft_be\UnitOfWork.Infrastructure\bin\Debug\net7.0\UnitOfWork.Core.pdb
+D:\coding\Sherry\CodeCraft Codes\code_craft_be\UnitOfWork.Infrastructure\obj\Debug\net7.0\UnitOfWork.Infrastructure.csproj.AssemblyReference.cache
+D:\coding\Sherry\CodeCraft Codes\code_craft_be\UnitOfWork.Infrastructure\obj\Debug\net7.0\UnitOfWork.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\coding\Sherry\CodeCraft Codes\code_craft_be\UnitOfWork.Infrastructure\obj\Debug\net7.0\UnitOfWork.Infrastructure.AssemblyInfoInputs.cache
+D:\coding\Sherry\CodeCraft Codes\code_craft_be\UnitOfWork.Infrastructure\obj\Debug\net7.0\UnitOfWork.Infrastructure.AssemblyInfo.cs
+D:\coding\Sherry\CodeCraft Codes\code_craft_be\UnitOfWork.Infrastructure\obj\Debug\net7.0\UnitOfWork.Infrastructure.csproj.CoreCompileInputs.cache
+D:\coding\Sherry\CodeCraft Codes\code_craft_be\UnitOfWork.Infrastructure\obj\Debug\net7.0\UnitOfWo.044CFE68.Up2Date
+D:\coding\Sherry\CodeCraft Codes\code_craft_be\UnitOfWork.Infrastructure\obj\Debug\net7.0\UnitOfWork.Infrastructure.dll
+D:\coding\Sherry\CodeCraft Codes\code_craft_be\UnitOfWork.Infrastructure\obj\Debug\net7.0\refint\UnitOfWork.Infrastructure.dll
+D:\coding\Sherry\CodeCraft Codes\code_craft_be\UnitOfWork.Infrastructure\obj\Debug\net7.0\UnitOfWork.Infrastructure.pdb
+D:\coding\Sherry\CodeCraft Codes\code_craft_be\UnitOfWork.Infrastructure\obj\Debug\net7.0\UnitOfWork.Infrastructure.genruntimeconfig.cache
+D:\coding\Sherry\CodeCraft Codes\code_craft_be\UnitOfWork.Infrastructure\obj\Debug\net7.0\ref\UnitOfWork.Infrastructure.dll
+D:\CodeCraft Live_2025\Test AI Code\code_craft_be\UnitOfWork.Infrastructure\bin\Debug\net7.0\UnitOfWork.Infrastructure.deps.json
+D:\CodeCraft Live_2025\Test AI Code\code_craft_be\UnitOfWork.Infrastructure\bin\Debug\net7.0\UnitOfWork.Infrastructure.runtimeconfig.json
+D:\CodeCraft Live_2025\Test AI Code\code_craft_be\UnitOfWork.Infrastructure\bin\Debug\net7.0\UnitOfWork.Infrastructure.dll
+D:\CodeCraft Live_2025\Test AI Code\code_craft_be\UnitOfWork.Infrastructure\bin\Debug\net7.0\UnitOfWork.Infrastructure.pdb
+D:\CodeCraft Live_2025\Test AI Code\code_craft_be\UnitOfWork.Infrastructure\bin\Debug\net7.0\UnitOfWork.Core.dll
+D:\CodeCraft Live_2025\Test AI Code\code_craft_be\UnitOfWork.Infrastructure\bin\Debug\net7.0\UnitOfWork.Core.pdb
+D:\CodeCraft Live_2025\Test AI Code\code_craft_be\UnitOfWork.Infrastructure\obj\Debug\net7.0\UnitOfWork.Infrastructure.csproj.AssemblyReference.cache
+D:\CodeCraft Live_2025\Test AI Code\code_craft_be\UnitOfWork.Infrastructure\obj\Debug\net7.0\UnitOfWork.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\CodeCraft Live_2025\Test AI Code\code_craft_be\UnitOfWork.Infrastructure\obj\Debug\net7.0\UnitOfWork.Infrastructure.AssemblyInfoInputs.cache
+D:\CodeCraft Live_2025\Test AI Code\code_craft_be\UnitOfWork.Infrastructure\obj\Debug\net7.0\UnitOfWork.Infrastructure.AssemblyInfo.cs
+D:\CodeCraft Live_2025\Test AI Code\code_craft_be\UnitOfWork.Infrastructure\obj\Debug\net7.0\UnitOfWork.Infrastructure.csproj.CoreCompileInputs.cache
+D:\CodeCraft Live_2025\Test AI Code\code_craft_be\UnitOfWork.Infrastructure\obj\Debug\net7.0\UnitOfWork.Infrastructure.csproj.CopyComplete
+D:\CodeCraft Live_2025\Test AI Code\code_craft_be\UnitOfWork.Infrastructure\obj\Debug\net7.0\UnitOfWork.Infrastructure.dll
+D:\CodeCraft Live_2025\Test AI Code\code_craft_be\UnitOfWork.Infrastructure\obj\Debug\net7.0\refint\UnitOfWork.Infrastructure.dll
+D:\CodeCraft Live_2025\Test AI Code\code_craft_be\UnitOfWork.Infrastructure\obj\Debug\net7.0\UnitOfWork.Infrastructure.pdb
+D:\CodeCraft Live_2025\Test AI Code\code_craft_be\UnitOfWork.Infrastructure\obj\Debug\net7.0\UnitOfWork.Infrastructure.genruntimeconfig.cache
+D:\CodeCraft Live_2025\Test AI Code\code_craft_be\UnitOfWork.Infrastructure\obj\Debug\net7.0\ref\UnitOfWork.Infrastructure.dll
+D:\coding\Sherry\New_Updated\code_craft_be\UnitOfWork.Infrastructure\bin\Debug\net7.0\UnitOfWork.Infrastructure.deps.json
+D:\coding\Sherry\New_Updated\code_craft_be\UnitOfWork.Infrastructure\bin\Debug\net7.0\UnitOfWork.Infrastructure.runtimeconfig.json
+D:\coding\Sherry\New_Updated\code_craft_be\UnitOfWork.Infrastructure\bin\Debug\net7.0\UnitOfWork.Infrastructure.dll
+D:\coding\Sherry\New_Updated\code_craft_be\UnitOfWork.Infrastructure\bin\Debug\net7.0\UnitOfWork.Infrastructure.pdb
+D:\coding\Sherry\New_Updated\code_craft_be\UnitOfWork.Infrastructure\bin\Debug\net7.0\UnitOfWork.Core.dll
+D:\coding\Sherry\New_Updated\code_craft_be\UnitOfWork.Infrastructure\bin\Debug\net7.0\UnitOfWork.Core.pdb
+D:\coding\Sherry\New_Updated\code_craft_be\UnitOfWork.Infrastructure\obj\Debug\net7.0\UnitOfWork.Infrastructure.csproj.AssemblyReference.cache
+D:\coding\Sherry\New_Updated\code_craft_be\UnitOfWork.Infrastructure\obj\Debug\net7.0\UnitOfWork.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\coding\Sherry\New_Updated\code_craft_be\UnitOfWork.Infrastructure\obj\Debug\net7.0\UnitOfWork.Infrastructure.AssemblyInfoInputs.cache
+D:\coding\Sherry\New_Updated\code_craft_be\UnitOfWork.Infrastructure\obj\Debug\net7.0\UnitOfWork.Infrastructure.AssemblyInfo.cs
+D:\coding\Sherry\New_Updated\code_craft_be\UnitOfWork.Infrastructure\obj\Debug\net7.0\UnitOfWork.Infrastructure.csproj.CoreCompileInputs.cache
+D:\coding\Sherry\New_Updated\code_craft_be\UnitOfWork.Infrastructure\obj\Debug\net7.0\UnitOfWo.044CFE68.Up2Date
+D:\coding\Sherry\New_Updated\code_craft_be\UnitOfWork.Infrastructure\obj\Debug\net7.0\UnitOfWork.Infrastructure.dll
+D:\coding\Sherry\New_Updated\code_craft_be\UnitOfWork.Infrastructure\obj\Debug\net7.0\refint\UnitOfWork.Infrastructure.dll
+D:\coding\Sherry\New_Updated\code_craft_be\UnitOfWork.Infrastructure\obj\Debug\net7.0\UnitOfWork.Infrastructure.pdb
+D:\coding\Sherry\New_Updated\code_craft_be\UnitOfWork.Infrastructure\obj\Debug\net7.0\UnitOfWork.Infrastructure.genruntimeconfig.cache
+D:\coding\Sherry\New_Updated\code_craft_be\UnitOfWork.Infrastructure\obj\Debug\net7.0\ref\UnitOfWork.Infrastructure.dll
+D:\CodeCraft Live_2025\paf gpt\code_craft_be\UnitOfWork.Infrastructure\bin\Debug\net7.0\UnitOfWork.Infrastructure.deps.json
+D:\CodeCraft Live_2025\paf gpt\code_craft_be\UnitOfWork.Infrastructure\bin\Debug\net7.0\UnitOfWork.Infrastructure.runtimeconfig.json
+D:\CodeCraft Live_2025\paf gpt\code_craft_be\UnitOfWork.Infrastructure\bin\Debug\net7.0\UnitOfWork.Infrastructure.dll
+D:\CodeCraft Live_2025\paf gpt\code_craft_be\UnitOfWork.Infrastructure\bin\Debug\net7.0\UnitOfWork.Infrastructure.pdb
+D:\CodeCraft Live_2025\paf gpt\code_craft_be\UnitOfWork.Infrastructure\bin\Debug\net7.0\UnitOfWork.Core.dll
+D:\CodeCraft Live_2025\paf gpt\code_craft_be\UnitOfWork.Infrastructure\bin\Debug\net7.0\UnitOfWork.Core.pdb
+D:\CodeCraft Live_2025\paf gpt\code_craft_be\UnitOfWork.Infrastructure\obj\Debug\net7.0\UnitOfWork.Infrastructure.csproj.AssemblyReference.cache
+D:\CodeCraft Live_2025\paf gpt\code_craft_be\UnitOfWork.Infrastructure\obj\Debug\net7.0\UnitOfWork.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\CodeCraft Live_2025\paf gpt\code_craft_be\UnitOfWork.Infrastructure\obj\Debug\net7.0\UnitOfWork.Infrastructure.AssemblyInfoInputs.cache
+D:\CodeCraft Live_2025\paf gpt\code_craft_be\UnitOfWork.Infrastructure\obj\Debug\net7.0\UnitOfWork.Infrastructure.AssemblyInfo.cs
+D:\CodeCraft Live_2025\paf gpt\code_craft_be\UnitOfWork.Infrastructure\obj\Debug\net7.0\UnitOfWork.Infrastructure.csproj.CoreCompileInputs.cache
+D:\CodeCraft Live_2025\paf gpt\code_craft_be\UnitOfWork.Infrastructure\obj\Debug\net7.0\UnitOfWork.Infrastructure.csproj.CopyComplete
+D:\CodeCraft Live_2025\paf gpt\code_craft_be\UnitOfWork.Infrastructure\obj\Debug\net7.0\UnitOfWork.Infrastructure.dll
+D:\CodeCraft Live_2025\paf gpt\code_craft_be\UnitOfWork.Infrastructure\obj\Debug\net7.0\refint\UnitOfWork.Infrastructure.dll
+D:\CodeCraft Live_2025\paf gpt\code_craft_be\UnitOfWork.Infrastructure\obj\Debug\net7.0\UnitOfWork.Infrastructure.pdb
+D:\CodeCraft Live_2025\paf gpt\code_craft_be\UnitOfWork.Infrastructure\obj\Debug\net7.0\UnitOfWork.Infrastructure.genruntimeconfig.cache
+D:\CodeCraft Live_2025\paf gpt\code_craft_be\UnitOfWork.Infrastructure\obj\Debug\net7.0\ref\UnitOfWork.Infrastructure.dll
+D:\Coding\Sherry\code_craft_be\UnitOfWork.Infrastructure\bin\Debug\net7.0\UnitOfWork.Infrastructure.deps.json
+D:\Coding\Sherry\code_craft_be\UnitOfWork.Infrastructure\bin\Debug\net7.0\UnitOfWork.Infrastructure.runtimeconfig.json
+D:\Coding\Sherry\code_craft_be\UnitOfWork.Infrastructure\bin\Debug\net7.0\UnitOfWork.Infrastructure.dll
+D:\Coding\Sherry\code_craft_be\UnitOfWork.Infrastructure\bin\Debug\net7.0\UnitOfWork.Infrastructure.pdb
+D:\Coding\Sherry\code_craft_be\UnitOfWork.Infrastructure\bin\Debug\net7.0\UnitOfWork.Core.dll
+D:\Coding\Sherry\code_craft_be\UnitOfWork.Infrastructure\bin\Debug\net7.0\UnitOfWork.Core.pdb
+D:\Coding\Sherry\code_craft_be\UnitOfWork.Infrastructure\obj\Debug\net7.0\UnitOfWork.Infrastructure.csproj.AssemblyReference.cache
+D:\Coding\Sherry\code_craft_be\UnitOfWork.Infrastructure\obj\Debug\net7.0\UnitOfWork.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Coding\Sherry\code_craft_be\UnitOfWork.Infrastructure\obj\Debug\net7.0\UnitOfWork.Infrastructure.AssemblyInfoInputs.cache
+D:\Coding\Sherry\code_craft_be\UnitOfWork.Infrastructure\obj\Debug\net7.0\UnitOfWork.Infrastructure.AssemblyInfo.cs
+D:\Coding\Sherry\code_craft_be\UnitOfWork.Infrastructure\obj\Debug\net7.0\UnitOfWork.Infrastructure.csproj.CoreCompileInputs.cache
+D:\Coding\Sherry\code_craft_be\UnitOfWork.Infrastructure\obj\Debug\net7.0\UnitOfWo.044CFE68.Up2Date
+D:\Coding\Sherry\code_craft_be\UnitOfWork.Infrastructure\obj\Debug\net7.0\UnitOfWork.Infrastructure.dll
+D:\Coding\Sherry\code_craft_be\UnitOfWork.Infrastructure\obj\Debug\net7.0\refint\UnitOfWork.Infrastructure.dll
+D:\Coding\Sherry\code_craft_be\UnitOfWork.Infrastructure\obj\Debug\net7.0\UnitOfWork.Infrastructure.pdb
+D:\Coding\Sherry\code_craft_be\UnitOfWork.Infrastructure\obj\Debug\net7.0\UnitOfWork.Infrastructure.genruntimeconfig.cache
+D:\Coding\Sherry\code_craft_be\UnitOfWork.Infrastructure\obj\Debug\net7.0\ref\UnitOfWork.Infrastructure.dll

@@ -1,0 +1,940 @@
+﻿using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Hosting.Server;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.Data.SqlClient;
+using Microsoft.Extensions.Configuration;
+using System;
+using System.Data;
+using System.Reflection.Metadata;
+using System.Text;
+using UnitOfWork.Core.Models;
+using UnitOfWork.Services.Interfaces;
+using UnitOfWork.WebAPI.Models;
+using static System.Net.Mime.MediaTypeNames;
+using static System.Runtime.InteropServices.JavaScript.JSType;
+
+
+namespace UnitOfWork.WebAPI.Controllers
+{
+    [Route("api/[controller]/[action]")]
+    [ApiController]
+    //[Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
+    public class MasterController : ControllerBase
+    {
+        private readonly IRepositoryServices _repository;
+        private readonly SignInManager<AppUser> _signInManager;
+        private readonly UserManager<AppUser> _userManager;
+        private readonly RoleManager<AppRole> _roleManager;
+        private readonly IConfiguration _config;
+
+        public MasterController(IRepositoryServices repository, SignInManager<AppUser> signInManager, UserManager<AppUser> userManager, RoleManager<AppRole> roleManager, IConfiguration config)
+        {
+            _repository = repository;
+            _signInManager = signInManager;
+            _userManager = userManager;
+            _roleManager = roleManager;
+            _config = config;
+        }
+
+        #region GPT_tbl_USERS
+        // Add these controller actions into MasterController class (near other endpoints).
+
+        [HttpPost]
+        [ActionName("CRUD_tbl_USER_PROMPTS")]
+        public IActionResult CRUD_tbl_USER_PROMPTS([FromBody] tbl_USER_PROMPTS_DTO model)
+        {
+            try
+            {
+                var result = _repository.CRUD_tbl_USER_PROMPTS(model);
+                if (result == null)
+                    return BadRequest(new { success = false, msg = "Insert failed" });
+
+                return Ok(new { success = result.status, id = result.newId });
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error in CRUD_tbl_USER_PROMPTS: {ex.Message}");
+                return StatusCode(500, new { success = false, error = "Internal server error" });
+            }
+        }
+
+        [HttpGet]
+        [ActionName("GET_tbl_USER_PROMPTS_TOP")]
+        public async Task<IActionResult> GET_tbl_USER_PROMPTS_TOP([FromQuery] int limit = 20)
+        {
+            try
+            {
+                var list = await _repository.GET_tbl_USER_PROMPTS_TOP(limit);
+                if (list == null) return Ok(new object[0]);
+                return Ok(list);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error in GET_tbl_USER_PROMPTS_TOP: {ex.Message}");
+                return StatusCode(500, new { success = false, error = "Internal server error" });
+            }
+        }
+
+        [HttpGet]
+        [ActionName("GET_tbl_USER_PROMPTS_BY_USER")]
+        public async Task<IActionResult> GET_tbl_USER_PROMPTS_BY_USER([FromQuery] string user_id, [FromQuery] int limit = 20)
+        {
+            try
+            {
+                if (string.IsNullOrEmpty(user_id))
+                    return BadRequest(new { success = false, error = "user_id is required" });
+
+                var list = await _repository.GET_tbl_USER_PROMPTS_BY_USER(user_id, limit);
+                if (list == null) return Ok(new object[0]);
+                return Ok(list);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error in GET_tbl_USER_PROMPTS_BY_USER: {ex.Message}");
+                return StatusCode(500, new { success = false, error = "Internal server error" });
+            }
+        }
+        [HttpPost]
+        [ActionName("CRUD_tbl_RESPONSE_FEEDBACK")]
+        public async Task<IActionResult> SubmitFeedback([FromBody] FeedbackRequest request)
+        {
+            // Validate Action
+            if (request.Action != "INSERT")
+            {
+                return BadRequest(new FeedbackResponse { Success = false, ErrorMessage = "Invalid action. Must be 'INSERT'" });
+            }
+            try
+            {
+                var result = await _repository.SubmitFeedback(request);
+                return Ok(result);
+            }
+            catch (SqlException ex) when (ex.Number == 50000) // Custom error from SP
+            {
+                return BadRequest(new FeedbackResponse
+                {
+                    Success = false,
+                    ErrorMessage = ex.Message.Contains("Feedback type") ?
+                        "Invalid feedback type" :
+                        "Model name cannot be null"
+                });
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new FeedbackResponse { Success = false, ErrorMessage = "Internal server error" });
+            }
+        }
+        [HttpGet]
+        [ActionName("GET_tbl_RESPONSE_FEEDBACK_LIST")]
+        public async Task<IActionResult> GetFeedbackList(
+        [FromQuery] GetFeedbackListRequest request)
+        {
+            try
+            {
+                var result =await _repository.GetFeedbackList(request);
+                return Ok(result);
+            }
+            catch (Exception ex)
+            {
+                // Log the exception
+                Console.WriteLine($"Error retrieving feedback list: {ex.Message}");
+                return StatusCode(500, new { success = false, error = "Internal server error" }); // required changes
+            }
+        }
+
+        [HttpGet]
+        [ActionName("GET_tbl_RESPONSE_FEEDBACK_STATS")]
+        public async Task<IActionResult> GetFeedbackStats()
+        {
+            try
+            {
+                var result = await _repository.GetFeedbackStats();
+                return Ok(result);
+            }
+            catch (Exception ex)
+            {
+                // Log the exception
+                Console.WriteLine($"Error retrieving feedback stats: {ex.Message}");
+                return StatusCode(500, new { success = false, error = "Internal server error" });
+            }
+        }
+
+
+        [HttpGet("{id?}")]
+        [ActionName("GET_tbl_MODELS_LIST")]
+        public async Task<IActionResult> GET_tbl_MODELS_LIST(int? id)
+        {
+            try
+            {
+                var model_list = await _repository.GET_tbl_MODELS_LIST(id);
+
+                if (model_list == null)
+                {
+                    return BadRequest(new { msg = "Record not Found!" });
+                }
+
+                return Ok(model_list);
+            }
+            catch (Exception)
+            {
+                return BadRequest(new { msg = "error occurred" });
+            }
+        }
+
+        [HttpGet]
+        [ActionName("GET_tbl_USER_BASED_REQUESTS_LIST")]
+        public async Task<IActionResult> GET_tbl_USER_BASED_REQUESTS_LIST()
+        {
+            try
+            {
+                var model_list =await _repository.GET_tbl_USER_BASED_REQUESTS_LIST();
+                if (model_list == null)
+                {
+                    return BadRequest(new { msg = "Record not Found!" });
+                }
+                else
+                {
+                    return Ok(model_list);
+                }
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new { msg = "error occurred" });
+            }
+        }
+        
+        [HttpPost]
+        [ActionName("CRUD_tbl_MODELS_LIST")]
+        public IActionResult CRUD_tbl_MODELS_LIST(tbl_MODELS_DTO model)
+        {
+            try
+            {
+                var result =_repository.CRUD_Model(model);
+                return Ok(result);
+              
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new { msg = "error occurred" });
+            }
+        }
+        
+        [HttpPost]
+        [ActionName("CRUD_USER_BASED_REQUESTS")]
+        public IActionResult CRUD_USER_BASED_REQUESTS(UserBasedRequest_DTO request)
+        {
+            try
+            {
+                var result =_repository.CRUD_USER_BASED_REQUESTS(request);
+                return Ok(result);
+              
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new { msg = "error occurred" });
+            }
+        }
+
+        [HttpGet]
+        [ActionName("GetUserProfileList")]
+        public async Task<IActionResult> GetUserProfileList()
+        {
+            var profiles = await _repository.GET_tbl_USER_PROFILE_LIST();
+            if (profiles == null || !profiles.Any())
+                return NoContent();
+            return Ok(profiles);
+        }
+
+        // Notifications APIs
+        [HttpGet("GET_tbl_NOTIFICATIONS/{userId}")]
+        public async Task<IActionResult> GetNotifications(int userId)
+        {
+            try
+            {
+                var notifications = new List<UnitOfWork.Core.Models.Notification>();
+                var connKey = "GPTConnections";
+
+                using var connection = new SqlConnection(_config.GetConnectionString(connKey));
+                await connection.OpenAsync();
+
+                using var command = new SqlCommand("dbo.SP_GET_tbl_NOTIFICATIONS", connection)
+                {
+                    CommandType = CommandType.StoredProcedure
+                };
+                command.Parameters.Add(new SqlParameter("@UserId", SqlDbType.Int) { Value = userId });
+
+                using var reader = await command.ExecuteReaderAsync();
+                while (await reader.ReadAsync())
+                {
+                    notifications.Add(new UnitOfWork.Core.Models.Notification
+                    {
+                        Id = reader.GetInt32(0),
+                        UserId = reader.GetInt32(1),
+                        Type = reader.IsDBNull(2) ? null : reader.GetString(2),
+                        Title = reader.IsDBNull(3) ? null : reader.GetString(3),
+                        Message = reader.IsDBNull(4) ? null : reader.GetString(4),
+                        IsRead = reader.IsDBNull(5) ? false : reader.GetBoolean(5),
+                        RelatedEntityType = reader.IsDBNull(6) ? null : reader.GetString(6),
+                        RelatedEntityId = reader.IsDBNull(7) ? (int?)null : reader.GetInt32(7),
+                        ActionUrl = reader.IsDBNull(8) ? null : reader.GetString(8),
+                        CreatedAt = reader.IsDBNull(9) ? (DateTime?)null : reader.GetDateTime(9)
+                    });
+                }
+
+                return Ok(notifications);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new { message = "Error retrieving notifications", error = ex.Message });
+            }
+        }
+
+        [HttpPost("CRUD_tbl_NOTIFICATIONS")]
+        public async Task<IActionResult> CreateNotification([FromBody] UnitOfWork.Core.Models.NotificationRequest request)
+        {
+            if (request == null) return BadRequest("Request required");
+
+            try
+            {
+                var connKey = "GPTConnections";
+                using var connection = new SqlConnection(_config.GetConnectionString(connKey));
+                await connection.OpenAsync();
+
+                using var command = new SqlCommand("dbo.SP_CRUD_tbl_NOTIFICATIONS", connection)
+                {
+                    CommandType = CommandType.StoredProcedure
+                };
+
+                command.Parameters.Add(new SqlParameter("@Action", SqlDbType.NVarChar, 20) { Value = "INSERT" });
+                command.Parameters.Add(new SqlParameter("@UserId", SqlDbType.Int) { Value = request.UserId });
+                command.Parameters.Add(new SqlParameter("@Type", SqlDbType.NVarChar, 100) { Value = (object)request.Type ?? DBNull.Value });
+                command.Parameters.Add(new SqlParameter("@Title", SqlDbType.NVarChar, 255) { Value = (object)request.Title ?? DBNull.Value });
+                command.Parameters.Add(new SqlParameter("@Message", SqlDbType.NVarChar, -1) { Value = (object)request.Message ?? DBNull.Value });
+                command.Parameters.Add(new SqlParameter("@IsRead", SqlDbType.Bit) { Value = (object)request.IsRead ?? false });
+                command.Parameters.Add(new SqlParameter("@RelatedEntityType", SqlDbType.NVarChar, 100) { Value = (object)request.RelatedEntityType ?? DBNull.Value });
+                command.Parameters.Add(new SqlParameter("@RelatedEntityId", SqlDbType.Int) { Value = (object)request.RelatedEntityId ?? DBNull.Value });
+                command.Parameters.Add(new SqlParameter("@ActionUrl", SqlDbType.NVarChar, 500) { Value = (object)request.ActionUrl ?? DBNull.Value });
+
+                var scalar = await command.ExecuteScalarAsync();
+                int newId = scalar == null || scalar == DBNull.Value ? 0 : Convert.ToInt32(scalar);
+
+                return Ok(new { success = true, id = newId });
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new { message = "Error creating notification", error = ex.Message });
+            }
+        }
+
+        [HttpPut("CRUD_tbl_NOTIFICATIONS/{id}/read")]
+        public async Task<IActionResult> MarkAsRead(int id)
+        {
+            try
+            {
+                var connKey = "GPTConnections";
+                using var connection = new SqlConnection(_config.GetConnectionString(connKey));
+                await connection.OpenAsync();
+
+                using var command = new SqlCommand("dbo.SP_CRUD_tbl_NOTIFICATIONS", connection)
+                {
+                    CommandType = CommandType.StoredProcedure
+                };
+                command.Parameters.Add(new SqlParameter("@Action", SqlDbType.NVarChar, 20) { Value = "READ" });
+                command.Parameters.Add(new SqlParameter("@Id", SqlDbType.Int) { Value = id });
+
+                var scalar = await command.ExecuteScalarAsync();
+                var rows = scalar == null || scalar == DBNull.Value ? 0 : Convert.ToInt32(scalar);
+
+                if (rows > 0) return Ok(new { success = true, message = "Notification marked as read" });
+                return NotFound(new { message = "Notification not found" });
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new { message = "Error updating notification", error = ex.Message });
+            }
+        }
+
+        [HttpDelete("CRUD_tbl_NOTIFICATIONS/{id}")]
+        public async Task<IActionResult> DeleteNotification(int id)
+        {
+            try
+            {
+                var connKey = "GPTConnections";
+                using var connection = new SqlConnection(_config.GetConnectionString(connKey));
+                await connection.OpenAsync();
+
+                using var command = new SqlCommand("dbo.SP_CRUD_tbl_NOTIFICATIONS", connection)
+                {
+                    CommandType = CommandType.StoredProcedure
+                };
+                command.Parameters.Add(new SqlParameter("@Action", SqlDbType.NVarChar, 20) { Value = "DELETE" });
+                command.Parameters.Add(new SqlParameter("@Id", SqlDbType.Int) { Value = id });
+
+                var scalar = await command.ExecuteScalarAsync();
+                var rows = scalar == null || scalar == DBNull.Value ? 0 : Convert.ToInt32(scalar);
+
+                if (rows > 0) return Ok(new { success = true, message = "Notification deleted" });
+                return NotFound(new { message = "Notification not found" });
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new { message = "Error deleting notification", error = ex.Message });
+            }
+        }
+
+        #endregion
+
+        #region CodeCraftCode Sep 2025
+
+        [HttpGet]
+        [ActionName("GetTokenList")]
+        public async Task<IActionResult> GetTokenList()
+        {
+            var result = await _repository.GetTokenListAsync();
+            if (result.Count() > 0) return Ok(result);
+            else return NoContent();
+        }
+
+        [HttpGet]
+        [ActionName("GetPromptList")]
+        public async Task<IActionResult> GetPromptList()
+        {
+            var result = await _repository.GetPromptListAsync();
+            if (result.Count() > 0) return Ok(result);
+            else return NoContent();
+        }
+        
+        [HttpGet]
+        [ActionName("GetModelList")]
+        public async Task<IActionResult> GetModelList()
+        {
+            var result = await _repository.GetModelListAsync();
+            if (result.Count() > 0) return Ok(result);
+            else return NoContent();
+        }
+
+        #endregion
+
+        #region Photo
+        [HttpGet("{ptype}/{pakno}")]
+        [ActionName("GetPhoto")]
+        public IActionResult GetPhoto(int ptype, string pakno)
+        {
+            try
+            {
+                var civilianData = _repository.GetAllPhoto(ptype, pakno);
+                if (civilianData == null)
+                {
+                    return BadRequest(new { msg = "Record not Found!" });
+                }
+                else
+                {
+                    var dataarry = civilianData.Rows[0]["PicBytes"];
+                    return Ok(new { msg = dataarry });
+                }
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(new { msg = "error occurred" });
+            }
+        }
+        #endregion
+
+        #region User Identity Method
+
+        [HttpPost]
+        [AllowAnonymous]
+        [ActionName("Userclogin")]
+        public async Task<IActionResult> Userclogin([FromBody] CreateUser model)
+        {
+            if (ModelState.IsValid)
+            {
+                var result = _repository.UserAuthenticate(model);
+                if (result.Count() == 1)
+                {
+                    return Ok(new { result });
+                }
+                else if (result.Count == 2)
+                {
+
+                    return BadRequest(new { msg = "The User doesn't Exit" });
+
+                }
+                else
+                {
+                    return BadRequest(new {  b = "Please Enter a Valid Credential" });
+                }
+            }
+            return BadRequest(new { msg = "User not Exit" });
+        }
+
+
+        [HttpPost]
+        [AllowAnonymous]
+        [ActionName("AddcUser")]
+        public async Task<IActionResult> AddcUser(CreateUser model)
+        {
+            if (ModelState.IsValid)
+            {
+                var result = _repository.AddUser(model);
+                if (result ==1)
+                {
+
+                    return Ok(new { msg = "User Account Created Successfully" });
+                }
+                else
+                {
+                    return BadRequest(new { msg = "Error While Creating User Account" });
+                }
+            }
+            // If we got this far, something failed, redisplay form
+            return BadRequest(ModelState);
+        }
+
+
+        [HttpPost]
+        [AllowAnonymous]
+        [ActionName("AddCPromptLog")]
+        public async Task<IActionResult> AddCPromptLog(PromptLog model)
+        {
+            if (ModelState.IsValid)
+            {
+                var result = _repository.AddPromptLog(model);
+                if (result == 1)
+                {
+
+                    return Ok(new { msg = "User Prompt Insert Successfully" });
+                }
+                else
+                {
+                    return BadRequest(new { msg = "Error While data Insertion" });
+                }
+            }
+            // If we got this far, something failed, redisplay form
+            return BadRequest(ModelState);
+        }
+
+        [HttpPost]
+        [AllowAnonymous]
+        [ActionName("EnterPromptCount")]
+        public async Task<IActionResult> EnterPromptCount(PromptHistory prompt)
+        {
+            if (ModelState.IsValid)
+            {
+                var result = _repository.UserPromptCount(prompt);
+                if (result == 2)
+                {
+
+                    return BadRequest(new { msg = "Limit Exceed" });
+                }
+                else if (result > 0)
+                {
+
+                    return Ok(new { msg = "Value Enters Successfully" });
+                }
+                else
+                {
+                    return BadRequest(new { msg = "Error Occured" });
+                }
+            }
+            return BadRequest(ModelState);
+        }
+
+        [HttpPost]
+        [AllowAnonymous]
+        [ActionName("GetUserCountData")]
+        public async Task<IActionResult> GetUserCountData(PromptHistory prompt)
+        {
+            var result = _repository.GetUserCount(prompt);
+            if (result==null)
+            {
+                return BadRequest(new { msg = "Data Not Available" });
+            }
+            else if(result.Count > 0)
+            {
+                return Ok(new { result });
+
+
+
+            }
+            else
+            {
+                return BadRequest(new { msg = "Data Not Available" });
+            }
+
+        }
+
+        [HttpPost]
+        [AllowAnonymous]
+        [ActionName("UpdateCUser")]
+        public async Task<IActionResult> UpdateCUser(CreateUser user)
+        {
+            if (ModelState.IsValid)
+            {
+                var result = _repository.UpdateUser(user);
+
+                if (result == "User Data Updated Successfully")
+                {
+
+                    return Ok(new {result});
+                }
+                if (result== "false")
+                {
+
+                    return BadRequest(new { msg = "User Already Exist" });
+                }
+               
+                else
+                {
+                    return BadRequest(new { msg = "Error Occured" });
+                }
+            }
+            return BadRequest(ModelState);
+        }
+
+        [HttpPost]
+        [AllowAnonymous]
+        [ActionName("DeleteCUser")]
+        public async Task<IActionResult> DeleteCUser(CreateUser user)
+        {
+            if (ModelState.IsValid)
+            {
+                var result = _repository.DeleteUser(user);
+
+                if (result != null)
+                {
+
+                    return Ok(new { result });
+                }
+                if (result == null)
+                {
+
+                    return BadRequest(new { msg = "user not found" });
+                }
+
+                else
+                {
+                    return BadRequest(new { msg = "Error Occured" });
+                }
+            }
+            return BadRequest(ModelState);
+        }
+
+        [HttpPost]
+        [AllowAnonymous]
+        [ActionName("ChangeCPassword")]
+        public async Task<IActionResult> ChangeCPassword(CreateUser user)
+        {
+            if (ModelState.IsValid)
+            {
+                var result = _repository.ChangePassword(user);
+
+                if (result==1)
+                {
+
+                    return Ok(new { msg = "Password Succesfully updated" });
+                }
+                if (result == 2)
+                {
+
+                    return BadRequest(new { msg = "Error Occured" });
+                }
+
+                else
+                {
+                    return BadRequest(new { msg = "Error Occured" });
+                }
+            }
+            return BadRequest(ModelState);
+        }
+
+        [HttpGet]
+        [ActionName("GetAllcUsers")]
+        public IActionResult GetAllcUsers()
+        {
+            var result = _userManager.Users.ToList();
+            //return Ok(result);
+            return Ok(new { result });
+        } 
+        
+        [HttpGet]
+        [ActionName("GetCUsers")]
+        public IActionResult GetCUsers()
+        {
+            var result = _repository.GetUsers();
+            //return Ok(result);
+            return Ok(new { result });
+
+        }
+
+        [HttpGet("{id}")]
+        [ActionName("GetCUser")]
+        public IActionResult GetUserById(int id)
+        {
+            var result =  _repository.GetUser(id);
+            return Ok(new { result });
+        }
+
+        [HttpGet("{id}")]
+        [ActionName("GetCUserPrompLog")]
+        public IActionResult GetCUserPrompLog(string id)
+        {
+            var result = _repository.GetPromptLogs(id);
+
+            if (result.Count > 0)
+            {
+                return Ok(new { result });
+            }
+            else {
+                return BadRequest(new { msg = "Data not availble" });
+                    }
+        }
+
+        [HttpGet("{id}")]
+        [ActionName("GetUserById")]
+        public async Task<IActionResult> GetUserById(string id)
+        {
+            var result = await _repository.GetUserById(id);
+            return Ok(result);
+        }
+
+        [HttpGet("{name}")]
+        [ActionName("GetUserByName")]
+        public async Task<IActionResult> GetUserByName(string name)
+        {
+            var result = await _repository.GetUserByName(name);
+            return Ok(result);
+        }
+
+        [HttpPost]
+        [ActionName("ChangePassword")]
+        public async Task<IActionResult> ChangePassword(ChangePasswordViewModel model)
+        {
+            if (!ModelState.IsValid)
+            {
+
+                return BadRequest("Invalid data try again");
+            }
+            var user = await _userManager.FindByIdAsync(model.Id);
+            if (user == null)
+            {
+                return BadRequest("Invalid data try again");
+            }
+            var result = await _userManager.ChangePasswordAsync(user, model.OldPassword, model.NewPassword);
+            if (result.Succeeded)
+            {
+                return Ok(new { msg = "Password Changed Successfully" });
+            }
+            return BadRequest("Error data not found");
+        }
+
+        [HttpPost]
+        [ActionName("UpdateUser")]
+        public async Task<IActionResult> UpdateUser(SignUpModel model)
+        {
+            if (ModelState.IsValid)
+            {
+                try
+                {
+                    var user = await _repository.GetUserById(model.Id);
+                    if (user != null)
+                    {
+                        user.UserName = model.Username;
+
+                        var result = await _userManager.UpdateAsync(user);
+                        if (result.Succeeded)
+                        {
+                            return Ok(new { msg = "User Updated Successfully" });
+                        }
+                        return BadRequest(new { msg = "Error While Updating User" });
+                    }
+                    return BadRequest(new { msg = "Error user not found" });
+                }
+                catch (Exception ex)
+                {
+                    throw ex;
+                }
+            }
+            return BadRequest(ModelState);
+        }
+
+        [HttpGet("{id}")]
+        [ActionName("DeleteUser")]
+        public async Task<IActionResult> DeleteUser(string id)
+        {
+            try
+            {
+                var user = await _repository.GetUserById(id);
+                if (user != null)
+                {
+                    var result = await _userManager.DeleteAsync(user);
+                    if (result.Succeeded)
+                    {
+                        return Ok(new { msg = "User Deleted Successfully" });
+                    }
+                    return BadRequest(new { msg = "Error While Deleting User" });
+                }
+                return BadRequest(new { msg = "Error user not found" });
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        [HttpGet("{id}")]
+        [ActionName("GetAssignedUsersList")]
+        public async Task<IActionResult> GetAssignedUsersList(string id)
+        {
+            try
+            {
+                var roleId = _roleManager.Roles.FirstOrDefault(p => p.Id == id);
+                if (roleId != null)
+                {
+                    var UserList = await _userManager.GetUsersInRoleAsync(roleId.Name);
+                    if (UserList.Count() > 0)
+                    {
+                        var userdata = UserList.Where(p => p.Id == id).ToList();
+                        return Ok(UserList);
+                    }
+                }
+                return BadRequest("Error Occured");
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        [HttpPost]
+        [ActionName("GetAssignedUsersListExclude")]
+        public async Task<IActionResult> GetAssignedUsersListExclude(SignUpModel model)
+        {
+            try
+            {
+                var roleId = _roleManager.Roles.FirstOrDefault(p => p.Id == model.Id);
+                var users = await _userManager.GetUsersInRoleAsync(roleId.Name);
+                List<AppUser> usersList = new List<AppUser>();
+                if (users.Count() > 0)
+                {
+                    var user = new AppUser();
+                    foreach (var item in users)
+                    {
+                        user = _userManager.Users
+                            .FirstOrDefault(p => p.Id == item.Id);
+
+                        usersList.Add(user);
+                    }
+                    if (usersList.Count() > 0)
+                    {
+                        var FinalList = usersList.ToList();
+                        return Ok(FinalList);
+                    }
+                }
+                return BadRequest("Error Occured");
+
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+        #endregion
+
+        #region Role Identity
+            [HttpGet]
+            [ActionName("GetAllRole")]
+            public IActionResult GetAllRole()
+            {
+                try
+                {
+                    var roleList = _roleManager.Roles.ToList();
+                    if (roleList != null)
+                    {
+                        return Ok(roleList);
+                    }
+                    return BadRequest(new { msg = "Error role not found" });
+
+                }
+                catch (Exception ex)
+                {
+                    throw ex;
+                }
+            }
+
+            [HttpGet("{id}")]
+            [ActionName("GetRoleById")]
+            public IActionResult GetRoleById(string id)
+            {
+                try
+                {
+                    var role = _roleManager.Roles.FirstOrDefault(p => p.Id == id);
+                    if (role != null)
+                    {
+                        return Ok(role);
+                    }
+                    return BadRequest(new { msg = "Error role not found" });
+
+                }
+                catch (Exception ex)
+                {
+                    throw ex;
+                }
+            }
+
+            [HttpPost]
+            [ActionName("UpdateRole")]
+            public async Task<IActionResult> UpdateRole(RoleViewModel model)
+            {
+                if (ModelState.IsValid)
+                {
+                    try
+                    {
+                        var role = _roleManager.Roles.FirstOrDefault(p => p.Id == model.Id);
+                        if (role != null)
+                        {
+                            role.Name = model.RoleName;
+                            var result = await _roleManager.UpdateAsync(role);
+                            if (result.Succeeded)
+                            {
+                                return Ok(new { msg = "Role Updated Successfully" });
+                            }
+                            return BadRequest(new { msg = "Error While Updating Role" });
+                        }
+                        return BadRequest(new { msg = "Error role not found" });
+                    }
+                    catch (Exception ex)
+                    {
+                        throw ex;
+                    }
+                }
+                return BadRequest(ModelState);
+            }
+
+            [HttpGet("{id}")]
+            [ActionName("DeleteRole")]
+            public async Task<IActionResult> DeleteRole(string id)
+            {
+                try
+                {
+                    var roleId = _roleManager.Roles.FirstOrDefault(p => p.Id == id);
+                    if (roleId != null)
+                    {
+                        var role = await _roleManager.DeleteAsync(roleId);
+                        if (role.Succeeded)
+                        {
+                            return Ok(new { msg = "Role Deleted Successfully" });
+                        }
+                        return BadRequest(new { msg = "Error While Deleting Role" });
+                    }
+                    return BadRequest(new { msg = "Error Occured" });
+                }
+                catch (Exception ex)
+                {
+                    throw ex;
+                }
+            }
+        #endregion
+    }
+}

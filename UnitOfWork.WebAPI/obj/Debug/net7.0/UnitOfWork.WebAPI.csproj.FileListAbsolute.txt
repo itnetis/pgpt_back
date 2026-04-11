@@ -1,0 +1,813 @@
+D:\CER_POR_LIVE_SYSTEM\CER_POR_7_Live\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\appsettings.Development.json
+D:\CER_POR_LIVE_SYSTEM\CER_POR_7_Live\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\appsettings.json
+D:\CER_POR_LIVE_SYSTEM\CER_POR_7_Live\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\UnitOfWork.WebAPI.exe
+D:\CER_POR_LIVE_SYSTEM\CER_POR_7_Live\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\UnitOfWork.WebAPI.deps.json
+D:\CER_POR_LIVE_SYSTEM\CER_POR_7_Live\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\UnitOfWork.WebAPI.runtimeconfig.json
+D:\CER_POR_LIVE_SYSTEM\CER_POR_7_Live\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\UnitOfWork.WebAPI.dll
+D:\CER_POR_LIVE_SYSTEM\CER_POR_7_Live\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\UnitOfWork.WebAPI.pdb
+D:\CER_POR_LIVE_SYSTEM\CER_POR_7_Live\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Azure.Core.dll
+D:\CER_POR_LIVE_SYSTEM\CER_POR_7_Live\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Azure.Identity.dll
+D:\CER_POR_LIVE_SYSTEM\CER_POR_7_Live\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Humanizer.dll
+D:\CER_POR_LIVE_SYSTEM\CER_POR_7_Live\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\CER_POR_LIVE_SYSTEM\CER_POR_7_Live\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\CER_POR_LIVE_SYSTEM\CER_POR_7_Live\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\CER_POR_LIVE_SYSTEM\CER_POR_7_Live\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\CER_POR_LIVE_SYSTEM\CER_POR_7_Live\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+D:\CER_POR_LIVE_SYSTEM\CER_POR_7_Live\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\CER_POR_LIVE_SYSTEM\CER_POR_7_Live\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+D:\CER_POR_LIVE_SYSTEM\CER_POR_7_Live\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+D:\CER_POR_LIVE_SYSTEM\CER_POR_7_Live\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\CER_POR_LIVE_SYSTEM\CER_POR_7_Live\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\CER_POR_LIVE_SYSTEM\CER_POR_7_Live\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\CER_POR_LIVE_SYSTEM\CER_POR_7_Live\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\CER_POR_LIVE_SYSTEM\CER_POR_7_Live\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+D:\CER_POR_LIVE_SYSTEM\CER_POR_7_Live\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+D:\CER_POR_LIVE_SYSTEM\CER_POR_7_Live\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+D:\CER_POR_LIVE_SYSTEM\CER_POR_7_Live\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+D:\CER_POR_LIVE_SYSTEM\CER_POR_7_Live\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\CER_POR_LIVE_SYSTEM\CER_POR_7_Live\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+D:\CER_POR_LIVE_SYSTEM\CER_POR_7_Live\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\CER_POR_LIVE_SYSTEM\CER_POR_7_Live\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+D:\CER_POR_LIVE_SYSTEM\CER_POR_7_Live\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+D:\CER_POR_LIVE_SYSTEM\CER_POR_7_Live\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\CER_POR_LIVE_SYSTEM\CER_POR_7_Live\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+D:\CER_POR_LIVE_SYSTEM\CER_POR_7_Live\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.OpenApi.dll
+D:\CER_POR_LIVE_SYSTEM\CER_POR_7_Live\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+D:\CER_POR_LIVE_SYSTEM\CER_POR_7_Live\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+D:\CER_POR_LIVE_SYSTEM\CER_POR_7_Live\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Mono.TextTemplating.dll
+D:\CER_POR_LIVE_SYSTEM\CER_POR_7_Live\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\CER_POR_LIVE_SYSTEM\CER_POR_7_Live\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\CER_POR_LIVE_SYSTEM\CER_POR_7_Live\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\CER_POR_LIVE_SYSTEM\CER_POR_7_Live\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\System.CodeDom.dll
+D:\CER_POR_LIVE_SYSTEM\CER_POR_7_Live\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+D:\CER_POR_LIVE_SYSTEM\CER_POR_7_Live\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\System.Drawing.Common.dll
+D:\CER_POR_LIVE_SYSTEM\CER_POR_7_Live\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+D:\CER_POR_LIVE_SYSTEM\CER_POR_7_Live\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\System.Memory.Data.dll
+D:\CER_POR_LIVE_SYSTEM\CER_POR_7_Live\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\System.Runtime.Caching.dll
+D:\CER_POR_LIVE_SYSTEM\CER_POR_7_Live\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+D:\CER_POR_LIVE_SYSTEM\CER_POR_7_Live\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\System.Security.Permissions.dll
+D:\CER_POR_LIVE_SYSTEM\CER_POR_7_Live\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\System.Windows.Extensions.dll
+D:\CER_POR_LIVE_SYSTEM\CER_POR_7_Live\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\CER_POR_LIVE_SYSTEM\CER_POR_7_Live\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\CER_POR_LIVE_SYSTEM\CER_POR_7_Live\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\CER_POR_LIVE_SYSTEM\CER_POR_7_Live\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\CER_POR_LIVE_SYSTEM\CER_POR_7_Live\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\CER_POR_LIVE_SYSTEM\CER_POR_7_Live\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\CER_POR_LIVE_SYSTEM\CER_POR_7_Live\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\CER_POR_LIVE_SYSTEM\CER_POR_7_Live\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\CER_POR_LIVE_SYSTEM\CER_POR_7_Live\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\CER_POR_LIVE_SYSTEM\CER_POR_7_Live\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\CER_POR_LIVE_SYSTEM\CER_POR_7_Live\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\CER_POR_LIVE_SYSTEM\CER_POR_7_Live\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\CER_POR_LIVE_SYSTEM\CER_POR_7_Live\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\UnitOfWork.Core.dll
+D:\CER_POR_LIVE_SYSTEM\CER_POR_7_Live\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\UnitOfWork.Infrastructure.dll
+D:\CER_POR_LIVE_SYSTEM\CER_POR_7_Live\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\UnitOfWork.Services.dll
+D:\CER_POR_LIVE_SYSTEM\CER_POR_7_Live\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\UnitOfWork.Infrastructure.pdb
+D:\CER_POR_LIVE_SYSTEM\CER_POR_7_Live\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\UnitOfWork.Services.pdb
+D:\CER_POR_LIVE_SYSTEM\CER_POR_7_Live\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\UnitOfWork.Core.pdb
+D:\CER_POR_LIVE_SYSTEM\CER_POR_7_Live\cer_por_be\UnitOfWork.WebAPI\obj\Debug\net7.0\UnitOfWork.WebAPI.csproj.AssemblyReference.cache
+D:\CER_POR_LIVE_SYSTEM\CER_POR_7_Live\cer_por_be\UnitOfWork.WebAPI\obj\Debug\net7.0\UnitOfWork.WebAPI.GeneratedMSBuildEditorConfig.editorconfig
+D:\CER_POR_LIVE_SYSTEM\CER_POR_7_Live\cer_por_be\UnitOfWork.WebAPI\obj\Debug\net7.0\UnitOfWork.WebAPI.AssemblyInfoInputs.cache
+D:\CER_POR_LIVE_SYSTEM\CER_POR_7_Live\cer_por_be\UnitOfWork.WebAPI\obj\Debug\net7.0\UnitOfWork.WebAPI.AssemblyInfo.cs
+D:\CER_POR_LIVE_SYSTEM\CER_POR_7_Live\cer_por_be\UnitOfWork.WebAPI\obj\Debug\net7.0\UnitOfWork.WebAPI.csproj.CoreCompileInputs.cache
+D:\CER_POR_LIVE_SYSTEM\CER_POR_7_Live\cer_por_be\UnitOfWork.WebAPI\obj\Debug\net7.0\UnitOfWork.WebAPI.MvcApplicationPartsAssemblyInfo.cs
+D:\CER_POR_LIVE_SYSTEM\CER_POR_7_Live\cer_por_be\UnitOfWork.WebAPI\obj\Debug\net7.0\UnitOfWork.WebAPI.MvcApplicationPartsAssemblyInfo.cache
+D:\CER_POR_LIVE_SYSTEM\CER_POR_7_Live\cer_por_be\UnitOfWork.WebAPI\obj\Debug\net7.0\staticwebassets\msbuild.UnitOfWork.WebAPI.Microsoft.AspNetCore.StaticWebAssets.props
+D:\CER_POR_LIVE_SYSTEM\CER_POR_7_Live\cer_por_be\UnitOfWork.WebAPI\obj\Debug\net7.0\staticwebassets\msbuild.build.UnitOfWork.WebAPI.props
+D:\CER_POR_LIVE_SYSTEM\CER_POR_7_Live\cer_por_be\UnitOfWork.WebAPI\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.UnitOfWork.WebAPI.props
+D:\CER_POR_LIVE_SYSTEM\CER_POR_7_Live\cer_por_be\UnitOfWork.WebAPI\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.UnitOfWork.WebAPI.props
+D:\CER_POR_LIVE_SYSTEM\CER_POR_7_Live\cer_por_be\UnitOfWork.WebAPI\obj\Debug\net7.0\staticwebassets.pack.json
+D:\CER_POR_LIVE_SYSTEM\CER_POR_7_Live\cer_por_be\UnitOfWork.WebAPI\obj\Debug\net7.0\staticwebassets.build.json
+D:\CER_POR_LIVE_SYSTEM\CER_POR_7_Live\cer_por_be\UnitOfWork.WebAPI\obj\Debug\net7.0\staticwebassets.development.json
+D:\CER_POR_LIVE_SYSTEM\CER_POR_7_Live\cer_por_be\UnitOfWork.WebAPI\obj\Debug\net7.0\scopedcss\bundle\UnitOfWork.WebAPI.styles.css
+D:\CER_POR_LIVE_SYSTEM\CER_POR_7_Live\cer_por_be\UnitOfWork.WebAPI\obj\Debug\net7.0\UnitOfWork.WebAPI.csproj.CopyComplete
+D:\CER_POR_LIVE_SYSTEM\CER_POR_7_Live\cer_por_be\UnitOfWork.WebAPI\obj\Debug\net7.0\UnitOfWork.WebAPI.dll
+D:\CER_POR_LIVE_SYSTEM\CER_POR_7_Live\cer_por_be\UnitOfWork.WebAPI\obj\Debug\net7.0\refint\UnitOfWork.WebAPI.dll
+D:\CER_POR_LIVE_SYSTEM\CER_POR_7_Live\cer_por_be\UnitOfWork.WebAPI\obj\Debug\net7.0\UnitOfWork.WebAPI.pdb
+D:\CER_POR_LIVE_SYSTEM\CER_POR_7_Live\cer_por_be\UnitOfWork.WebAPI\obj\Debug\net7.0\UnitOfWork.WebAPI.genruntimeconfig.cache
+D:\CER_POR_LIVE_SYSTEM\CER_POR_7_Live\cer_por_be\UnitOfWork.WebAPI\obj\Debug\net7.0\ref\UnitOfWork.WebAPI.dll
+E:\Backend\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\appsettings.Development.json
+E:\Backend\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\appsettings.json
+E:\Backend\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\UnitOfWork.WebAPI.exe
+E:\Backend\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\UnitOfWork.WebAPI.deps.json
+E:\Backend\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\UnitOfWork.WebAPI.runtimeconfig.json
+E:\Backend\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\UnitOfWork.WebAPI.dll
+E:\Backend\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\UnitOfWork.WebAPI.pdb
+E:\Backend\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Azure.Core.dll
+E:\Backend\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Azure.Identity.dll
+E:\Backend\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Humanizer.dll
+E:\Backend\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+E:\Backend\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+E:\Backend\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+E:\Backend\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+E:\Backend\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+E:\Backend\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+E:\Backend\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+E:\Backend\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+E:\Backend\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\Backend\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+E:\Backend\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\Backend\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\Backend\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+E:\Backend\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+E:\Backend\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+E:\Backend\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+E:\Backend\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+E:\Backend\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+E:\Backend\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\Backend\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+E:\Backend\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+E:\Backend\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\Backend\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+E:\Backend\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.OpenApi.dll
+E:\Backend\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+E:\Backend\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+E:\Backend\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Mono.TextTemplating.dll
+E:\Backend\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+E:\Backend\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+E:\Backend\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+E:\Backend\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\System.CodeDom.dll
+E:\Backend\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+E:\Backend\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\System.Drawing.Common.dll
+E:\Backend\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+E:\Backend\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\System.Memory.Data.dll
+E:\Backend\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\System.Runtime.Caching.dll
+E:\Backend\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+E:\Backend\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\System.Security.Permissions.dll
+E:\Backend\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\System.Windows.Extensions.dll
+E:\Backend\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\Backend\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+E:\Backend\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Backend\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Backend\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Backend\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Backend\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+E:\Backend\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\Backend\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+E:\Backend\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+E:\Backend\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+E:\Backend\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+E:\Backend\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\UnitOfWork.Core.dll
+E:\Backend\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\UnitOfWork.Infrastructure.dll
+E:\Backend\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\UnitOfWork.Services.dll
+E:\Backend\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\UnitOfWork.Infrastructure.pdb
+E:\Backend\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\UnitOfWork.Services.pdb
+E:\Backend\cer_por_be\UnitOfWork.WebAPI\bin\Debug\net7.0\UnitOfWork.Core.pdb
+E:\Backend\cer_por_be\UnitOfWork.WebAPI\obj\Debug\net7.0\UnitOfWork.WebAPI.csproj.AssemblyReference.cache
+E:\Backend\cer_por_be\UnitOfWork.WebAPI\obj\Debug\net7.0\UnitOfWork.WebAPI.GeneratedMSBuildEditorConfig.editorconfig
+E:\Backend\cer_por_be\UnitOfWork.WebAPI\obj\Debug\net7.0\UnitOfWork.WebAPI.AssemblyInfoInputs.cache
+E:\Backend\cer_por_be\UnitOfWork.WebAPI\obj\Debug\net7.0\UnitOfWork.WebAPI.AssemblyInfo.cs
+E:\Backend\cer_por_be\UnitOfWork.WebAPI\obj\Debug\net7.0\UnitOfWork.WebAPI.csproj.CoreCompileInputs.cache
+E:\Backend\cer_por_be\UnitOfWork.WebAPI\obj\Debug\net7.0\UnitOfWork.WebAPI.MvcApplicationPartsAssemblyInfo.cs
+E:\Backend\cer_por_be\UnitOfWork.WebAPI\obj\Debug\net7.0\UnitOfWork.WebAPI.MvcApplicationPartsAssemblyInfo.cache
+E:\Backend\cer_por_be\UnitOfWork.WebAPI\obj\Debug\net7.0\staticwebassets\msbuild.UnitOfWork.WebAPI.Microsoft.AspNetCore.StaticWebAssets.props
+E:\Backend\cer_por_be\UnitOfWork.WebAPI\obj\Debug\net7.0\staticwebassets\msbuild.build.UnitOfWork.WebAPI.props
+E:\Backend\cer_por_be\UnitOfWork.WebAPI\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.UnitOfWork.WebAPI.props
+E:\Backend\cer_por_be\UnitOfWork.WebAPI\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.UnitOfWork.WebAPI.props
+E:\Backend\cer_por_be\UnitOfWork.WebAPI\obj\Debug\net7.0\staticwebassets.pack.json
+E:\Backend\cer_por_be\UnitOfWork.WebAPI\obj\Debug\net7.0\staticwebassets.build.json
+E:\Backend\cer_por_be\UnitOfWork.WebAPI\obj\Debug\net7.0\staticwebassets.development.json
+E:\Backend\cer_por_be\UnitOfWork.WebAPI\obj\Debug\net7.0\scopedcss\bundle\UnitOfWork.WebAPI.styles.css
+E:\Backend\cer_por_be\UnitOfWork.WebAPI\obj\Debug\net7.0\UnitOfWork.WebAPI.csproj.CopyComplete
+E:\Backend\cer_por_be\UnitOfWork.WebAPI\obj\Debug\net7.0\UnitOfWork.WebAPI.dll
+E:\Backend\cer_por_be\UnitOfWork.WebAPI\obj\Debug\net7.0\refint\UnitOfWork.WebAPI.dll
+E:\Backend\cer_por_be\UnitOfWork.WebAPI\obj\Debug\net7.0\UnitOfWork.WebAPI.pdb
+E:\Backend\cer_por_be\UnitOfWork.WebAPI\obj\Debug\net7.0\UnitOfWork.WebAPI.genruntimeconfig.cache
+E:\Backend\cer_por_be\UnitOfWork.WebAPI\obj\Debug\net7.0\ref\UnitOfWork.WebAPI.dll
+F:\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\appsettings.Development.json
+F:\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\appsettings.json
+F:\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\UnitOfWork.WebAPI.exe
+F:\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\UnitOfWork.WebAPI.deps.json
+F:\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\UnitOfWork.WebAPI.runtimeconfig.json
+F:\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\UnitOfWork.WebAPI.dll
+F:\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\UnitOfWork.WebAPI.pdb
+F:\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Azure.Core.dll
+F:\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Azure.Identity.dll
+F:\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Humanizer.dll
+F:\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+F:\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+F:\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+F:\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+F:\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+F:\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+F:\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+F:\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+F:\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+F:\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+F:\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+F:\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+F:\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+F:\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+F:\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+F:\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+F:\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+F:\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+F:\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+F:\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+F:\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+F:\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+F:\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+F:\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.OpenApi.dll
+F:\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+F:\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+F:\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Mono.TextTemplating.dll
+F:\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+F:\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+F:\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+F:\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\System.CodeDom.dll
+F:\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+F:\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\System.Drawing.Common.dll
+F:\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+F:\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\System.Memory.Data.dll
+F:\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\System.Runtime.Caching.dll
+F:\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+F:\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\System.Security.Permissions.dll
+F:\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\System.Windows.Extensions.dll
+F:\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+F:\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+F:\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+F:\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+F:\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+F:\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+F:\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+F:\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+F:\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+F:\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+F:\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+F:\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\UnitOfWork.Core.dll
+F:\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\UnitOfWork.Infrastructure.dll
+F:\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\UnitOfWork.Services.dll
+F:\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\UnitOfWork.Infrastructure.pdb
+F:\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\UnitOfWork.Services.pdb
+F:\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\UnitOfWork.Core.pdb
+F:\paf_code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\UnitOfWork.WebAPI.csproj.AssemblyReference.cache
+F:\paf_code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\UnitOfWork.WebAPI.GeneratedMSBuildEditorConfig.editorconfig
+F:\paf_code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\UnitOfWork.WebAPI.AssemblyInfoInputs.cache
+F:\paf_code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\UnitOfWork.WebAPI.AssemblyInfo.cs
+F:\paf_code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\UnitOfWork.WebAPI.csproj.CoreCompileInputs.cache
+F:\paf_code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\UnitOfWork.WebAPI.MvcApplicationPartsAssemblyInfo.cs
+F:\paf_code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\UnitOfWork.WebAPI.MvcApplicationPartsAssemblyInfo.cache
+F:\paf_code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\staticwebassets\msbuild.UnitOfWork.WebAPI.Microsoft.AspNetCore.StaticWebAssets.props
+F:\paf_code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\staticwebassets\msbuild.build.UnitOfWork.WebAPI.props
+F:\paf_code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.UnitOfWork.WebAPI.props
+F:\paf_code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.UnitOfWork.WebAPI.props
+F:\paf_code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\staticwebassets.pack.json
+F:\paf_code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\staticwebassets.build.json
+F:\paf_code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\staticwebassets.development.json
+F:\paf_code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\scopedcss\bundle\UnitOfWork.WebAPI.styles.css
+F:\paf_code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\UnitOfWork.WebAPI.csproj.CopyComplete
+F:\paf_code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\UnitOfWork.WebAPI.dll
+F:\paf_code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\refint\UnitOfWork.WebAPI.dll
+F:\paf_code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\UnitOfWork.WebAPI.pdb
+F:\paf_code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\UnitOfWork.WebAPI.genruntimeconfig.cache
+F:\paf_code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\ref\UnitOfWork.WebAPI.dll
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\appsettings.Development.json
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\appsettings.json
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\UnitOfWork.WebAPI.exe
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\UnitOfWork.WebAPI.deps.json
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\UnitOfWork.WebAPI.runtimeconfig.json
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\UnitOfWork.WebAPI.dll
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\UnitOfWork.WebAPI.pdb
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Azure.Core.dll
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Azure.Identity.dll
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Dapper.dll
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Humanizer.dll
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.OpenApi.dll
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Mono.TextTemplating.dll
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\System.CodeDom.dll
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\System.Drawing.Common.dll
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\System.Memory.Data.dll
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\System.Runtime.Caching.dll
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\System.Security.Permissions.dll
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\System.Windows.Extensions.dll
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\UnitOfWork.Core.dll
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\UnitOfWork.Infrastructure.dll
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\UnitOfWork.Services.dll
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\UnitOfWork.Infrastructure.pdb
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\UnitOfWork.Services.pdb
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\UnitOfWork.Core.pdb
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\UnitOfWork.WebAPI.csproj.AssemblyReference.cache
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\UnitOfWork.WebAPI.GeneratedMSBuildEditorConfig.editorconfig
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\UnitOfWork.WebAPI.AssemblyInfoInputs.cache
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\UnitOfWork.WebAPI.AssemblyInfo.cs
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\UnitOfWork.WebAPI.csproj.CoreCompileInputs.cache
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\UnitOfWork.WebAPI.MvcApplicationPartsAssemblyInfo.cs
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\UnitOfWork.WebAPI.MvcApplicationPartsAssemblyInfo.cache
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\staticwebassets\msbuild.UnitOfWork.WebAPI.Microsoft.AspNetCore.StaticWebAssets.props
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\staticwebassets\msbuild.build.UnitOfWork.WebAPI.props
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.UnitOfWork.WebAPI.props
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.UnitOfWork.WebAPI.props
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\staticwebassets.pack.json
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\staticwebassets.build.json
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\staticwebassets.development.json
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\scopedcss\bundle\UnitOfWork.WebAPI.styles.css
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\UnitOfWork.WebAPI.csproj.CopyComplete
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\UnitOfWork.WebAPI.dll
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\refint\UnitOfWork.WebAPI.dll
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\UnitOfWork.WebAPI.pdb
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\UnitOfWork.WebAPI.genruntimeconfig.cache
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\ref\UnitOfWork.WebAPI.dll
+D:\CodeCraft Live_2025\paf_code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Newtonsoft.Json.dll
+D:\coding\Sherry\CodeCraft Codes\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\appsettings.Development.json
+D:\coding\Sherry\CodeCraft Codes\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\appsettings.json
+D:\coding\Sherry\CodeCraft Codes\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\UnitOfWork.WebAPI.staticwebassets.endpoints.json
+D:\coding\Sherry\CodeCraft Codes\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\UnitOfWork.WebAPI.exe
+D:\coding\Sherry\CodeCraft Codes\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\UnitOfWork.WebAPI.deps.json
+D:\coding\Sherry\CodeCraft Codes\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\UnitOfWork.WebAPI.runtimeconfig.json
+D:\coding\Sherry\CodeCraft Codes\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\UnitOfWork.WebAPI.dll
+D:\coding\Sherry\CodeCraft Codes\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\UnitOfWork.WebAPI.pdb
+D:\coding\Sherry\CodeCraft Codes\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Azure.Core.dll
+D:\coding\Sherry\CodeCraft Codes\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Azure.Identity.dll
+D:\coding\Sherry\CodeCraft Codes\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Dapper.dll
+D:\coding\Sherry\CodeCraft Codes\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Humanizer.dll
+D:\coding\Sherry\CodeCraft Codes\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\coding\Sherry\CodeCraft Codes\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\coding\Sherry\CodeCraft Codes\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\coding\Sherry\CodeCraft Codes\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\coding\Sherry\CodeCraft Codes\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+D:\coding\Sherry\CodeCraft Codes\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\coding\Sherry\CodeCraft Codes\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+D:\coding\Sherry\CodeCraft Codes\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+D:\coding\Sherry\CodeCraft Codes\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\coding\Sherry\CodeCraft Codes\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\coding\Sherry\CodeCraft Codes\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\coding\Sherry\CodeCraft Codes\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\coding\Sherry\CodeCraft Codes\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+D:\coding\Sherry\CodeCraft Codes\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+D:\coding\Sherry\CodeCraft Codes\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+D:\coding\Sherry\CodeCraft Codes\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+D:\coding\Sherry\CodeCraft Codes\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\coding\Sherry\CodeCraft Codes\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+D:\coding\Sherry\CodeCraft Codes\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\coding\Sherry\CodeCraft Codes\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+D:\coding\Sherry\CodeCraft Codes\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+D:\coding\Sherry\CodeCraft Codes\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\coding\Sherry\CodeCraft Codes\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+D:\coding\Sherry\CodeCraft Codes\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.OpenApi.dll
+D:\coding\Sherry\CodeCraft Codes\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+D:\coding\Sherry\CodeCraft Codes\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+D:\coding\Sherry\CodeCraft Codes\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Mono.TextTemplating.dll
+D:\coding\Sherry\CodeCraft Codes\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Newtonsoft.Json.dll
+D:\coding\Sherry\CodeCraft Codes\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\coding\Sherry\CodeCraft Codes\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\coding\Sherry\CodeCraft Codes\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\coding\Sherry\CodeCraft Codes\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\System.CodeDom.dll
+D:\coding\Sherry\CodeCraft Codes\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+D:\coding\Sherry\CodeCraft Codes\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\System.Drawing.Common.dll
+D:\coding\Sherry\CodeCraft Codes\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+D:\coding\Sherry\CodeCraft Codes\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\System.Memory.Data.dll
+D:\coding\Sherry\CodeCraft Codes\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\System.Runtime.Caching.dll
+D:\coding\Sherry\CodeCraft Codes\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+D:\coding\Sherry\CodeCraft Codes\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\System.Security.Permissions.dll
+D:\coding\Sherry\CodeCraft Codes\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\System.Windows.Extensions.dll
+D:\coding\Sherry\CodeCraft Codes\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\coding\Sherry\CodeCraft Codes\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\coding\Sherry\CodeCraft Codes\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\coding\Sherry\CodeCraft Codes\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\coding\Sherry\CodeCraft Codes\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\coding\Sherry\CodeCraft Codes\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\coding\Sherry\CodeCraft Codes\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\coding\Sherry\CodeCraft Codes\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\coding\Sherry\CodeCraft Codes\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\coding\Sherry\CodeCraft Codes\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\coding\Sherry\CodeCraft Codes\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\coding\Sherry\CodeCraft Codes\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\coding\Sherry\CodeCraft Codes\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\UnitOfWork.Core.dll
+D:\coding\Sherry\CodeCraft Codes\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\UnitOfWork.Infrastructure.dll
+D:\coding\Sherry\CodeCraft Codes\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\UnitOfWork.Services.dll
+D:\coding\Sherry\CodeCraft Codes\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\UnitOfWork.Infrastructure.pdb
+D:\coding\Sherry\CodeCraft Codes\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\UnitOfWork.Services.pdb
+D:\coding\Sherry\CodeCraft Codes\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\UnitOfWork.Core.pdb
+D:\coding\Sherry\CodeCraft Codes\code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\UnitOfWork.WebAPI.csproj.AssemblyReference.cache
+D:\coding\Sherry\CodeCraft Codes\code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\rpswa.dswa.cache.json
+D:\coding\Sherry\CodeCraft Codes\code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\UnitOfWork.WebAPI.GeneratedMSBuildEditorConfig.editorconfig
+D:\coding\Sherry\CodeCraft Codes\code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\UnitOfWork.WebAPI.AssemblyInfoInputs.cache
+D:\coding\Sherry\CodeCraft Codes\code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\UnitOfWork.WebAPI.AssemblyInfo.cs
+D:\coding\Sherry\CodeCraft Codes\code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\UnitOfWork.WebAPI.csproj.CoreCompileInputs.cache
+D:\coding\Sherry\CodeCraft Codes\code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\UnitOfWork.WebAPI.MvcApplicationPartsAssemblyInfo.cs
+D:\coding\Sherry\CodeCraft Codes\code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\UnitOfWork.WebAPI.MvcApplicationPartsAssemblyInfo.cache
+D:\coding\Sherry\CodeCraft Codes\code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\rjimswa.dswa.cache.json
+D:\coding\Sherry\CodeCraft Codes\code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\rjsmrazor.dswa.cache.json
+D:\coding\Sherry\CodeCraft Codes\code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\rjsmcshtml.dswa.cache.json
+D:\coding\Sherry\CodeCraft Codes\code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\scopedcss\bundle\UnitOfWork.WebAPI.styles.css
+D:\coding\Sherry\CodeCraft Codes\code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\staticwebassets.build.json
+D:\coding\Sherry\CodeCraft Codes\code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\staticwebassets.build.json.cache
+D:\coding\Sherry\CodeCraft Codes\code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\staticwebassets.development.json
+D:\coding\Sherry\CodeCraft Codes\code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\staticwebassets.build.endpoints.json
+D:\coding\Sherry\CodeCraft Codes\code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\staticwebassets.upToDateCheck.txt
+D:\coding\Sherry\CodeCraft Codes\code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\UnitOfWo.3B36FCEE.Up2Date
+D:\coding\Sherry\CodeCraft Codes\code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\UnitOfWork.WebAPI.dll
+D:\coding\Sherry\CodeCraft Codes\code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\refint\UnitOfWork.WebAPI.dll
+D:\coding\Sherry\CodeCraft Codes\code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\UnitOfWork.WebAPI.pdb
+D:\coding\Sherry\CodeCraft Codes\code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\UnitOfWork.WebAPI.genruntimeconfig.cache
+D:\coding\Sherry\CodeCraft Codes\code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\ref\UnitOfWork.WebAPI.dll
+D:\CodeCraft Live_2025\Test AI Code\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\appsettings.Development.json
+D:\CodeCraft Live_2025\Test AI Code\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\appsettings.json
+D:\CodeCraft Live_2025\Test AI Code\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\UnitOfWork.WebAPI.exe
+D:\CodeCraft Live_2025\Test AI Code\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\UnitOfWork.WebAPI.deps.json
+D:\CodeCraft Live_2025\Test AI Code\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\UnitOfWork.WebAPI.runtimeconfig.json
+D:\CodeCraft Live_2025\Test AI Code\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\UnitOfWork.WebAPI.dll
+D:\CodeCraft Live_2025\Test AI Code\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\UnitOfWork.WebAPI.pdb
+D:\CodeCraft Live_2025\Test AI Code\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Azure.Core.dll
+D:\CodeCraft Live_2025\Test AI Code\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Azure.Identity.dll
+D:\CodeCraft Live_2025\Test AI Code\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Dapper.dll
+D:\CodeCraft Live_2025\Test AI Code\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Humanizer.dll
+D:\CodeCraft Live_2025\Test AI Code\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\CodeCraft Live_2025\Test AI Code\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\CodeCraft Live_2025\Test AI Code\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\CodeCraft Live_2025\Test AI Code\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\CodeCraft Live_2025\Test AI Code\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+D:\CodeCraft Live_2025\Test AI Code\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\CodeCraft Live_2025\Test AI Code\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+D:\CodeCraft Live_2025\Test AI Code\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+D:\CodeCraft Live_2025\Test AI Code\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\CodeCraft Live_2025\Test AI Code\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\CodeCraft Live_2025\Test AI Code\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\CodeCraft Live_2025\Test AI Code\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\CodeCraft Live_2025\Test AI Code\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+D:\CodeCraft Live_2025\Test AI Code\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+D:\CodeCraft Live_2025\Test AI Code\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+D:\CodeCraft Live_2025\Test AI Code\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+D:\CodeCraft Live_2025\Test AI Code\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\CodeCraft Live_2025\Test AI Code\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+D:\CodeCraft Live_2025\Test AI Code\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\CodeCraft Live_2025\Test AI Code\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+D:\CodeCraft Live_2025\Test AI Code\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+D:\CodeCraft Live_2025\Test AI Code\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\CodeCraft Live_2025\Test AI Code\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+D:\CodeCraft Live_2025\Test AI Code\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.OpenApi.dll
+D:\CodeCraft Live_2025\Test AI Code\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+D:\CodeCraft Live_2025\Test AI Code\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+D:\CodeCraft Live_2025\Test AI Code\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Mono.TextTemplating.dll
+D:\CodeCraft Live_2025\Test AI Code\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Newtonsoft.Json.dll
+D:\CodeCraft Live_2025\Test AI Code\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\CodeCraft Live_2025\Test AI Code\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\CodeCraft Live_2025\Test AI Code\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\CodeCraft Live_2025\Test AI Code\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\System.CodeDom.dll
+D:\CodeCraft Live_2025\Test AI Code\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+D:\CodeCraft Live_2025\Test AI Code\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\System.Drawing.Common.dll
+D:\CodeCraft Live_2025\Test AI Code\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+D:\CodeCraft Live_2025\Test AI Code\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\System.Memory.Data.dll
+D:\CodeCraft Live_2025\Test AI Code\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\System.Runtime.Caching.dll
+D:\CodeCraft Live_2025\Test AI Code\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+D:\CodeCraft Live_2025\Test AI Code\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\System.Security.Permissions.dll
+D:\CodeCraft Live_2025\Test AI Code\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\System.Windows.Extensions.dll
+D:\CodeCraft Live_2025\Test AI Code\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\CodeCraft Live_2025\Test AI Code\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\CodeCraft Live_2025\Test AI Code\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\CodeCraft Live_2025\Test AI Code\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\CodeCraft Live_2025\Test AI Code\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\CodeCraft Live_2025\Test AI Code\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\CodeCraft Live_2025\Test AI Code\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\CodeCraft Live_2025\Test AI Code\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\CodeCraft Live_2025\Test AI Code\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\CodeCraft Live_2025\Test AI Code\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\CodeCraft Live_2025\Test AI Code\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\CodeCraft Live_2025\Test AI Code\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\CodeCraft Live_2025\Test AI Code\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\UnitOfWork.Core.dll
+D:\CodeCraft Live_2025\Test AI Code\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\UnitOfWork.Infrastructure.dll
+D:\CodeCraft Live_2025\Test AI Code\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\UnitOfWork.Services.dll
+D:\CodeCraft Live_2025\Test AI Code\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\UnitOfWork.Infrastructure.pdb
+D:\CodeCraft Live_2025\Test AI Code\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\UnitOfWork.Services.pdb
+D:\CodeCraft Live_2025\Test AI Code\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\UnitOfWork.Core.pdb
+D:\CodeCraft Live_2025\Test AI Code\code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\UnitOfWork.WebAPI.csproj.AssemblyReference.cache
+D:\CodeCraft Live_2025\Test AI Code\code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\UnitOfWork.WebAPI.GeneratedMSBuildEditorConfig.editorconfig
+D:\CodeCraft Live_2025\Test AI Code\code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\UnitOfWork.WebAPI.AssemblyInfoInputs.cache
+D:\CodeCraft Live_2025\Test AI Code\code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\UnitOfWork.WebAPI.AssemblyInfo.cs
+D:\CodeCraft Live_2025\Test AI Code\code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\UnitOfWork.WebAPI.csproj.CoreCompileInputs.cache
+D:\CodeCraft Live_2025\Test AI Code\code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\UnitOfWork.WebAPI.MvcApplicationPartsAssemblyInfo.cs
+D:\CodeCraft Live_2025\Test AI Code\code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\UnitOfWork.WebAPI.MvcApplicationPartsAssemblyInfo.cache
+D:\CodeCraft Live_2025\Test AI Code\code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\staticwebassets\msbuild.UnitOfWork.WebAPI.Microsoft.AspNetCore.StaticWebAssets.props
+D:\CodeCraft Live_2025\Test AI Code\code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\staticwebassets\msbuild.build.UnitOfWork.WebAPI.props
+D:\CodeCraft Live_2025\Test AI Code\code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.UnitOfWork.WebAPI.props
+D:\CodeCraft Live_2025\Test AI Code\code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.UnitOfWork.WebAPI.props
+D:\CodeCraft Live_2025\Test AI Code\code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\staticwebassets.pack.json
+D:\CodeCraft Live_2025\Test AI Code\code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\staticwebassets.build.json
+D:\CodeCraft Live_2025\Test AI Code\code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\staticwebassets.development.json
+D:\CodeCraft Live_2025\Test AI Code\code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\scopedcss\bundle\UnitOfWork.WebAPI.styles.css
+D:\CodeCraft Live_2025\Test AI Code\code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\UnitOfWork.WebAPI.csproj.CopyComplete
+D:\CodeCraft Live_2025\Test AI Code\code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\UnitOfWork.WebAPI.dll
+D:\CodeCraft Live_2025\Test AI Code\code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\refint\UnitOfWork.WebAPI.dll
+D:\CodeCraft Live_2025\Test AI Code\code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\UnitOfWork.WebAPI.pdb
+D:\CodeCraft Live_2025\Test AI Code\code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\UnitOfWork.WebAPI.genruntimeconfig.cache
+D:\CodeCraft Live_2025\Test AI Code\code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\ref\UnitOfWork.WebAPI.dll
+D:\coding\Sherry\New_Updated\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\appsettings.Development.json
+D:\coding\Sherry\New_Updated\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\UnitOfWork.WebAPI.staticwebassets.endpoints.json
+D:\coding\Sherry\New_Updated\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\appsettings.json
+D:\coding\Sherry\New_Updated\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\UnitOfWork.WebAPI.exe
+D:\coding\Sherry\New_Updated\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\UnitOfWork.WebAPI.deps.json
+D:\coding\Sherry\New_Updated\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\UnitOfWork.WebAPI.runtimeconfig.json
+D:\coding\Sherry\New_Updated\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\UnitOfWork.WebAPI.dll
+D:\coding\Sherry\New_Updated\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\UnitOfWork.WebAPI.pdb
+D:\coding\Sherry\New_Updated\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Azure.Core.dll
+D:\coding\Sherry\New_Updated\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Azure.Identity.dll
+D:\coding\Sherry\New_Updated\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Dapper.dll
+D:\coding\Sherry\New_Updated\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Humanizer.dll
+D:\coding\Sherry\New_Updated\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\coding\Sherry\New_Updated\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\coding\Sherry\New_Updated\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\coding\Sherry\New_Updated\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\coding\Sherry\New_Updated\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+D:\coding\Sherry\New_Updated\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\coding\Sherry\New_Updated\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+D:\coding\Sherry\New_Updated\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+D:\coding\Sherry\New_Updated\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\coding\Sherry\New_Updated\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\coding\Sherry\New_Updated\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\coding\Sherry\New_Updated\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\coding\Sherry\New_Updated\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+D:\coding\Sherry\New_Updated\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+D:\coding\Sherry\New_Updated\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+D:\coding\Sherry\New_Updated\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+D:\coding\Sherry\New_Updated\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\coding\Sherry\New_Updated\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+D:\coding\Sherry\New_Updated\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\coding\Sherry\New_Updated\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+D:\coding\Sherry\New_Updated\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+D:\coding\Sherry\New_Updated\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\coding\Sherry\New_Updated\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+D:\coding\Sherry\New_Updated\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.OpenApi.dll
+D:\coding\Sherry\New_Updated\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+D:\coding\Sherry\New_Updated\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+D:\coding\Sherry\New_Updated\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Mono.TextTemplating.dll
+D:\coding\Sherry\New_Updated\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Newtonsoft.Json.dll
+D:\coding\Sherry\New_Updated\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\coding\Sherry\New_Updated\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\coding\Sherry\New_Updated\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\coding\Sherry\New_Updated\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\System.CodeDom.dll
+D:\coding\Sherry\New_Updated\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+D:\coding\Sherry\New_Updated\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\System.Drawing.Common.dll
+D:\coding\Sherry\New_Updated\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+D:\coding\Sherry\New_Updated\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\System.Memory.Data.dll
+D:\coding\Sherry\New_Updated\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\System.Runtime.Caching.dll
+D:\coding\Sherry\New_Updated\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+D:\coding\Sherry\New_Updated\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\System.Security.Permissions.dll
+D:\coding\Sherry\New_Updated\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\System.Windows.Extensions.dll
+D:\coding\Sherry\New_Updated\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\coding\Sherry\New_Updated\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\coding\Sherry\New_Updated\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\coding\Sherry\New_Updated\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\coding\Sherry\New_Updated\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\coding\Sherry\New_Updated\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\coding\Sherry\New_Updated\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\coding\Sherry\New_Updated\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\coding\Sherry\New_Updated\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\coding\Sherry\New_Updated\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\coding\Sherry\New_Updated\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\coding\Sherry\New_Updated\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\coding\Sherry\New_Updated\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\UnitOfWork.Core.dll
+D:\coding\Sherry\New_Updated\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\UnitOfWork.Infrastructure.dll
+D:\coding\Sherry\New_Updated\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\UnitOfWork.Services.dll
+D:\coding\Sherry\New_Updated\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\UnitOfWork.Infrastructure.pdb
+D:\coding\Sherry\New_Updated\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\UnitOfWork.Services.pdb
+D:\coding\Sherry\New_Updated\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\UnitOfWork.Core.pdb
+D:\coding\Sherry\New_Updated\code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\UnitOfWork.WebAPI.csproj.AssemblyReference.cache
+D:\coding\Sherry\New_Updated\code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\rpswa.dswa.cache.json
+D:\coding\Sherry\New_Updated\code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\UnitOfWork.WebAPI.GeneratedMSBuildEditorConfig.editorconfig
+D:\coding\Sherry\New_Updated\code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\UnitOfWork.WebAPI.AssemblyInfoInputs.cache
+D:\coding\Sherry\New_Updated\code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\UnitOfWork.WebAPI.AssemblyInfo.cs
+D:\coding\Sherry\New_Updated\code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\UnitOfWork.WebAPI.csproj.CoreCompileInputs.cache
+D:\coding\Sherry\New_Updated\code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\UnitOfWork.WebAPI.MvcApplicationPartsAssemblyInfo.cs
+D:\coding\Sherry\New_Updated\code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\UnitOfWork.WebAPI.MvcApplicationPartsAssemblyInfo.cache
+D:\coding\Sherry\New_Updated\code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\rjimswa.dswa.cache.json
+D:\coding\Sherry\New_Updated\code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\rjsmrazor.dswa.cache.json
+D:\coding\Sherry\New_Updated\code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\rjsmcshtml.dswa.cache.json
+D:\coding\Sherry\New_Updated\code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\scopedcss\bundle\UnitOfWork.WebAPI.styles.css
+D:\coding\Sherry\New_Updated\code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\staticwebassets.build.json
+D:\coding\Sherry\New_Updated\code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\staticwebassets.build.json.cache
+D:\coding\Sherry\New_Updated\code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\staticwebassets.development.json
+D:\coding\Sherry\New_Updated\code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\staticwebassets.build.endpoints.json
+D:\coding\Sherry\New_Updated\code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\staticwebassets.upToDateCheck.txt
+D:\coding\Sherry\New_Updated\code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\UnitOfWo.3B36FCEE.Up2Date
+D:\coding\Sherry\New_Updated\code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\UnitOfWork.WebAPI.dll
+D:\coding\Sherry\New_Updated\code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\refint\UnitOfWork.WebAPI.dll
+D:\coding\Sherry\New_Updated\code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\UnitOfWork.WebAPI.pdb
+D:\coding\Sherry\New_Updated\code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\UnitOfWork.WebAPI.genruntimeconfig.cache
+D:\coding\Sherry\New_Updated\code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\ref\UnitOfWork.WebAPI.dll
+D:\CodeCraft Live_2025\paf gpt\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\appsettings.Development.json
+D:\CodeCraft Live_2025\paf gpt\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\appsettings.json
+D:\CodeCraft Live_2025\paf gpt\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\UnitOfWork.WebAPI.exe
+D:\CodeCraft Live_2025\paf gpt\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\UnitOfWork.WebAPI.deps.json
+D:\CodeCraft Live_2025\paf gpt\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\UnitOfWork.WebAPI.runtimeconfig.json
+D:\CodeCraft Live_2025\paf gpt\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\UnitOfWork.WebAPI.dll
+D:\CodeCraft Live_2025\paf gpt\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\UnitOfWork.WebAPI.pdb
+D:\CodeCraft Live_2025\paf gpt\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Azure.Core.dll
+D:\CodeCraft Live_2025\paf gpt\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Azure.Identity.dll
+D:\CodeCraft Live_2025\paf gpt\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Dapper.dll
+D:\CodeCraft Live_2025\paf gpt\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Humanizer.dll
+D:\CodeCraft Live_2025\paf gpt\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\CodeCraft Live_2025\paf gpt\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\CodeCraft Live_2025\paf gpt\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\CodeCraft Live_2025\paf gpt\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\CodeCraft Live_2025\paf gpt\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+D:\CodeCraft Live_2025\paf gpt\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\CodeCraft Live_2025\paf gpt\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+D:\CodeCraft Live_2025\paf gpt\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+D:\CodeCraft Live_2025\paf gpt\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\CodeCraft Live_2025\paf gpt\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\CodeCraft Live_2025\paf gpt\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\CodeCraft Live_2025\paf gpt\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\CodeCraft Live_2025\paf gpt\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+D:\CodeCraft Live_2025\paf gpt\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+D:\CodeCraft Live_2025\paf gpt\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+D:\CodeCraft Live_2025\paf gpt\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+D:\CodeCraft Live_2025\paf gpt\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\CodeCraft Live_2025\paf gpt\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+D:\CodeCraft Live_2025\paf gpt\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\CodeCraft Live_2025\paf gpt\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+D:\CodeCraft Live_2025\paf gpt\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+D:\CodeCraft Live_2025\paf gpt\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\CodeCraft Live_2025\paf gpt\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+D:\CodeCraft Live_2025\paf gpt\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.OpenApi.dll
+D:\CodeCraft Live_2025\paf gpt\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+D:\CodeCraft Live_2025\paf gpt\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+D:\CodeCraft Live_2025\paf gpt\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Mono.TextTemplating.dll
+D:\CodeCraft Live_2025\paf gpt\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Newtonsoft.Json.dll
+D:\CodeCraft Live_2025\paf gpt\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\CodeCraft Live_2025\paf gpt\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\CodeCraft Live_2025\paf gpt\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\CodeCraft Live_2025\paf gpt\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\System.CodeDom.dll
+D:\CodeCraft Live_2025\paf gpt\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+D:\CodeCraft Live_2025\paf gpt\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\System.Drawing.Common.dll
+D:\CodeCraft Live_2025\paf gpt\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+D:\CodeCraft Live_2025\paf gpt\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\System.Memory.Data.dll
+D:\CodeCraft Live_2025\paf gpt\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\System.Runtime.Caching.dll
+D:\CodeCraft Live_2025\paf gpt\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+D:\CodeCraft Live_2025\paf gpt\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\System.Security.Permissions.dll
+D:\CodeCraft Live_2025\paf gpt\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\System.Windows.Extensions.dll
+D:\CodeCraft Live_2025\paf gpt\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\CodeCraft Live_2025\paf gpt\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\CodeCraft Live_2025\paf gpt\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\CodeCraft Live_2025\paf gpt\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\CodeCraft Live_2025\paf gpt\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\CodeCraft Live_2025\paf gpt\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\CodeCraft Live_2025\paf gpt\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\CodeCraft Live_2025\paf gpt\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\CodeCraft Live_2025\paf gpt\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\CodeCraft Live_2025\paf gpt\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\CodeCraft Live_2025\paf gpt\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\CodeCraft Live_2025\paf gpt\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\CodeCraft Live_2025\paf gpt\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\UnitOfWork.Core.dll
+D:\CodeCraft Live_2025\paf gpt\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\UnitOfWork.Infrastructure.dll
+D:\CodeCraft Live_2025\paf gpt\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\UnitOfWork.Services.dll
+D:\CodeCraft Live_2025\paf gpt\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\UnitOfWork.Infrastructure.pdb
+D:\CodeCraft Live_2025\paf gpt\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\UnitOfWork.Services.pdb
+D:\CodeCraft Live_2025\paf gpt\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\UnitOfWork.Core.pdb
+D:\CodeCraft Live_2025\paf gpt\code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\UnitOfWork.WebAPI.csproj.AssemblyReference.cache
+D:\CodeCraft Live_2025\paf gpt\code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\UnitOfWork.WebAPI.GeneratedMSBuildEditorConfig.editorconfig
+D:\CodeCraft Live_2025\paf gpt\code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\UnitOfWork.WebAPI.AssemblyInfoInputs.cache
+D:\CodeCraft Live_2025\paf gpt\code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\UnitOfWork.WebAPI.AssemblyInfo.cs
+D:\CodeCraft Live_2025\paf gpt\code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\UnitOfWork.WebAPI.csproj.CoreCompileInputs.cache
+D:\CodeCraft Live_2025\paf gpt\code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\UnitOfWork.WebAPI.MvcApplicationPartsAssemblyInfo.cs
+D:\CodeCraft Live_2025\paf gpt\code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\UnitOfWork.WebAPI.MvcApplicationPartsAssemblyInfo.cache
+D:\CodeCraft Live_2025\paf gpt\code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\staticwebassets\msbuild.UnitOfWork.WebAPI.Microsoft.AspNetCore.StaticWebAssets.props
+D:\CodeCraft Live_2025\paf gpt\code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\staticwebassets\msbuild.build.UnitOfWork.WebAPI.props
+D:\CodeCraft Live_2025\paf gpt\code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.UnitOfWork.WebAPI.props
+D:\CodeCraft Live_2025\paf gpt\code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.UnitOfWork.WebAPI.props
+D:\CodeCraft Live_2025\paf gpt\code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\staticwebassets.pack.json
+D:\CodeCraft Live_2025\paf gpt\code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\staticwebassets.build.json
+D:\CodeCraft Live_2025\paf gpt\code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\staticwebassets.development.json
+D:\CodeCraft Live_2025\paf gpt\code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\scopedcss\bundle\UnitOfWork.WebAPI.styles.css
+D:\CodeCraft Live_2025\paf gpt\code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\UnitOfWork.WebAPI.csproj.CopyComplete
+D:\CodeCraft Live_2025\paf gpt\code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\UnitOfWork.WebAPI.dll
+D:\CodeCraft Live_2025\paf gpt\code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\refint\UnitOfWork.WebAPI.dll
+D:\CodeCraft Live_2025\paf gpt\code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\UnitOfWork.WebAPI.pdb
+D:\CodeCraft Live_2025\paf gpt\code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\UnitOfWork.WebAPI.genruntimeconfig.cache
+D:\CodeCraft Live_2025\paf gpt\code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\ref\UnitOfWork.WebAPI.dll
+D:\Coding\Sherry\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\appsettings.Development.json
+D:\Coding\Sherry\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\UnitOfWork.WebAPI.staticwebassets.endpoints.json
+D:\Coding\Sherry\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\appsettings.json
+D:\Coding\Sherry\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\UnitOfWork.WebAPI.exe
+D:\Coding\Sherry\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\UnitOfWork.WebAPI.deps.json
+D:\Coding\Sherry\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\UnitOfWork.WebAPI.runtimeconfig.json
+D:\Coding\Sherry\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\UnitOfWork.WebAPI.dll
+D:\Coding\Sherry\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\UnitOfWork.WebAPI.pdb
+D:\Coding\Sherry\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Azure.Core.dll
+D:\Coding\Sherry\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Azure.Identity.dll
+D:\Coding\Sherry\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Dapper.dll
+D:\Coding\Sherry\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Humanizer.dll
+D:\Coding\Sherry\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\Coding\Sherry\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\Coding\Sherry\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\Coding\Sherry\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\Coding\Sherry\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+D:\Coding\Sherry\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Coding\Sherry\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+D:\Coding\Sherry\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.dll
+D:\Coding\Sherry\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Coding\Sherry\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Coding\Sherry\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Coding\Sherry\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Coding\Sherry\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+D:\Coding\Sherry\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+D:\Coding\Sherry\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+D:\Coding\Sherry\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+D:\Coding\Sherry\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Coding\Sherry\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Coding\Sherry\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Coding\Sherry\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+D:\Coding\Sherry\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+D:\Coding\Sherry\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Coding\Sherry\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+D:\Coding\Sherry\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.OpenApi.dll
+D:\Coding\Sherry\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+D:\Coding\Sherry\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+D:\Coding\Sherry\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Mono.TextTemplating.dll
+D:\Coding\Sherry\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Newtonsoft.Json.dll
+D:\Coding\Sherry\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Coding\Sherry\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Coding\Sherry\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Coding\Sherry\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\System.CodeDom.dll
+D:\Coding\Sherry\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+D:\Coding\Sherry\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\System.Drawing.Common.dll
+D:\Coding\Sherry\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Coding\Sherry\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\System.Memory.Data.dll
+D:\Coding\Sherry\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\System.Runtime.Caching.dll
+D:\Coding\Sherry\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+D:\Coding\Sherry\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\System.Security.Permissions.dll
+D:\Coding\Sherry\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\System.Windows.Extensions.dll
+D:\Coding\Sherry\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Coding\Sherry\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Coding\Sherry\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Coding\Sherry\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Coding\Sherry\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Coding\Sherry\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Coding\Sherry\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\Coding\Sherry\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Coding\Sherry\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Coding\Sherry\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\Coding\Sherry\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Coding\Sherry\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\Coding\Sherry\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\UnitOfWork.Core.dll
+D:\Coding\Sherry\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\UnitOfWork.Infrastructure.dll
+D:\Coding\Sherry\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\UnitOfWork.Services.dll
+D:\Coding\Sherry\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\UnitOfWork.Infrastructure.pdb
+D:\Coding\Sherry\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\UnitOfWork.Services.pdb
+D:\Coding\Sherry\code_craft_be\UnitOfWork.WebAPI\bin\Debug\net7.0\UnitOfWork.Core.pdb
+D:\Coding\Sherry\code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\UnitOfWork.WebAPI.csproj.AssemblyReference.cache
+D:\Coding\Sherry\code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\rpswa.dswa.cache.json
+D:\Coding\Sherry\code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\UnitOfWork.WebAPI.GeneratedMSBuildEditorConfig.editorconfig
+D:\Coding\Sherry\code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\UnitOfWork.WebAPI.AssemblyInfoInputs.cache
+D:\Coding\Sherry\code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\UnitOfWork.WebAPI.AssemblyInfo.cs
+D:\Coding\Sherry\code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\UnitOfWork.WebAPI.csproj.CoreCompileInputs.cache
+D:\Coding\Sherry\code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\UnitOfWork.WebAPI.MvcApplicationPartsAssemblyInfo.cs
+D:\Coding\Sherry\code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\UnitOfWork.WebAPI.MvcApplicationPartsAssemblyInfo.cache
+D:\Coding\Sherry\code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\rjimswa.dswa.cache.json
+D:\Coding\Sherry\code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\rjsmrazor.dswa.cache.json
+D:\Coding\Sherry\code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\rjsmcshtml.dswa.cache.json
+D:\Coding\Sherry\code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\scopedcss\bundle\UnitOfWork.WebAPI.styles.css
+D:\Coding\Sherry\code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\staticwebassets.build.json
+D:\Coding\Sherry\code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\staticwebassets.build.json.cache
+D:\Coding\Sherry\code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\staticwebassets.development.json
+D:\Coding\Sherry\code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\staticwebassets.build.endpoints.json
+D:\Coding\Sherry\code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\staticwebassets.upToDateCheck.txt
+D:\Coding\Sherry\code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\UnitOfWo.3B36FCEE.Up2Date
+D:\Coding\Sherry\code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\UnitOfWork.WebAPI.dll
+D:\Coding\Sherry\code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\refint\UnitOfWork.WebAPI.dll
+D:\Coding\Sherry\code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\UnitOfWork.WebAPI.pdb
+D:\Coding\Sherry\code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\UnitOfWork.WebAPI.genruntimeconfig.cache
+D:\Coding\Sherry\code_craft_be\UnitOfWork.WebAPI\obj\Debug\net7.0\ref\UnitOfWork.WebAPI.dll
