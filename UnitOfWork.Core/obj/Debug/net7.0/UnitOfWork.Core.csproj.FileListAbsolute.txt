@@ -122,3 +122,31 @@ D:\Coding\Sherry\code_craft_be\UnitOfWork.Core\obj\Debug\net7.0\refint\UnitOfWor
 D:\Coding\Sherry\code_craft_be\UnitOfWork.Core\obj\Debug\net7.0\UnitOfWork.Core.pdb
 D:\Coding\Sherry\code_craft_be\UnitOfWork.Core\obj\Debug\net7.0\UnitOfWork.Core.genruntimeconfig.cache
 D:\Coding\Sherry\code_craft_be\UnitOfWork.Core\obj\Debug\net7.0\ref\UnitOfWork.Core.dll
+D:\WorkSpace 2026\PF_GPT\code_craft_be\UnitOfWork.Core\bin\Debug\net7.0\UnitOfWork.Core.deps.json
+D:\WorkSpace 2026\PF_GPT\code_craft_be\UnitOfWork.Core\bin\Debug\net7.0\UnitOfWork.Core.runtimeconfig.json
+D:\WorkSpace 2026\PF_GPT\code_craft_be\UnitOfWork.Core\bin\Debug\net7.0\UnitOfWork.Core.dll
+D:\WorkSpace 2026\PF_GPT\code_craft_be\UnitOfWork.Core\bin\Debug\net7.0\UnitOfWork.Core.pdb
+D:\WorkSpace 2026\PF_GPT\code_craft_be\UnitOfWork.Core\obj\Debug\net7.0\UnitOfWork.Core.csproj.AssemblyReference.cache
+D:\WorkSpace 2026\PF_GPT\code_craft_be\UnitOfWork.Core\obj\Debug\net7.0\UnitOfWork.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\WorkSpace 2026\PF_GPT\code_craft_be\UnitOfWork.Core\obj\Debug\net7.0\UnitOfWork.Core.AssemblyInfoInputs.cache
+D:\WorkSpace 2026\PF_GPT\code_craft_be\UnitOfWork.Core\obj\Debug\net7.0\UnitOfWork.Core.AssemblyInfo.cs
+D:\WorkSpace 2026\PF_GPT\code_craft_be\UnitOfWork.Core\obj\Debug\net7.0\UnitOfWork.Core.csproj.CoreCompileInputs.cache
+D:\WorkSpace 2026\PF_GPT\code_craft_be\UnitOfWork.Core\obj\Debug\net7.0\UnitOfWork.Core.dll
+D:\WorkSpace 2026\PF_GPT\code_craft_be\UnitOfWork.Core\obj\Debug\net7.0\refint\UnitOfWork.Core.dll
+D:\WorkSpace 2026\PF_GPT\code_craft_be\UnitOfWork.Core\obj\Debug\net7.0\UnitOfWork.Core.pdb
+D:\WorkSpace 2026\PF_GPT\code_craft_be\UnitOfWork.Core\obj\Debug\net7.0\UnitOfWork.Core.genruntimeconfig.cache
+D:\WorkSpace 2026\PF_GPT\code_craft_be\UnitOfWork.Core\obj\Debug\net7.0\ref\UnitOfWork.Core.dll
+D:\Coding\Umair\Final PAF GPT Live\pafgpt\code_craft_be\UnitOfWork.Core\bin\Debug\net7.0\UnitOfWork.Core.deps.json
+D:\Coding\Umair\Final PAF GPT Live\pafgpt\code_craft_be\UnitOfWork.Core\bin\Debug\net7.0\UnitOfWork.Core.runtimeconfig.json
+D:\Coding\Umair\Final PAF GPT Live\pafgpt\code_craft_be\UnitOfWork.Core\bin\Debug\net7.0\UnitOfWork.Core.dll
+D:\Coding\Umair\Final PAF GPT Live\pafgpt\code_craft_be\UnitOfWork.Core\bin\Debug\net7.0\UnitOfWork.Core.pdb
+D:\Coding\Umair\Final PAF GPT Live\pafgpt\code_craft_be\UnitOfWork.Core\obj\Debug\net7.0\UnitOfWork.Core.csproj.AssemblyReference.cache
+D:\Coding\Umair\Final PAF GPT Live\pafgpt\code_craft_be\UnitOfWork.Core\obj\Debug\net7.0\UnitOfWork.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Coding\Umair\Final PAF GPT Live\pafgpt\code_craft_be\UnitOfWork.Core\obj\Debug\net7.0\UnitOfWork.Core.AssemblyInfoInputs.cache
+D:\Coding\Umair\Final PAF GPT Live\pafgpt\code_craft_be\UnitOfWork.Core\obj\Debug\net7.0\UnitOfWork.Core.AssemblyInfo.cs
+D:\Coding\Umair\Final PAF GPT Live\pafgpt\code_craft_be\UnitOfWork.Core\obj\Debug\net7.0\UnitOfWork.Core.csproj.CoreCompileInputs.cache
+D:\Coding\Umair\Final PAF GPT Live\pafgpt\code_craft_be\UnitOfWork.Core\obj\Debug\net7.0\UnitOfWork.Core.dll
+D:\Coding\Umair\Final PAF GPT Live\pafgpt\code_craft_be\UnitOfWork.Core\obj\Debug\net7.0\refint\UnitOfWork.Core.dll
+D:\Coding\Umair\Final PAF GPT Live\pafgpt\code_craft_be\UnitOfWork.Core\obj\Debug\net7.0\UnitOfWork.Core.pdb
+D:\Coding\Umair\Final PAF GPT Live\pafgpt\code_craft_be\UnitOfWork.Core\obj\Debug\net7.0\UnitOfWork.Core.genruntimeconfig.cache
+D:\Coding\Umair\Final PAF GPT Live\pafgpt\code_craft_be\UnitOfWork.Core\obj\Debug\net7.0\ref\UnitOfWork.Core.dll

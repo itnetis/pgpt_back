@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EXa38423BtM=",
+  "dgSpecHash": "wlV6iKeacwE=",
   "success": true,
-  "projectFilePath": "D:\\Coding\\Sherry\\code_craft_be\\UnitOfWork.Core\\UnitOfWork.Core.csproj",
+  "projectFilePath": "D:\\Coding\\Umair\\Final PAF GPT Live\\pafgpt\\code_craft_be\\UnitOfWork.Core\\UnitOfWork.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Must Install\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Must Install\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

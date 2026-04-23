@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WuK77YGOcoY=",
+  "dgSpecHash": "GbLZO9MvJN4=",
   "success": true,
-  "projectFilePath": "D:\\Coding\\Sherry\\code_craft_be\\UnitOfWork.WebAPI\\UnitOfWork.WebAPI.csproj",
+  "projectFilePath": "D:\\Coding\\Umair\\Final PAF GPT Live\\pafgpt\\code_craft_be\\UnitOfWork.WebAPI\\UnitOfWork.WebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Must Install\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Must Install\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
@@ -98,9 +98,9 @@
       "code": "NU1701",
       "level": "Warning",
       "message": "Package 'Newtonsoft.Json 8.0.2' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
-      "projectPath": "D:\\Coding\\Sherry\\code_craft_be\\UnitOfWork.WebAPI\\UnitOfWork.WebAPI.csproj",
+      "projectPath": "D:\\Coding\\Umair\\Final PAF GPT Live\\pafgpt\\code_craft_be\\UnitOfWork.WebAPI\\UnitOfWork.WebAPI.csproj",
       "warningLevel": 1,
-      "filePath": "D:\\Coding\\Sherry\\code_craft_be\\UnitOfWork.WebAPI\\UnitOfWork.WebAPI.csproj",
+      "filePath": "D:\\Coding\\Umair\\Final PAF GPT Live\\pafgpt\\code_craft_be\\UnitOfWork.WebAPI\\UnitOfWork.WebAPI.csproj",
       "libraryId": "Newtonsoft.Json",
       "targetGraphs": [
         "net7.0"

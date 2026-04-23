@@ -171,8 +171,24 @@
   },
   {
     "ContainingType": "UnitOfWork.WebAPI.Controllers.MasterController",
+    "Method": "CRUD_tbl_MODELS_LIST",
+    "RelativePath": "api/Master/CRUD_tbl_MODELS_LIST",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "UnitOfWork.Core.Models.tbl_MODELS_DTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UnitOfWork.WebAPI.Controllers.MasterController",
     "Method": "CreateNotification",
-    "RelativePath": "api/Master/CreateNotification/CRUD_tbl_NOTIFICATIONS",
+    "RelativePath": "api/Master/CRUD_tbl_NOTIFICATIONS",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -187,15 +203,31 @@
   },
   {
     "ContainingType": "UnitOfWork.WebAPI.Controllers.MasterController",
-    "Method": "CRUD_tbl_MODELS_LIST",
-    "RelativePath": "api/Master/CRUD_tbl_MODELS_LIST",
-    "HttpMethod": "POST",
+    "Method": "DeleteNotification",
+    "RelativePath": "api/Master/CRUD_tbl_NOTIFICATIONS/{id}",
+    "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "model",
-        "Type": "UnitOfWork.Core.Models.tbl_MODELS_DTO",
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UnitOfWork.WebAPI.Controllers.MasterController",
+    "Method": "MarkAsRead",
+    "RelativePath": "api/Master/CRUD_tbl_NOTIFICATIONS/{id}/read",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
         "IsRequired": true
       }
     ],
@@ -267,22 +299,6 @@
   },
   {
     "ContainingType": "UnitOfWork.WebAPI.Controllers.MasterController",
-    "Method": "DeleteNotification",
-    "RelativePath": "api/Master/DeleteNotification/CRUD_tbl_NOTIFICATIONS/{id}",
-    "HttpMethod": "DELETE",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "id",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "UnitOfWork.WebAPI.Controllers.MasterController",
     "Method": "DeleteRole",
     "RelativePath": "api/Master/DeleteRole/{id}",
     "HttpMethod": "GET",
@@ -341,6 +357,22 @@
         "Name": "id",
         "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=7.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
         "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UnitOfWork.WebAPI.Controllers.MasterController",
+    "Method": "GetNotifications",
+    "RelativePath": "api/Master/GET_tbl_NOTIFICATIONS/{userId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userId",
+        "Type": "System.Int32",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
@@ -428,6 +460,22 @@
       {
         "Name": "limit",
         "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UnitOfWork.WebAPI.Controllers.MasterController",
+    "Method": "GET_USER_QUOTA",
+    "RelativePath": "api/Master/GET_USER_QUOTA",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user_id",
+        "Type": "System.String",
         "IsRequired": false
       }
     ],
@@ -535,22 +583,6 @@
     "IsController": true,
     "Order": 0,
     "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "UnitOfWork.WebAPI.Controllers.MasterController",
-    "Method": "GetNotifications",
-    "RelativePath": "api/Master/GetNotifications/GET_tbl_NOTIFICATIONS/{userId}",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "userId",
-        "Type": "System.Int32",
-        "IsRequired": true
-      }
-    ],
     "ReturnTypes": []
   },
   {
@@ -670,15 +702,31 @@
   },
   {
     "ContainingType": "UnitOfWork.WebAPI.Controllers.MasterController",
-    "Method": "MarkAsRead",
-    "RelativePath": "api/Master/MarkAsRead/CRUD_tbl_NOTIFICATIONS/{id}/read",
-    "HttpMethod": "PUT",
+    "Method": "SendPrompt",
+    "RelativePath": "api/Master/SEND_PROMPT",
+    "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "id",
-        "Type": "System.Int32",
+        "Name": "req",
+        "Type": "UnitOfWork.Core.Models.PromptRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "UnitOfWork.WebAPI.Controllers.MasterController",
+    "Method": "SetUserQuota",
+    "RelativePath": "api/Master/SetUserQuota",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "body",
+        "Type": "System.Object",
         "IsRequired": true
       }
     ],

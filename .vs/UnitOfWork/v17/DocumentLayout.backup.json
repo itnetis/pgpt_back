@@ -1,18 +1,42 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Coding\\Sherry\\code_craft_be\\",
+  "WorkspaceRootPath": "D:\\Coding\\Umair\\Final PAF GPT Live\\pafgpt\\code_craft_be\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{96681E14-1A1F-48FB-A44F-5A2748543B44}|UnitOfWork.WebAPI\\UnitOfWork.WebAPI.csproj|d:\\coding\\sherry\\code_craft_be\\unitofwork.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{96681E14-1A1F-48FB-A44F-5A2748543B44}|UnitOfWork.WebAPI\\UnitOfWork.WebAPI.csproj|solutionrelative:unitofwork.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{96681E14-1A1F-48FB-A44F-5A2748543B44}|UnitOfWork.WebAPI\\UnitOfWork.WebAPI.csproj|d:\\coding\\sherry\\code_craft_be\\unitofwork.webapi\\controllers\\mastercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{96681E14-1A1F-48FB-A44F-5A2748543B44}|UnitOfWork.WebAPI\\UnitOfWork.WebAPI.csproj|d:\\coding\\umair\\final paf gpt live\\pafgpt\\code_craft_be\\unitofwork.webapi\\controllers\\mastercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{96681E14-1A1F-48FB-A44F-5A2748543B44}|UnitOfWork.WebAPI\\UnitOfWork.WebAPI.csproj|solutionrelative:unitofwork.webapi\\controllers\\mastercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C6831216-2C2E-4E3B-A70E-31403E86B513}|UnitOfWork.Core\\UnitOfWork.Core.csproj|d:\\coding\\sherry\\code_craft_be\\unitofwork.core\\models\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C6831216-2C2E-4E3B-A70E-31403E86B513}|UnitOfWork.Core\\UnitOfWork.Core.csproj|solutionrelative:unitofwork.core\\models\\notification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{03591C59-8880-44BF-8D08-DF2816AA60DF}|UnitOfWork.Infrastructure\\UnitOfWork.Infrastructure.csproj|d:\\coding\\umair\\final paf gpt live\\pafgpt\\code_craft_be\\unitofwork.infrastructure\\repositories\\unitofworks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03591C59-8880-44BF-8D08-DF2816AA60DF}|UnitOfWork.Infrastructure\\UnitOfWork.Infrastructure.csproj|solutionrelative:unitofwork.infrastructure\\repositories\\unitofworks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6831216-2C2E-4E3B-A70E-31403E86B513}|UnitOfWork.Core\\UnitOfWork.Core.csproj|d:\\coding\\umair\\final paf gpt live\\pafgpt\\code_craft_be\\unitofwork.core\\models\\promptrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6831216-2C2E-4E3B-A70E-31403E86B513}|UnitOfWork.Core\\UnitOfWork.Core.csproj|solutionrelative:unitofwork.core\\models\\promptrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B65064B0-A481-41AF-B367-FF6933C322DB}|UnitOfWork.Services\\UnitOfWork.Services.csproj|d:\\coding\\umair\\final paf gpt live\\pafgpt\\code_craft_be\\unitofwork.services\\interfaces\\irepositoryservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B65064B0-A481-41AF-B367-FF6933C322DB}|UnitOfWork.Services\\UnitOfWork.Services.csproj|solutionrelative:unitofwork.services\\interfaces\\irepositoryservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B65064B0-A481-41AF-B367-FF6933C322DB}|UnitOfWork.Services\\UnitOfWork.Services.csproj|d:\\coding\\umair\\final paf gpt live\\pafgpt\\code_craft_be\\unitofwork.services\\repositoryservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B65064B0-A481-41AF-B367-FF6933C322DB}|UnitOfWork.Services\\UnitOfWork.Services.csproj|solutionrelative:unitofwork.services\\repositoryservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96681E14-1A1F-48FB-A44F-5A2748543B44}|UnitOfWork.WebAPI\\UnitOfWork.WebAPI.csproj|d:\\coding\\umair\\final paf gpt live\\pafgpt\\code_craft_be\\unitofwork.webapi\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{96681E14-1A1F-48FB-A44F-5A2748543B44}|UnitOfWork.WebAPI\\UnitOfWork.WebAPI.csproj|solutionrelative:unitofwork.webapi\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6831216-2C2E-4E3B-A70E-31403E86B513}|UnitOfWork.Core\\UnitOfWork.Core.csproj|d:\\coding\\umair\\final paf gpt live\\pafgpt\\code_craft_be\\unitofwork.core\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6831216-2C2E-4E3B-A70E-31403E86B513}|UnitOfWork.Core\\UnitOfWork.Core.csproj|solutionrelative:unitofwork.core\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{96681E14-1A1F-48FB-A44F-5A2748543B44}|UnitOfWork.WebAPI\\UnitOfWork.WebAPI.csproj|d:\\coding\\umair\\final paf gpt live\\pafgpt\\code_craft_be\\unitofwork.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{96681E14-1A1F-48FB-A44F-5A2748543B44}|UnitOfWork.WebAPI\\UnitOfWork.WebAPI.csproj|solutionrelative:unitofwork.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C6831216-2C2E-4E3B-A70E-31403E86B513}|UnitOfWork.Core\\UnitOfWork.Core.csproj|d:\\coding\\umair\\final paf gpt live\\pafgpt\\code_craft_be\\unitofwork.core\\models\\promptresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6831216-2C2E-4E3B-A70E-31403E86B513}|UnitOfWork.Core\\UnitOfWork.Core.csproj|solutionrelative:unitofwork.core\\models\\promptresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +46,123 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\Coding\\Sherry\\code_craft_be\\UnitOfWork.WebAPI\\appsettings.json",
-              "RelativeDocumentMoniker": "UnitOfWork.WebAPI\\appsettings.json",
-              "ToolTip": "D:\\Coding\\Sherry\\code_craft_be\\UnitOfWork.WebAPI\\appsettings.json",
-              "RelativeToolTip": "UnitOfWork.WebAPI\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-04-08T09:05:00.898Z",
+              "DocumentIndex": 2,
+              "Title": "PromptRequest.cs",
+              "DocumentMoniker": "D:\\Coding\\Umair\\Final PAF GPT Live\\pafgpt\\code_craft_be\\UnitOfWork.Core\\Models\\PromptRequest.cs",
+              "RelativeDocumentMoniker": "UnitOfWork.Core\\Models\\PromptRequest.cs",
+              "ToolTip": "D:\\Coding\\Umair\\Final PAF GPT Live\\pafgpt\\code_craft_be\\UnitOfWork.Core\\Models\\PromptRequest.cs",
+              "RelativeToolTip": "UnitOfWork.Core\\Models\\PromptRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T07:47:41.083Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Notification.cs",
-              "DocumentMoniker": "D:\\Coding\\Sherry\\code_craft_be\\UnitOfWork.Core\\Models\\Notification.cs",
-              "RelativeDocumentMoniker": "UnitOfWork.Core\\Models\\Notification.cs",
-              "ToolTip": "D:\\Coding\\Sherry\\code_craft_be\\UnitOfWork.Core\\Models\\Notification.cs",
-              "RelativeToolTip": "UnitOfWork.Core\\Models\\Notification.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAoAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "D:\\Coding\\Umair\\Final PAF GPT Live\\pafgpt\\code_craft_be\\UnitOfWork.Core\\Interfaces\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "UnitOfWork.Core\\Interfaces\\IUnitOfWork.cs",
+              "ToolTip": "D:\\Coding\\Umair\\Final PAF GPT Live\\pafgpt\\code_craft_be\\UnitOfWork.Core\\Interfaces\\IUnitOfWork.cs",
+              "RelativeToolTip": "UnitOfWork.Core\\Interfaces\\IUnitOfWork.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAcwE0AAABhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-08T08:27:40.56Z",
+              "WhenOpened": "2026-04-23T07:44:51.068Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PromptResponse.cs",
+              "DocumentMoniker": "D:\\Coding\\Umair\\Final PAF GPT Live\\pafgpt\\code_craft_be\\UnitOfWork.Core\\Models\\PromptResponse.cs",
+              "RelativeDocumentMoniker": "UnitOfWork.Core\\Models\\PromptResponse.cs",
+              "ToolTip": "D:\\Coding\\Umair\\Final PAF GPT Live\\pafgpt\\code_craft_be\\UnitOfWork.Core\\Models\\PromptResponse.cs",
+              "RelativeToolTip": "UnitOfWork.Core\\Models\\PromptResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T07:30:11.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Coding\\Umair\\Final PAF GPT Live\\pafgpt\\code_craft_be\\UnitOfWork.WebAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "UnitOfWork.WebAPI\\appsettings.json",
+              "ToolTip": "D:\\Coding\\Umair\\Final PAF GPT Live\\pafgpt\\code_craft_be\\UnitOfWork.WebAPI\\appsettings.json",
+              "RelativeToolTip": "UnitOfWork.WebAPI\\appsettings.json",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-23T05:11:32.735Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "UnitOfWorks.cs",
+              "DocumentMoniker": "D:\\Coding\\Umair\\Final PAF GPT Live\\pafgpt\\code_craft_be\\UnitOfWork.Infrastructure\\Repositories\\UnitOfWorks.cs",
+              "RelativeDocumentMoniker": "UnitOfWork.Infrastructure\\Repositories\\UnitOfWorks.cs",
+              "ToolTip": "D:\\Coding\\Umair\\Final PAF GPT Live\\pafgpt\\code_craft_be\\UnitOfWork.Infrastructure\\Repositories\\UnitOfWorks.cs",
+              "RelativeToolTip": "UnitOfWork.Infrastructure\\Repositories\\UnitOfWorks.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAuwC4AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T05:55:58.592Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\Coding\\Umair\\Final PAF GPT Live\\pafgpt\\code_craft_be\\UnitOfWork.WebAPI\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "UnitOfWork.WebAPI\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\Coding\\Umair\\Final PAF GPT Live\\pafgpt\\code_craft_be\\UnitOfWork.WebAPI\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "UnitOfWork.WebAPI\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T05:55:58.608Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RepositoryServices.cs",
+              "DocumentMoniker": "D:\\Coding\\Umair\\Final PAF GPT Live\\pafgpt\\code_craft_be\\UnitOfWork.Services\\RepositoryServices.cs",
+              "RelativeDocumentMoniker": "UnitOfWork.Services\\RepositoryServices.cs",
+              "ToolTip": "D:\\Coding\\Umair\\Final PAF GPT Live\\pafgpt\\code_craft_be\\UnitOfWork.Services\\RepositoryServices.cs",
+              "RelativeToolTip": "UnitOfWork.Services\\RepositoryServices.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAewFQAAABtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-22T06:16:09.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "MasterController.cs",
-              "DocumentMoniker": "D:\\Coding\\Sherry\\code_craft_be\\UnitOfWork.WebAPI\\Controllers\\MasterController.cs",
+              "DocumentMoniker": "D:\\Coding\\Umair\\Final PAF GPT Live\\pafgpt\\code_craft_be\\UnitOfWork.WebAPI\\Controllers\\MasterController.cs",
               "RelativeDocumentMoniker": "UnitOfWork.WebAPI\\Controllers\\MasterController.cs",
-              "ToolTip": "D:\\Coding\\Sherry\\code_craft_be\\UnitOfWork.WebAPI\\Controllers\\MasterController.cs",
+              "ToolTip": "D:\\Coding\\Umair\\Final PAF GPT Live\\pafgpt\\code_craft_be\\UnitOfWork.WebAPI\\Controllers\\MasterController.cs",
               "RelativeToolTip": "UnitOfWork.WebAPI\\Controllers\\MasterController.cs",
-              "ViewState": "AgIAAGEBAAAAAAAAAAAwwH8BAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAOoAAAAAAAAAAAAswAUBAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-17T05:46:46.307Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IRepositoryServices.cs",
+              "DocumentMoniker": "D:\\Coding\\Umair\\Final PAF GPT Live\\pafgpt\\code_craft_be\\UnitOfWork.Services\\Interfaces\\IRepositoryServices.cs",
+              "RelativeDocumentMoniker": "UnitOfWork.Services\\Interfaces\\IRepositoryServices.cs",
+              "ToolTip": "D:\\Coding\\Umair\\Final PAF GPT Live\\pafgpt\\code_craft_be\\UnitOfWork.Services\\Interfaces\\IRepositoryServices.cs",
+              "RelativeToolTip": "UnitOfWork.Services\\Interfaces\\IRepositoryServices.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAIwEsAAABhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-23T07:47:09.839Z",
               "EditorCaption": ""
             }
           ]

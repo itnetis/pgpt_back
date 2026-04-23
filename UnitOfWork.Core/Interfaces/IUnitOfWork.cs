@@ -26,6 +26,7 @@ namespace UnitOfWork.Core.Interfaces
         Task<FeedbackResponse> SubmitFeedback(FeedbackRequest request);
         Task<List<FeedbackItemDto>> GetFeedbackList(GetFeedbackListRequest request);
         Task<FeedbackStatsResponse> GetFeedbackStats();
+        Task<dynamic> GET_USER_QUOTA(string user_id);
 
 
         # endregion
@@ -72,6 +73,9 @@ namespace UnitOfWork.Core.Interfaces
         PromptHistory GetPromptCountByName(string username);
         List<CreateUser> UserAuthenticate(CreateUser model);
         CreateUser GetPromptlimitByName(string username);
+        // Set or update per-user daily quota (user_id as varchar matching tbl_USER_PROMPTS.user_id)
+        Response_DTO SetUserQuota(string user_id, int dailyLimit);
+        Task<PromptResponse> CHECK_AND_INSERT_PROMPT(string userId, string model, string prompt);
         #endregion
 
         #region Role Method

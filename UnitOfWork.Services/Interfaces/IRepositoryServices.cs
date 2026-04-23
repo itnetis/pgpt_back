@@ -42,6 +42,7 @@ namespace UnitOfWork.Services.Interfaces
         Task<IEnumerable<dynamic>> GET_tbl_USER_BY_ID(int id);
         Task<IEnumerable<dynamic>> GET_tbl_USER_BY_NAME(string username);
         Task<IEnumerable<dynamic>> GET_tbl_USER_BASED_REQUESTS_LIST();
+        Task<dynamic> GET_USER_QUOTA(string user_id);
         #endregion
 
         #region Users Method
@@ -69,6 +70,10 @@ namespace UnitOfWork.Services.Interfaces
 
         List<CreateUser> UserAuthenticate(CreateUser model);
         CreateUser GetPromptlimitByName(string username);
+
+        // Set or update per-user daily quota
+        Response_DTO SetUserQuota(string user_id, int dailyLimit);
+        Task<PromptResponse> CHECK_AND_INSERT_PROMPT(string userId, string model, string prompt);
 
         #endregion
 

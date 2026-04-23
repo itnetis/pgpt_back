@@ -41,6 +41,32 @@ namespace UnitOfWork.Infrastructure.Repositories
             _connectionDefault = config.GetConnectionString("GPTConnections");
         }
 
+
+        //added by umair
+        public async Task<PromptResponse> CHECK_AND_INSERT_PROMPT(string userId, string model, string prompt)
+        {
+            using var connection = new SqlConnection(_connectionDefault);
+
+            var parameters = new DynamicParameters();
+            parameters.Add("@user_id", userId);
+            parameters.Add("@model_name", model);
+            parameters.Add("@prompt_text", prompt);
+            parameters.Add("@is_allowed", dbType: DbType.Boolean, direction: ParameterDirection.Output);
+            parameters.Add("@remaining", dbType: DbType.Int32, direction: ParameterDirection.Output);
+
+            await connection.ExecuteAsync(
+                "sp_CHECK_AND_INSERT_PROMPT",
+                parameters,
+                commandType: CommandType.StoredProcedure);
+
+            return new PromptResponse
+            {
+                allowed = parameters.Get<bool>("@is_allowed"),
+                remaining = parameters.Get<int>("@remaining"),
+                success = true
+            };
+        }
+
         public async Task<FeedbackResponse> SubmitFeedback(FeedbackRequest request)
         {
             
@@ -319,6 +345,23 @@ namespace UnitOfWork.Infrastructure.Repositories
             }
         }
 
+        public async Task<dynamic> GET_USER_QUOTA(string user_id)
+        {
+            try
+            {
+                using var connection = CreateConnection();
+                var result = await connection.QueryFirstOrDefaultAsync<dynamic>(
+                    "sp_GET_USER_QUOTA",
+                    new { user_id },
+                    commandType: CommandType.StoredProcedure);
+                return result;
+            }
+            catch (Exception)
+            {
+                return null;
+            }
+        }
+
         public Response_DTO CRUD_USER_BASED_REQUESTS(UserBasedRequest_DTO request)
         {
             Response_DTO res = new Response_DTO();
@@ -577,18 +620,25 @@ namespace UnitOfWork.Infrastructure.Repositories
 
     public async Task<LoginUser_DTO> GetPersonalBasicDataCMD(string ptype, string pakno)
         {
-            // Create a new ExpandoObject
-            dynamic user = new ExpandoObject();
-            // Dynamically add properties
-            user.pType = ptype;
-            user.pakno = pakno;
-            var jsonContent = JsonSerializer.Serialize(user);
-            var httpContent = new StringContent(jsonContent, Encoding.UTF8, "application/json");
-            var response = await _httpClient.PostAsync("PrismCodesHR/GetBasicDataCmd", httpContent);
-            response.EnsureSuccessStatusCode();
-            var result = await response.Content.ReadAsStringAsync();
-            var listdata =  JsonConvert.DeserializeObject<List<LoginUser_DTO>>(result);
-            return listdata.First();
+            try
+            {
+                // Create a new ExpandoObject
+                dynamic user = new ExpandoObject();
+                // Dynamically add properties
+                user.pType = ptype;
+                user.pakno = pakno;
+                var jsonContent = JsonSerializer.Serialize(user);
+                var httpContent = new StringContent(jsonContent, Encoding.UTF8, "application/json");
+                var response = await _httpClient.PostAsync("PrismCodesHR/GetBasicDataCmd", httpContent);
+                response.EnsureSuccessStatusCode();
+                var result = await response.Content.ReadAsStringAsync();
+                var listdata = JsonConvert.DeserializeObject<List<LoginUser_DTO>>(result);
+                return listdata.First();
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
         }
 
         /// <summary>
@@ -663,6 +713,44 @@ namespace UnitOfWork.Infrastructure.Repositories
                 res.message = ex.Message;
             }
 
+            return res;
+        }
+
+        public Response_DTO SetUserQuota(string user_id, int dailyLimit)
+        {
+            var res = new Response_DTO();
+            try
+            {
+                using (var conn = new SqlConnection(_connectionDefault))
+                using (var cmd = conn.CreateCommand())
+                {
+                    cmd.CommandType = CommandType.Text;
+                    // Use MERGE to upsert quota row
+                    cmd.CommandText = @"
+MERGE dbo.tbl_USER_TOTAL_QUOTA AS target
+USING (SELECT @user_id AS user_id, @dailyLimit AS daily_total_limit) AS src
+ON target.user_id = src.user_id
+WHEN MATCHED THEN
+    UPDATE SET daily_total_limit = src.daily_total_limit, created_at = GETDATE()
+WHEN NOT MATCHED THEN
+    INSERT (user_id, daily_total_limit, created_at) VALUES (src.user_id, src.daily_total_limit, GETDATE());
+";
+                    cmd.Parameters.Add(new SqlParameter("@user_id", SqlDbType.VarChar, 50) { Value = user_id });
+                    cmd.Parameters.Add(new SqlParameter("@dailyLimit", SqlDbType.Int) { Value = dailyLimit });
+
+                    conn.Open();
+                    var affected = cmd.ExecuteNonQuery();
+                    res.status = true;
+                    res.message = "Quota set successfully";
+                    res.newId = null;
+                    conn.Close();
+                }
+            }
+            catch (Exception ex)
+            {
+                res.status = false;
+                res.message = ex.Message;
+            }
             return res;
         }
 
@@ -984,13 +1072,19 @@ namespace UnitOfWork.Infrastructure.Repositories
         #region PPortalAuthentication
         public async Task<IEnumerable<dynamic>> AuthPPortalCiv(string username, string password)
         {
-            using var connection = CreateConnectionPPortalAirCivOff("PPC");
-            var result = await connection.QueryAsync<dynamic>("SP_ValidateUserPersonalPortalCivillian", new
+            try {
+                using var connection = CreateConnectionPPortalAirCivOff("PPC");
+                var result = await connection.QueryAsync<dynamic>("SP_ValidateUserPersonalPortalCivillian", new
+                {
+                    @UserName = username,
+                    @Password = password
+                });
+                return result;
+            }
+            catch(Exception ex)
             {
-                @UserName = username,
-                @Password = password
-            });
-            return result;
+                throw ex;
+            }
         }
 
         public async Task<IEnumerable<dynamic>> AuthPPortalOff(string username, string password)

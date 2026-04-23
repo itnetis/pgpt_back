@@ -4467,11 +4467,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Coding\\Sherry\\code_craft_be\\UnitOfWork.WebAPI\\UnitOfWork.WebAPI.csproj",
+      "projectUniqueName": "D:\\Coding\\Umair\\Final PAF GPT Live\\pafgpt\\code_craft_be\\UnitOfWork.WebAPI\\UnitOfWork.WebAPI.csproj",
       "projectName": "UnitOfWork.WebAPI",
-      "projectPath": "D:\\Coding\\Sherry\\code_craft_be\\UnitOfWork.WebAPI\\UnitOfWork.WebAPI.csproj",
+      "projectPath": "D:\\Coding\\Umair\\Final PAF GPT Live\\pafgpt\\code_craft_be\\UnitOfWork.WebAPI\\UnitOfWork.WebAPI.csproj",
       "packagesPath": "C:\\Users\\Must Install\\.nuget\\packages\\",
-      "outputPath": "D:\\Coding\\Sherry\\code_craft_be\\UnitOfWork.WebAPI\\obj\\",
+      "outputPath": "D:\\Coding\\Umair\\Final PAF GPT Live\\pafgpt\\code_craft_be\\UnitOfWork.WebAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -4492,11 +4492,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "D:\\Coding\\Sherry\\code_craft_be\\UnitOfWork.Infrastructure\\UnitOfWork.Infrastructure.csproj": {
-              "projectPath": "D:\\Coding\\Sherry\\code_craft_be\\UnitOfWork.Infrastructure\\UnitOfWork.Infrastructure.csproj"
+            "D:\\Coding\\Umair\\Final PAF GPT Live\\pafgpt\\code_craft_be\\UnitOfWork.Infrastructure\\UnitOfWork.Infrastructure.csproj": {
+              "projectPath": "D:\\Coding\\Umair\\Final PAF GPT Live\\pafgpt\\code_craft_be\\UnitOfWork.Infrastructure\\UnitOfWork.Infrastructure.csproj"
             },
-            "D:\\Coding\\Sherry\\code_craft_be\\UnitOfWork.Services\\UnitOfWork.Services.csproj": {
-              "projectPath": "D:\\Coding\\Sherry\\code_craft_be\\UnitOfWork.Services\\UnitOfWork.Services.csproj"
+            "D:\\Coding\\Umair\\Final PAF GPT Live\\pafgpt\\code_craft_be\\UnitOfWork.Services\\UnitOfWork.Services.csproj": {
+              "projectPath": "D:\\Coding\\Umair\\Final PAF GPT Live\\pafgpt\\code_craft_be\\UnitOfWork.Services\\UnitOfWork.Services.csproj"
             }
           }
         }

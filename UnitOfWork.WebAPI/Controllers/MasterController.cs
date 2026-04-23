@@ -246,8 +246,32 @@ namespace UnitOfWork.WebAPI.Controllers
             return Ok(profiles);
         }
 
+        [HttpGet]
+        [ActionName("GET_USER_QUOTA")]
+        public async Task<IActionResult> GET_USER_QUOTA([FromQuery] string user_id)
+        {
+            if (string.IsNullOrEmpty(user_id))
+                return BadRequest(new { msg = "user_id required" });
+
+            try
+            {
+                var data = await _repository.GET_USER_QUOTA(user_id);
+                if (data == null) return Ok(new { total_limit = 50, used_today = 0, remaining = 50 });
+                return Ok(new
+                {
+                    success = true,
+                    data
+                });
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new { msg = "error occurred", error = ex.Message });
+            }
+        }
+
         // Notifications APIs
-        [HttpGet("GET_tbl_NOTIFICATIONS/{userId}")]
+        [HttpGet("{userId}")]
+        [ActionName("GET_tbl_NOTIFICATIONS")]
         public async Task<IActionResult> GetNotifications(int userId)
         {
             try
@@ -290,7 +314,8 @@ namespace UnitOfWork.WebAPI.Controllers
             }
         }
 
-        [HttpPost("CRUD_tbl_NOTIFICATIONS")]
+        [HttpPost]
+        [ActionName("CRUD_tbl_NOTIFICATIONS")]
         public async Task<IActionResult> CreateNotification([FromBody] UnitOfWork.Core.Models.NotificationRequest request)
         {
             if (request == null) return BadRequest("Request required");
@@ -327,7 +352,8 @@ namespace UnitOfWork.WebAPI.Controllers
             }
         }
 
-        [HttpPut("CRUD_tbl_NOTIFICATIONS/{id}/read")]
+        [HttpPut("{id}/read")]
+        [ActionName("CRUD_tbl_NOTIFICATIONS")]
         public async Task<IActionResult> MarkAsRead(int id)
         {
             try
@@ -355,7 +381,40 @@ namespace UnitOfWork.WebAPI.Controllers
             }
         }
 
-        [HttpDelete("CRUD_tbl_NOTIFICATIONS/{id}")]
+
+        //added by Umnair
+
+        [HttpPost]
+        [ActionName("SEND_PROMPT")]
+        public async Task<IActionResult> SendPrompt([FromBody] PromptRequest req)
+        {
+            var result = await _repository.CHECK_AND_INSERT_PROMPT(
+                req.user_id,
+                req.model_name,
+                req.prompt_text
+            );
+
+            if (!result.allowed)
+            {
+                return BadRequest(new PromptResponse
+                {
+                    success = false,
+                    allowed = false,
+                    remaining = 0,
+                    message = "Prompt limit exceeded"
+                });
+            }
+
+            return Ok(new PromptResponse
+            {
+                success = true,
+                allowed = true,
+                remaining = result.remaining
+            });
+        }
+
+        [HttpDelete("{id}")]
+        [ActionName("CRUD_tbl_NOTIFICATIONS")]
         public async Task<IActionResult> DeleteNotification(int id)
         {
             try
@@ -373,6 +432,17 @@ namespace UnitOfWork.WebAPI.Controllers
 
                 var scalar = await command.ExecuteScalarAsync();
                 var rows = scalar == null || scalar == DBNull.Value ? 0 : Convert.ToInt32(scalar);
+
+
+
+                //using var reader = await command.ExecuteReaderAsync();
+
+                //int rows = 0;
+
+                //if (await reader.ReadAsync())
+                //{
+                //    rows = reader.GetInt32(0);
+                //}
 
                 if (rows > 0) return Ok(new { success = true, message = "Notification deleted" });
                 return NotFound(new { message = "Notification not found" });
@@ -403,6 +473,24 @@ namespace UnitOfWork.WebAPI.Controllers
             var result = await _repository.GetPromptListAsync();
             if (result.Count() > 0) return Ok(result);
             else return NoContent();
+        }
+
+        [HttpPost]
+        [ActionName("SetUserQuota")]
+        public IActionResult SetUserQuota([FromBody] dynamic body)
+        {
+            try
+            {
+                if (body == null) return BadRequest(new { msg = "body required" });
+                string userId = body.user_id;
+                int dailyLimit = (int)body.daily_limit;
+                var result = _repository.SetUserQuota(userId, dailyLimit);
+                return Ok(result);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, new { msg = "error occurred", error = ex.Message });
+            }
         }
         
         [HttpGet]

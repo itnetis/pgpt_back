@@ -28,13 +28,18 @@ namespace UnitOfWork.Services
         {
             return  _unitOfWork.CRUD_tbl_USER_PROMPTS(model);
         }
-
+        // Get remaining user quota for today
         public async Task<FeedbackResponse> SubmitFeedback(FeedbackRequest request)
         {
             return await _unitOfWork.SubmitFeedback(request);
         }
 
-        
+        public async Task<dynamic> GET_USER_QUOTA(string user_id)
+        {
+            return await _unitOfWork.GET_USER_QUOTA(user_id);
+        }
+
+
         public async Task<List<FeedbackItemDto>> GetFeedbackList(GetFeedbackListRequest request)
         {
             return await _unitOfWork.GetFeedbackList(request);
@@ -76,6 +81,10 @@ namespace UnitOfWork.Services
         public Response_DTO CRUD_USER_BASED_REQUESTS(UserBasedRequest_DTO request)
         {
             return _unitOfWork.CRUD_USER_BASED_REQUESTS(request);
+        }
+        public async Task<PromptResponse> CHECK_AND_INSERT_PROMPT(string userId, string model, string prompt)
+        {
+            return await _unitOfWork.CHECK_AND_INSERT_PROMPT(userId, model, prompt);
         }
         #endregion
 
@@ -240,6 +249,10 @@ namespace UnitOfWork.Services
         public CreateUser GetPromptlimitByName(string username)
         {
             return _unitOfWork.GetPromptlimitByName(username);
+        }
+        public Response_DTO SetUserQuota(string user_id, int dailyLimit)
+        {
+            return _unitOfWork.SetUserQuota(user_id, dailyLimit);
         }
 
         #endregion

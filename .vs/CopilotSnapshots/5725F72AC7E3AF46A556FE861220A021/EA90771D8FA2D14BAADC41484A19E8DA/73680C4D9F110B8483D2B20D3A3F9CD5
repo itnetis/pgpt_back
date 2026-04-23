@@ -1,0 +1,81 @@
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc;
+using System;
+using System.Collections.Generic;
+using System.Data;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using UnitOfWork.Core.Models;
+
+namespace UnitOfWork.Services.Interfaces
+{
+    public interface IRepositoryServices
+    {
+
+        #region CodeCraftCode Sep 2025
+        Task<IEnumerable<dynamic>> GET_tbl_USER_PROMPTS_BY_USER(string user_id, int limit);
+        Task<IEnumerable<dynamic>> GET_tbl_USER_PROMPTS_TOP(int limit);
+        Response_DTO CRUD_tbl_USER_PROMPTS(tbl_USER_PROMPTS_DTO model);
+        Task<IEnumerable<Token>> GetTokenListAsync();
+        Task<IEnumerable<Prompt>> GetPromptListAsync();
+        Task<IEnumerable<Model>> GetModelListAsync();
+        Task<LoginUser_DTO> GetPersonalBasicDataCMD(string ptype, string pakno);
+        Task<ApiResponse> GetPPortalAuthByUID(string uId);
+        Task<FeedbackResponse> SubmitFeedback(FeedbackRequest request);
+        Task<List<FeedbackItemDto>> GetFeedbackList(GetFeedbackListRequest request);
+        Task<FeedbackStatsResponse> GetFeedbackStats();
+        #endregion
+
+        #region Photo
+        DataTable GetAllPhoto(int cat, string pakno);
+
+        #endregion
+
+        #region GPT_tbl_USERS
+        Response_DTO AddUser(tbl_USERS_DTO obj);
+        Response_DTO AddUserProfile(int userId, LoginUser_DTO profile);
+        Task<IEnumerable<dynamic>> GET_tbl_MODELS_LIST(int? id);
+        Task<IEnumerable<dynamic>> GET_tbl_USER_PROFILE_LIST();
+        Response_DTO CRUD_Model(tbl_MODELS_DTO model);
+        Response_DTO CRUD_USER_BASED_REQUESTS(UserBasedRequest_DTO request);
+        Task<IEnumerable<dynamic>> GET_tbl_USER_BY_ID(int id);
+        Task<IEnumerable<dynamic>> GET_tbl_USER_BY_NAME(string username);
+        Task<IEnumerable<dynamic>> GET_tbl_USER_BASED_REQUESTS_LIST();
+        Task<dynamic> GET_USER_QUOTA(string user_id);
+        #endregion
+
+        #region Users Method
+        List<AppUser> GetUserAll();
+        List<CreateUser> GetUsers();
+        List<CreateUser> GetUser(int id);
+        Task<AppUser> GetUserById(string id);
+        List<IdentityUserRole<string>> GetUserRoleList();
+        Task<AppUser> GetUserByName(string name);
+
+        List<PromptLog> GetPromptLogs(string userName);
+        int AddUser(CreateUser model);
+
+        int ChangePassword(CreateUser user);
+        int AddPromptLog(PromptLog promptLog);
+
+        PromptHistory GetUserCount(PromptHistory prompt);
+
+        //int PromptCount(PromptHistory prompt);
+        int UserPromptCount(PromptHistory prompt);
+        //List<CreateUser> UpdateUserData(CreateUser username);
+
+        string UpdateUser(CreateUser user);
+        string DeleteUser(CreateUser user);
+
+        List<CreateUser> UserAuthenticate(CreateUser model);
+        CreateUser GetPromptlimitByName(string username);
+
+        #endregion
+
+        #region PPortalAuthentication
+        Task<IEnumerable<dynamic>> AuthPPortalOffAirCiv(User_DTO model);
+        #endregion
+
+    }
+}

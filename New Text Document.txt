@@ -1,0 +1,12 @@
+http://localhost:5173/api/Master/CRUD_tbl_NOTIFICATIONS
+
+{
+  "userId": 1,
+  "type": "info",
+  "title": "New Notification",
+  "message": "This is a test",
+  "isRead": false,
+  "relatedEntityType": "Order",
+  "relatedEntityId": 123,
+  "actionUrl": "/orders/123"
+}
