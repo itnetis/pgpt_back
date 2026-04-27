@@ -1005,7 +1005,7 @@
           "lib/netcoreapp2.0/_._": {}
         }
       },
-      "System.CodeDom/4.4.0": {
+      "System.CodeDom/4.7.0": {
         "type": "package",
         "compile": {
           "ref/netstandard2.0/_._": {
@@ -1013,7 +1013,9 @@
           }
         },
         "runtime": {
-          "lib/netstandard2.0/System.CodeDom.dll": {}
+          "lib/netstandard2.0/System.CodeDom.dll": {
+            "related": ".xml"
+          }
         }
       },
       "System.Configuration.ConfigurationManager/5.0.0": {
@@ -3068,22 +3070,24 @@
         "version.txt"
       ]
     },
-    "System.CodeDom/4.4.0": {
-      "sha512": "2sCCb7doXEwtYAbqzbF/8UAeDRMNmPaQbU2q50Psg1J9KzumyVVCgKQY8s53WIPTufNT0DpSe9QRvVjOzfDWBA==",
+    "System.CodeDom/4.7.0": {
+      "sha512": "Hs9pw/kmvH3lXaZ1LFKj3pLQsiGfj2xo3sxSzwiLlRL6UcMZUTeCfoJ9Udalvn3yq5dLlPEZzYegrTQ1/LhPOQ==",
       "type": "package",
-      "path": "system.codedom/4.4.0",
+      "path": "system.codedom/4.7.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "lib/net461/System.CodeDom.dll",
+        "lib/net461/System.CodeDom.xml",
         "lib/netstandard2.0/System.CodeDom.dll",
+        "lib/netstandard2.0/System.CodeDom.xml",
         "ref/net461/System.CodeDom.dll",
         "ref/net461/System.CodeDom.xml",
         "ref/netstandard2.0/System.CodeDom.dll",
         "ref/netstandard2.0/System.CodeDom.xml",
-        "system.codedom.4.4.0.nupkg.sha512",
+        "system.codedom.4.7.0.nupkg.sha512",
         "system.codedom.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
@@ -4407,24 +4411,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Must Install\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\ABUFAW\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Coding\\Umair\\Final PAF GPT Live\\pafgpt\\code_craft_be\\UnitOfWork.Infrastructure\\UnitOfWork.Infrastructure.csproj",
+      "projectUniqueName": "D:\\WorkSpace 2026\\PF_GPT\\neGpt\\code_craft_be\\UnitOfWork.Infrastructure\\UnitOfWork.Infrastructure.csproj",
       "projectName": "UnitOfWork.Infrastructure",
-      "projectPath": "D:\\Coding\\Umair\\Final PAF GPT Live\\pafgpt\\code_craft_be\\UnitOfWork.Infrastructure\\UnitOfWork.Infrastructure.csproj",
-      "packagesPath": "C:\\Users\\Must Install\\.nuget\\packages\\",
-      "outputPath": "D:\\Coding\\Umair\\Final PAF GPT Live\\pafgpt\\code_craft_be\\UnitOfWork.Infrastructure\\obj\\",
+      "projectPath": "D:\\WorkSpace 2026\\PF_GPT\\neGpt\\code_craft_be\\UnitOfWork.Infrastructure\\UnitOfWork.Infrastructure.csproj",
+      "packagesPath": "C:\\Users\\ABUFAW\\.nuget\\packages\\",
+      "outputPath": "D:\\WorkSpace 2026\\PF_GPT\\neGpt\\code_craft_be\\UnitOfWork.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Must Install\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\ABUFAW\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4432,14 +4431,15 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "D:\\CodeCraft Live_2025\\nugetpackages": {},
+        "https://172.32.3.240/api/v4/projects/457/packages/nuget/index.json": {}
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "D:\\Coding\\Umair\\Final PAF GPT Live\\pafgpt\\code_craft_be\\UnitOfWork.Core\\UnitOfWork.Core.csproj": {
-              "projectPath": "D:\\Coding\\Umair\\Final PAF GPT Live\\pafgpt\\code_craft_be\\UnitOfWork.Core\\UnitOfWork.Core.csproj"
+            "D:\\WorkSpace 2026\\PF_GPT\\neGpt\\code_craft_be\\UnitOfWork.Core\\UnitOfWork.Core.csproj": {
+              "projectPath": "D:\\WorkSpace 2026\\PF_GPT\\neGpt\\code_craft_be\\UnitOfWork.Core\\UnitOfWork.Core.csproj"
             }
           }
         }
@@ -4448,13 +4448,7 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
-      },
-      "SdkAnalysisLevel": "9.0.300"
+      }
     },
     "frameworks": {
       "net7.0": {
@@ -4523,17 +4517,17 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.311\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   },
   "logs": [
     {
-      "code": "NU1903",
+      "code": "NU1603",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'Newtonsoft.Json' 8.0.2 has a known high severity vulnerability, https://github.com/advisories/GHSA-5crp-9r3c-p9vr",
-      "libraryId": "Newtonsoft.Json",
+      "message": "Mono.TextTemplating 2.2.1 depends on System.CodeDom (>= 4.4.0) but System.CodeDom 4.4.0 was not found. An approximate best match of System.CodeDom 4.7.0 was resolved.",
+      "libraryId": "System.CodeDom",
       "targetGraphs": [
         "net7.0"
       ]

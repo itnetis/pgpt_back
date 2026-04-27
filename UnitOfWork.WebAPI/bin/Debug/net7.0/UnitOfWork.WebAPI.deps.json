@@ -516,7 +516,7 @@
       },
       "Mono.TextTemplating/2.2.1": {
         "dependencies": {
-          "System.CodeDom": "4.4.0"
+          "System.CodeDom": "4.7.0"
         },
         "runtime": {
           "lib/netstandard2.0/Mono.TextTemplating.dll": {
@@ -572,11 +572,11 @@
         }
       },
       "System.Buffers/4.5.1": {},
-      "System.CodeDom/4.4.0": {
+      "System.CodeDom/4.7.0": {
         "runtime": {
           "lib/netstandard2.0/System.CodeDom.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.6.25519.3"
+            "assemblyVersion": "4.0.3.0",
+            "fileVersion": "4.700.19.56404"
           }
         }
       },
@@ -808,10 +808,7 @@
           "Swashbuckle.AspNetCore": "6.5.0"
         },
         "runtime": {
-          "UnitOfWork.Core.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "UnitOfWork.Core.dll": {}
         }
       },
       "UnitOfWork.Infrastructure/1.0.0": {
@@ -829,10 +826,7 @@
           "UnitOfWork.Core": "1.0.0"
         },
         "runtime": {
-          "UnitOfWork.Infrastructure.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "UnitOfWork.Infrastructure.dll": {}
         }
       },
       "UnitOfWork.Services/1.0.0": {
@@ -849,10 +843,7 @@
           "UnitOfWork.Infrastructure": "1.0.0"
         },
         "runtime": {
-          "UnitOfWork.Services.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
+          "UnitOfWork.Services.dll": {}
         }
       }
     }
@@ -1283,12 +1274,12 @@
       "path": "system.buffers/4.5.1",
       "hashPath": "system.buffers.4.5.1.nupkg.sha512"
     },
-    "System.CodeDom/4.4.0": {
+    "System.CodeDom/4.7.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-2sCCb7doXEwtYAbqzbF/8UAeDRMNmPaQbU2q50Psg1J9KzumyVVCgKQY8s53WIPTufNT0DpSe9QRvVjOzfDWBA==",
-      "path": "system.codedom/4.4.0",
-      "hashPath": "system.codedom.4.4.0.nupkg.sha512"
+      "sha512": "sha512-Hs9pw/kmvH3lXaZ1LFKj3pLQsiGfj2xo3sxSzwiLlRL6UcMZUTeCfoJ9Udalvn3yq5dLlPEZzYegrTQ1/LhPOQ==",
+      "path": "system.codedom/4.7.0",
+      "hashPath": "system.codedom.4.7.0.nupkg.sha512"
     },
     "System.Configuration.ConfigurationManager/5.0.0": {
       "type": "package",

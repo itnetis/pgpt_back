@@ -34,98 +34,78 @@ namespace UnitOfWork.WebAPI.Controllers
 
         #region Code Craft sep 2025
 
+       
+
         [HttpPost]
         [ActionName("AuthPPortalOffAirCiv")]
         public async Task<IActionResult> AuthPPortalOffAirCiv(User_DTO model)
         {
-                int? id;
-
-                //var userExist = await _repository.GET_tbl_USER_BY_NAME(model.Pakno);
-                //id = userExist.First().id;
-            id = 1;
-
-
-            // Get profile data from external service
-            //var user = await _repository.GetPersonalBasicDataCMD(model.PType.ToString(), "Pakno");
-            LoginUser_DTO user = new LoginUser_DTO()
+            var pass = GenHsh(model.PasswordHash);
+            model.PasswordHash = GenHsh(pass);
+            if (string.IsNullOrEmpty(model.PasswordHash))
+                return NoContent();
+            var record = await _repository.AuthPPortalOffAirCiv(model);
+            if (record.Count() > 0)
             {
-                pakno = "abc",
-                peR_TYPE = 1,
-                fulL_NAME = "umair",
-                basE_CODE = 0,
-                basE_DECODE = "",
-                currenT_RANK_CODE = "",
-                currenT_RANK_DECODE = "",
-                maiN_BRANCH_CODE = "",
-                maiN_BRANCH_DECODE = "",
-                sectioN_CODE = 0,
-                sectioN_DECODE = "",
-                uniT_CODE = 0,
-                uniT_DECODE = ""
-            };
+                int? id;
+                tbl_USERS_DTO user_DTO = new tbl_USERS_DTO();
+                user_DTO.username = model.Pakno;
+                user_DTO.is_locked = false;
+                user_DTO.is_deleted = false;
+                user_DTO.is_active = true;
+                user_DTO.Action = "INSERT";
+                user_DTO.role_id = 2;
+                var userExist = await _repository.GET_tbl_USER_BY_NAME(model.Pakno);
+                Response_DTO addRes = null;
+                if (userExist == null || !userExist.Any())
+                {
+                    addRes = _repository.AddUser(user_DTO);
+                    id = addRes.newId;
+                    var userqota = await _repository.GET_tbl_USER_EXIST_QUOTA(Convert.ToString(id));
+                    if (!userqota.Any())
+                    {
+                        var result = await _repository.GET_tbl_PROMPT_LIMIT(user_DTO.role_id);
+                        if (result.Any())
+                        {
+                            tbl_USER_PROMPTS_DTO entity = new tbl_USER_PROMPTS_DTO()
+                            {
+                                user_id = Convert.ToString(id),
+                                prompt_text = result.First().PromptLimit,
+                            };
+                            var result2 = _repository.CRUD_tbl_USER_PROMPTS_QUOTA(entity);
+                        }
+                    }
+                }
+                else
+                {
+                    id = userExist.First().id;
+                }
+
+                // Get profile data from external service
+                var user = await _repository.GetPersonalBasicDataCMD(model.PType.ToString(), model.Pakno);
 
                 // If we just created the user, save initial profile into USER_PROFILE table
-                var jwt = GenerateToken("Pakno");
+                if (addRes != null && addRes.status && addRes.newId.HasValue)
+                {
+                    try
+                    {
+                        var profileRes = _repository.AddUserProfile(addRes.newId.Value, user);
+                        // optionally log profileRes.message / profileRes.status
+                    }
+                    catch
+                    {
+                        // swallow or log - do not block authentication on profile insert failure
+                    }
+                }
+
+                var jwt = GenerateToken(model.Pakno);
                 Console.WriteLine($"User Validation Successful For Testing");
                 return Ok(new { message = "User Validation Successful", id = id, status = true, jwt = jwt, user = user });
+            }
+            else
+                Console.WriteLine($"User Validation Not Successful For Testing");
+            return Unauthorized(new { message = "User Validation failed", status = false });
         }
-
-        //[HttpPost]
-        //[ActionName("AuthPPortalOffAirCiv")]
-        //public async Task<IActionResult> AuthPPortalOffAirCiv(User_DTO model)
-        //{
-        //    var pass = GenHsh(model.PasswordHash);
-        //    model.PasswordHash = GenHsh(pass);
-        //    if (string.IsNullOrEmpty(model.PasswordHash))
-        //        return NoContent();
-        //    var record = await _repository.AuthPPortalOffAirCiv(model);
-        //    if (record.Count() > 0)
-        //    {
-        //        int? id;
-        //        tbl_USERS_DTO user_DTO = new tbl_USERS_DTO();
-        //        user_DTO.username = model.Pakno;
-        //        user_DTO.is_locked = false;
-        //        user_DTO.is_deleted = false;
-        //        user_DTO.is_active = true;
-        //        user_DTO.Action = "INSERT";
-        //        user_DTO.role_id = 2;
-        //        var userExist = await _repository.GET_tbl_USER_BY_NAME(model.Pakno);
-        //        Response_DTO addRes = null;
-        //        if (userExist == null || !userExist.Any())
-        //        {
-        //            addRes = _repository.AddUser(user_DTO);
-        //            id = addRes.newId;
-        //        }
-        //        else
-        //        {
-        //            id = userExist.First().id;
-        //        }
-
-        //        // Get profile data from external service
-        //        var user = await _repository.GetPersonalBasicDataCMD(model.PType.ToString(), model.Pakno);
-
-        //        // If we just created the user, save initial profile into USER_PROFILE table
-        //        if (addRes != null && addRes.status && addRes.newId.HasValue)
-        //        {
-        //            try
-        //            {
-        //                var profileRes = _repository.AddUserProfile(addRes.newId.Value, user);
-        //                // optionally log profileRes.message / profileRes.status
-        //            }
-        //            catch
-        //            {
-        //                // swallow or log - do not block authentication on profile insert failure
-        //            }
-        //        }
-
-        //        var jwt = GenerateToken(model.Pakno);
-        //        Console.WriteLine($"User Validation Successful For Testing");
-        //        return Ok(new { message = "User Validation Successful", id = id, status = true, jwt = jwt, user = user });
-        //    }
-        //    else
-        //        Console.WriteLine($"User Validation Not Successful For Testing");
-        //    return Unauthorized(new { message = "User Validation failed", status = false });
-        //}
 
 
         [HttpPost]

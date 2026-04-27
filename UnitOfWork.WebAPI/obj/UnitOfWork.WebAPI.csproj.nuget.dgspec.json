@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Coding\\Umair\\Final PAF GPT Live\\pafgpt\\code_craft_be\\UnitOfWork.WebAPI\\UnitOfWork.WebAPI.csproj": {}
+    "D:\\WorkSpace 2026\\PF_GPT\\neGpt\\code_craft_be\\UnitOfWork.WebAPI\\UnitOfWork.WebAPI.csproj": {}
   },
   "projects": {
-    "D:\\Coding\\Umair\\Final PAF GPT Live\\pafgpt\\code_craft_be\\UnitOfWork.Core\\UnitOfWork.Core.csproj": {
+    "D:\\WorkSpace 2026\\PF_GPT\\neGpt\\code_craft_be\\UnitOfWork.Core\\UnitOfWork.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Coding\\Umair\\Final PAF GPT Live\\pafgpt\\code_craft_be\\UnitOfWork.Core\\UnitOfWork.Core.csproj",
+        "projectUniqueName": "D:\\WorkSpace 2026\\PF_GPT\\neGpt\\code_craft_be\\UnitOfWork.Core\\UnitOfWork.Core.csproj",
         "projectName": "UnitOfWork.Core",
-        "projectPath": "D:\\Coding\\Umair\\Final PAF GPT Live\\pafgpt\\code_craft_be\\UnitOfWork.Core\\UnitOfWork.Core.csproj",
-        "packagesPath": "C:\\Users\\Must Install\\.nuget\\packages\\",
-        "outputPath": "D:\\Coding\\Umair\\Final PAF GPT Live\\pafgpt\\code_craft_be\\UnitOfWork.Core\\obj\\",
+        "projectPath": "D:\\WorkSpace 2026\\PF_GPT\\neGpt\\code_craft_be\\UnitOfWork.Core\\UnitOfWork.Core.csproj",
+        "packagesPath": "C:\\Users\\ABUFAW\\.nuget\\packages\\",
+        "outputPath": "D:\\WorkSpace 2026\\PF_GPT\\neGpt\\code_craft_be\\UnitOfWork.Core\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Must Install\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\ABUFAW\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +22,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "D:\\CodeCraft Live_2025\\nugetpackages": {},
+          "https://172.32.3.240/api/v4/projects/457/packages/nuget/index.json": {}
         },
         "frameworks": {
           "net7.0": {
@@ -38,13 +35,7 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.300"
+        }
       },
       "frameworks": {
         "net7.0": {
@@ -105,25 +96,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.311\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Coding\\Umair\\Final PAF GPT Live\\pafgpt\\code_craft_be\\UnitOfWork.Infrastructure\\UnitOfWork.Infrastructure.csproj": {
+    "D:\\WorkSpace 2026\\PF_GPT\\neGpt\\code_craft_be\\UnitOfWork.Infrastructure\\UnitOfWork.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Coding\\Umair\\Final PAF GPT Live\\pafgpt\\code_craft_be\\UnitOfWork.Infrastructure\\UnitOfWork.Infrastructure.csproj",
+        "projectUniqueName": "D:\\WorkSpace 2026\\PF_GPT\\neGpt\\code_craft_be\\UnitOfWork.Infrastructure\\UnitOfWork.Infrastructure.csproj",
         "projectName": "UnitOfWork.Infrastructure",
-        "projectPath": "D:\\Coding\\Umair\\Final PAF GPT Live\\pafgpt\\code_craft_be\\UnitOfWork.Infrastructure\\UnitOfWork.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\Must Install\\.nuget\\packages\\",
-        "outputPath": "D:\\Coding\\Umair\\Final PAF GPT Live\\pafgpt\\code_craft_be\\UnitOfWork.Infrastructure\\obj\\",
+        "projectPath": "D:\\WorkSpace 2026\\PF_GPT\\neGpt\\code_craft_be\\UnitOfWork.Infrastructure\\UnitOfWork.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\ABUFAW\\.nuget\\packages\\",
+        "outputPath": "D:\\WorkSpace 2026\\PF_GPT\\neGpt\\code_craft_be\\UnitOfWork.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Must Install\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\ABUFAW\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -131,14 +118,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "D:\\CodeCraft Live_2025\\nugetpackages": {},
+          "https://172.32.3.240/api/v4/projects/457/packages/nuget/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\Coding\\Umair\\Final PAF GPT Live\\pafgpt\\code_craft_be\\UnitOfWork.Core\\UnitOfWork.Core.csproj": {
-                "projectPath": "D:\\Coding\\Umair\\Final PAF GPT Live\\pafgpt\\code_craft_be\\UnitOfWork.Core\\UnitOfWork.Core.csproj"
+              "D:\\WorkSpace 2026\\PF_GPT\\neGpt\\code_craft_be\\UnitOfWork.Core\\UnitOfWork.Core.csproj": {
+                "projectPath": "D:\\WorkSpace 2026\\PF_GPT\\neGpt\\code_craft_be\\UnitOfWork.Core\\UnitOfWork.Core.csproj"
               }
             }
           }
@@ -147,13 +135,7 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.300"
+        }
       },
       "frameworks": {
         "net7.0": {
@@ -222,25 +204,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.311\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Coding\\Umair\\Final PAF GPT Live\\pafgpt\\code_craft_be\\UnitOfWork.Services\\UnitOfWork.Services.csproj": {
+    "D:\\WorkSpace 2026\\PF_GPT\\neGpt\\code_craft_be\\UnitOfWork.Services\\UnitOfWork.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Coding\\Umair\\Final PAF GPT Live\\pafgpt\\code_craft_be\\UnitOfWork.Services\\UnitOfWork.Services.csproj",
+        "projectUniqueName": "D:\\WorkSpace 2026\\PF_GPT\\neGpt\\code_craft_be\\UnitOfWork.Services\\UnitOfWork.Services.csproj",
         "projectName": "UnitOfWork.Services",
-        "projectPath": "D:\\Coding\\Umair\\Final PAF GPT Live\\pafgpt\\code_craft_be\\UnitOfWork.Services\\UnitOfWork.Services.csproj",
-        "packagesPath": "C:\\Users\\Must Install\\.nuget\\packages\\",
-        "outputPath": "D:\\Coding\\Umair\\Final PAF GPT Live\\pafgpt\\code_craft_be\\UnitOfWork.Services\\obj\\",
+        "projectPath": "D:\\WorkSpace 2026\\PF_GPT\\neGpt\\code_craft_be\\UnitOfWork.Services\\UnitOfWork.Services.csproj",
+        "packagesPath": "C:\\Users\\ABUFAW\\.nuget\\packages\\",
+        "outputPath": "D:\\WorkSpace 2026\\PF_GPT\\neGpt\\code_craft_be\\UnitOfWork.Services\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Must Install\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\ABUFAW\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -248,17 +226,18 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "D:\\CodeCraft Live_2025\\nugetpackages": {},
+          "https://172.32.3.240/api/v4/projects/457/packages/nuget/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\Coding\\Umair\\Final PAF GPT Live\\pafgpt\\code_craft_be\\UnitOfWork.Core\\UnitOfWork.Core.csproj": {
-                "projectPath": "D:\\Coding\\Umair\\Final PAF GPT Live\\pafgpt\\code_craft_be\\UnitOfWork.Core\\UnitOfWork.Core.csproj"
+              "D:\\WorkSpace 2026\\PF_GPT\\neGpt\\code_craft_be\\UnitOfWork.Core\\UnitOfWork.Core.csproj": {
+                "projectPath": "D:\\WorkSpace 2026\\PF_GPT\\neGpt\\code_craft_be\\UnitOfWork.Core\\UnitOfWork.Core.csproj"
               },
-              "D:\\Coding\\Umair\\Final PAF GPT Live\\pafgpt\\code_craft_be\\UnitOfWork.Infrastructure\\UnitOfWork.Infrastructure.csproj": {
-                "projectPath": "D:\\Coding\\Umair\\Final PAF GPT Live\\pafgpt\\code_craft_be\\UnitOfWork.Infrastructure\\UnitOfWork.Infrastructure.csproj"
+              "D:\\WorkSpace 2026\\PF_GPT\\neGpt\\code_craft_be\\UnitOfWork.Infrastructure\\UnitOfWork.Infrastructure.csproj": {
+                "projectPath": "D:\\WorkSpace 2026\\PF_GPT\\neGpt\\code_craft_be\\UnitOfWork.Infrastructure\\UnitOfWork.Infrastructure.csproj"
               }
             }
           }
@@ -267,13 +246,7 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.300"
+        }
       },
       "frameworks": {
         "net7.0": {
@@ -334,25 +307,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.311\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Coding\\Umair\\Final PAF GPT Live\\pafgpt\\code_craft_be\\UnitOfWork.WebAPI\\UnitOfWork.WebAPI.csproj": {
+    "D:\\WorkSpace 2026\\PF_GPT\\neGpt\\code_craft_be\\UnitOfWork.WebAPI\\UnitOfWork.WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Coding\\Umair\\Final PAF GPT Live\\pafgpt\\code_craft_be\\UnitOfWork.WebAPI\\UnitOfWork.WebAPI.csproj",
+        "projectUniqueName": "D:\\WorkSpace 2026\\PF_GPT\\neGpt\\code_craft_be\\UnitOfWork.WebAPI\\UnitOfWork.WebAPI.csproj",
         "projectName": "UnitOfWork.WebAPI",
-        "projectPath": "D:\\Coding\\Umair\\Final PAF GPT Live\\pafgpt\\code_craft_be\\UnitOfWork.WebAPI\\UnitOfWork.WebAPI.csproj",
-        "packagesPath": "C:\\Users\\Must Install\\.nuget\\packages\\",
-        "outputPath": "D:\\Coding\\Umair\\Final PAF GPT Live\\pafgpt\\code_craft_be\\UnitOfWork.WebAPI\\obj\\",
+        "projectPath": "D:\\WorkSpace 2026\\PF_GPT\\neGpt\\code_craft_be\\UnitOfWork.WebAPI\\UnitOfWork.WebAPI.csproj",
+        "packagesPath": "C:\\Users\\ABUFAW\\.nuget\\packages\\",
+        "outputPath": "D:\\WorkSpace 2026\\PF_GPT\\neGpt\\code_craft_be\\UnitOfWork.WebAPI\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Must Install\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\ABUFAW\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -360,17 +329,18 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "D:\\CodeCraft Live_2025\\nugetpackages": {},
+          "https://172.32.3.240/api/v4/projects/457/packages/nuget/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\Coding\\Umair\\Final PAF GPT Live\\pafgpt\\code_craft_be\\UnitOfWork.Infrastructure\\UnitOfWork.Infrastructure.csproj": {
-                "projectPath": "D:\\Coding\\Umair\\Final PAF GPT Live\\pafgpt\\code_craft_be\\UnitOfWork.Infrastructure\\UnitOfWork.Infrastructure.csproj"
+              "D:\\WorkSpace 2026\\PF_GPT\\neGpt\\code_craft_be\\UnitOfWork.Infrastructure\\UnitOfWork.Infrastructure.csproj": {
+                "projectPath": "D:\\WorkSpace 2026\\PF_GPT\\neGpt\\code_craft_be\\UnitOfWork.Infrastructure\\UnitOfWork.Infrastructure.csproj"
               },
-              "D:\\Coding\\Umair\\Final PAF GPT Live\\pafgpt\\code_craft_be\\UnitOfWork.Services\\UnitOfWork.Services.csproj": {
-                "projectPath": "D:\\Coding\\Umair\\Final PAF GPT Live\\pafgpt\\code_craft_be\\UnitOfWork.Services\\UnitOfWork.Services.csproj"
+              "D:\\WorkSpace 2026\\PF_GPT\\neGpt\\code_craft_be\\UnitOfWork.Services\\UnitOfWork.Services.csproj": {
+                "projectPath": "D:\\WorkSpace 2026\\PF_GPT\\neGpt\\code_craft_be\\UnitOfWork.Services\\UnitOfWork.Services.csproj"
               }
             }
           }
@@ -379,13 +349,7 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.300"
+        }
       },
       "frameworks": {
         "net7.0": {
@@ -449,7 +413,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.311\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }

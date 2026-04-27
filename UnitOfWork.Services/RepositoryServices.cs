@@ -20,9 +20,9 @@ namespace UnitOfWork.Services
         {
             return await _unitOfWork.GET_tbl_USER_PROMPTS_BY_USER(user_id, limit);
         }
-        public async Task<IEnumerable<dynamic>> GET_tbl_USER_PROMPTS_TOP(int limit)
+        public async Task<IEnumerable<dynamic>> GET_tbl_USER_PROMPTS_TOP(int limit, string user_id = null)
         {
-            return await _unitOfWork.GET_tbl_USER_PROMPTS_TOP(limit);
+            return await _unitOfWork.GET_tbl_USER_PROMPTS_TOP(limit, user_id);
         }
         public Response_DTO CRUD_tbl_USER_PROMPTS(tbl_USER_PROMPTS_DTO model)
         {
@@ -82,9 +82,22 @@ namespace UnitOfWork.Services
         {
             return _unitOfWork.CRUD_USER_BASED_REQUESTS(request);
         }
+        public Response_DTO CRUD_tbl_USER_PROMPTS_QUOTA(tbl_USER_PROMPTS_DTO model)
+        {
+            return _unitOfWork.CRUD_tbl_USER_PROMPTS_QUOTA(model);
+        }
         public async Task<PromptResponse> CHECK_AND_INSERT_PROMPT(string userId, string model, string prompt)
         {
             return await _unitOfWork.CHECK_AND_INSERT_PROMPT(userId, model, prompt);
+        }
+
+        public async Task<IEnumerable<dynamic>> GET_tbl_PROMPT_LIMIT(int role)
+        {
+            return await _unitOfWork.GET_tbl_PROMPT_LIMIT(role);
+        }
+        public async Task<IEnumerable<dynamic>> GET_tbl_USER_EXIST_QUOTA(string user_id)
+        {
+            return await _unitOfWork.GET_tbl_USER_EXIST_QUOTA(user_id);
         }
         #endregion
 

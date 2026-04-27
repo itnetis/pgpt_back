@@ -205,3 +205,22 @@ D:\Coding\Umair\Final PAF GPT Live\pafgpt\code_craft_be\UnitOfWork.Services\obj\
 D:\Coding\Umair\Final PAF GPT Live\pafgpt\code_craft_be\UnitOfWork.Services\obj\Debug\net7.0\UnitOfWork.Services.pdb
 D:\Coding\Umair\Final PAF GPT Live\pafgpt\code_craft_be\UnitOfWork.Services\obj\Debug\net7.0\UnitOfWork.Services.genruntimeconfig.cache
 D:\Coding\Umair\Final PAF GPT Live\pafgpt\code_craft_be\UnitOfWork.Services\obj\Debug\net7.0\ref\UnitOfWork.Services.dll
+D:\WorkSpace 2026\PF_GPT\neGpt\code_craft_be\UnitOfWork.Services\bin\Debug\net7.0\UnitOfWork.Services.deps.json
+D:\WorkSpace 2026\PF_GPT\neGpt\code_craft_be\UnitOfWork.Services\bin\Debug\net7.0\UnitOfWork.Services.runtimeconfig.json
+D:\WorkSpace 2026\PF_GPT\neGpt\code_craft_be\UnitOfWork.Services\bin\Debug\net7.0\UnitOfWork.Services.dll
+D:\WorkSpace 2026\PF_GPT\neGpt\code_craft_be\UnitOfWork.Services\bin\Debug\net7.0\UnitOfWork.Services.pdb
+D:\WorkSpace 2026\PF_GPT\neGpt\code_craft_be\UnitOfWork.Services\bin\Debug\net7.0\UnitOfWork.Core.dll
+D:\WorkSpace 2026\PF_GPT\neGpt\code_craft_be\UnitOfWork.Services\bin\Debug\net7.0\UnitOfWork.Infrastructure.dll
+D:\WorkSpace 2026\PF_GPT\neGpt\code_craft_be\UnitOfWork.Services\bin\Debug\net7.0\UnitOfWork.Core.pdb
+D:\WorkSpace 2026\PF_GPT\neGpt\code_craft_be\UnitOfWork.Services\bin\Debug\net7.0\UnitOfWork.Infrastructure.pdb
+D:\WorkSpace 2026\PF_GPT\neGpt\code_craft_be\UnitOfWork.Services\obj\Debug\net7.0\UnitOfWork.Services.csproj.AssemblyReference.cache
+D:\WorkSpace 2026\PF_GPT\neGpt\code_craft_be\UnitOfWork.Services\obj\Debug\net7.0\UnitOfWork.Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\WorkSpace 2026\PF_GPT\neGpt\code_craft_be\UnitOfWork.Services\obj\Debug\net7.0\UnitOfWork.Services.AssemblyInfoInputs.cache
+D:\WorkSpace 2026\PF_GPT\neGpt\code_craft_be\UnitOfWork.Services\obj\Debug\net7.0\UnitOfWork.Services.AssemblyInfo.cs
+D:\WorkSpace 2026\PF_GPT\neGpt\code_craft_be\UnitOfWork.Services\obj\Debug\net7.0\UnitOfWork.Services.csproj.CoreCompileInputs.cache
+D:\WorkSpace 2026\PF_GPT\neGpt\code_craft_be\UnitOfWork.Services\obj\Debug\net7.0\UnitOfWork.Services.csproj.CopyComplete
+D:\WorkSpace 2026\PF_GPT\neGpt\code_craft_be\UnitOfWork.Services\obj\Debug\net7.0\UnitOfWork.Services.dll
+D:\WorkSpace 2026\PF_GPT\neGpt\code_craft_be\UnitOfWork.Services\obj\Debug\net7.0\refint\UnitOfWork.Services.dll
+D:\WorkSpace 2026\PF_GPT\neGpt\code_craft_be\UnitOfWork.Services\obj\Debug\net7.0\UnitOfWork.Services.pdb
+D:\WorkSpace 2026\PF_GPT\neGpt\code_craft_be\UnitOfWork.Services\obj\Debug\net7.0\UnitOfWork.Services.genruntimeconfig.cache
+D:\WorkSpace 2026\PF_GPT\neGpt\code_craft_be\UnitOfWork.Services\obj\Debug\net7.0\ref\UnitOfWork.Services.dll

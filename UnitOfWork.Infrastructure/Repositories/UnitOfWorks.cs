@@ -1166,8 +1166,59 @@ WHEN NOT MATCHED THEN
 
             return res;
         }
+        
+        public Response_DTO CRUD_tbl_USER_PROMPTS_QUOTA(tbl_USER_PROMPTS_DTO model)
+        {
+            var res = new Response_DTO();
+            try
+            {
+                using (var conn = new SqlConnection(_connectionDefault))
+                using (var cmd = new SqlCommand("sp_InsertUserPromptQuota", conn))
+                {
+                    cmd.CommandType = CommandType.StoredProcedure;
 
-        public async Task<IEnumerable<dynamic>> GET_tbl_USER_PROMPTS_TOP(int limit = 20)
+                    cmd.Parameters.Add("@user_id", SqlDbType.VarChar, 50).Value = (object)model.user_id ?? DBNull.Value;
+                    cmd.Parameters.Add("@daily_total_limit", SqlDbType.Int).Value = Convert.ToInt16(model.prompt_text);
+
+                    cmd.Parameters.Add("@Status", SqlDbType.Bit).Direction = ParameterDirection.Output;
+                    cmd.Parameters.Add("@Message", SqlDbType.VarChar, 200).Direction = ParameterDirection.Output;
+                    cmd.Parameters.Add("@NewId", SqlDbType.Int).Direction = ParameterDirection.Output;
+
+                    conn.Open();
+                    cmd.ExecuteNonQuery();
+
+                    res.status = Convert.ToBoolean(cmd.Parameters["@Status"].Value);
+                    res.message = cmd.Parameters["@Message"].Value?.ToString();
+                    res.newId = cmd.Parameters["@NewId"].Value == DBNull.Value ? null : (int?)cmd.Parameters["@NewId"].Value;
+                }
+            }
+            catch (Exception ex)
+            {
+                res.status = false;
+                res.message = ex.Message;
+            }
+
+            return res;
+        }
+
+        public async Task<IEnumerable<dynamic>> GET_tbl_PROMPT_LIMIT(int role)
+        {
+            try
+            {
+                using var connection = CreateConnection();
+                var result = await connection.QueryAsync<dynamic>(
+                    "sp_GET_tbl_PROMPT_LIMIT",
+                    new { role },
+                    commandType: CommandType.StoredProcedure);
+                return result;
+            }
+            catch (Exception)
+            {
+                return null;
+            }
+        }
+
+        public async Task<IEnumerable<dynamic>> GET_tbl_USER_PROMPTS_TOP(int limit = 20, string user_id = null)
         {
             if (limit <= 0) limit = 20;
             if (limit > 50) limit = 50;
@@ -1177,7 +1228,7 @@ WHEN NOT MATCHED THEN
                 using var connection = CreateConnection();
                 var result = await connection.QueryAsync<dynamic>(
                     "sp_GET_tbl_USER_PROMPTS_TOP",
-                    new { limit },
+                    new { limit, user_id },
                     commandType: CommandType.StoredProcedure);
                 return result;
             }
@@ -1206,7 +1257,24 @@ WHEN NOT MATCHED THEN
             {
                 return null;
             }
-        }
+        } 
         
+        public async Task<IEnumerable<dynamic>> GET_tbl_USER_EXIST_QUOTA(string user_id)
+        {
+            try
+            {
+                using var connection = CreateConnection();
+                var result = await connection.QueryAsync<dynamic>(
+                    "sp_GET_USER_EXIST_QUOTA",
+                    new { user_id },
+                    commandType: CommandType.StoredProcedure);
+                return result;
+            }
+            catch (Exception)
+            {
+                return null;
+            }
+        }
+      
     }
 }

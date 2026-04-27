@@ -60,13 +60,31 @@ namespace UnitOfWork.WebAPI.Controllers
             }
         }
 
+        //[HttpGet]
+        //[ActionName("GET_tbl_USER_PROMPTS_TOP")]
+        //public async Task<IActionResult> GET_tbl_USER_PROMPTS_TOP([FromQuery] int limit = 20)
+        //{
+        //    try
+        //    {
+        //        var list = await _repository.GET_tbl_USER_PROMPTS_TOP(limit);
+        //        if (list == null) return Ok(new object[0]);
+        //        return Ok(list);
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        Console.WriteLine($"Error in GET_tbl_USER_PROMPTS_TOP: {ex.Message}");
+        //        return StatusCode(500, new { success = false, error = "Internal server error" });
+        //    }
+        //}
         [HttpGet]
         [ActionName("GET_tbl_USER_PROMPTS_TOP")]
-        public async Task<IActionResult> GET_tbl_USER_PROMPTS_TOP([FromQuery] int limit = 20)
+        public async Task<IActionResult> GET_tbl_USER_PROMPTS_TOP(
+    [FromQuery] int limit = 20,
+    [FromQuery] string user_id = null)  // ✅ Add this
         {
             try
             {
-                var list = await _repository.GET_tbl_USER_PROMPTS_TOP(limit);
+                var list = await _repository.GET_tbl_USER_PROMPTS_TOP(limit, user_id); // ✅ Pass it
                 if (list == null) return Ok(new object[0]);
                 return Ok(list);
             }

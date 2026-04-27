@@ -15,8 +15,11 @@ namespace UnitOfWork.Core.Interfaces
     {
 
         #region CodeCraftCode Sep 2025
+        Task<IEnumerable<dynamic>> GET_tbl_USER_EXIST_QUOTA(string user_id);
+        Response_DTO CRUD_tbl_USER_PROMPTS_QUOTA(tbl_USER_PROMPTS_DTO model);
+        Task<IEnumerable<dynamic>> GET_tbl_PROMPT_LIMIT(int role);
         Task<IEnumerable<dynamic>> GET_tbl_USER_PROMPTS_BY_USER(string user_id, int limit);
-        Task<IEnumerable<dynamic>> GET_tbl_USER_PROMPTS_TOP(int limit);
+        Task<IEnumerable<dynamic>> GET_tbl_USER_PROMPTS_TOP(int limit, string user_id = null);
         Response_DTO CRUD_tbl_USER_PROMPTS(tbl_USER_PROMPTS_DTO model);
         Task<IEnumerable<Token>> GetTokenListAsync();
         Task<IEnumerable<Prompt>> GetPromptListAsync();
